@@ -1,6 +1,9 @@
 package de.hackathondd.dvblive.adapter;
 
+import java.util.Set;
+
 import de.hackathondd.dvblive.application.VvoQueryService;
+import de.hackathondd.dvblive.domain.Linie;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,5 +21,10 @@ public class DummyController {
     @GetMapping(value = "/locationInformationRequest")
     public String test() {
         return vvoQueryService.locationInformationRequest();
+    }
+
+    @GetMapping(value = "/linien")
+    public Set<Linie> linien() {
+        return vvoQueryService.alleLinien();
     }
 }
