@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -84,6 +85,36 @@ public class VvoQueryService {
             + "          <IncludeRealtimeData>true</IncludeRealtimeData>\n"
             + "        </Params>\n"
             + "      </StopEventRequest>\n"
+            + "    </RequestPayload>\n"
+            + "  </ServiceRequest>\n"
+            + "</Trias>";
+    public static final String TRIP_REQUEST = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+            + "<Trias version=\"1.2\" xmlns=\"http://www.vdv.de/trias\" xmlns:siri=\"http://www.siri.org.uk/siri\" "
+            + "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n"
+            + "       xsi:schemaLocation=\"http://www.vdv.de/trias file:///C:/Develop/dvblive/trias-xsd-v1.2/Trias"
+            + ".xsd\">\n"
+            + "  <ServiceRequest>\n"
+            + "    <siri:RequestTimestamp>{requestTime}</siri:RequestTimestamp>\n"
+            + "    <siri:RequestorRef>OpenService</siri:RequestorRef>\n"
+            + "    <RequestPayload>\n"
+            + "      <TripRequest>\n"
+            + "        <Origin>\n"
+            + "          <LocationRef>\n"
+            + "            <StopPointRef>{originStopPointRef}</StopPointRef>\n"
+            + "          </LocationRef>\n"
+            + "          <DepArrTime>{DepArrTime}</DepArrTime>\n"
+            + "        </Origin>\n"
+            + "        <Destination>\n"
+            + "          <LocationRef>\n"
+            + "            <StopPointRef>{destinationStopPointRef}</StopPointRef>\n"
+            + "          </LocationRef>\n"
+            + "        </Destination>\n"
+            + "        <Params>\n"
+            + "          <IncludeTrackSections>true</IncludeTrackSections>\n"
+            + "          <IncludeLegProjection>true</IncludeLegProjection>\n"
+            + "          <IncludeIntermediateStops>true</IncludeIntermediateStops>\n"
+            + "        </Params>\n"
+            + "      </TripRequest>\n"
             + "    </RequestPayload>\n"
             + "  </ServiceRequest>\n"
             + "</Trias>";
@@ -181,8 +212,8 @@ public class VvoQueryService {
                             stringList0.get(i),
                             stringList1.get(i),
                             stringList2.get(i),
-                            stringList3.get(i),
-                            stringList4.get(i)
+                            stringList3.get(i).replaceAll("([a-z]*:[0-9]*:[0-9]*):.*", "$1"),
+                            stringList4.get(i).replaceAll("([a-z]*:[0-9]*:[0-9]*):.*", "$1")
                     );
                     linien.add(linie);
                 }
@@ -190,7 +221,31 @@ public class VvoQueryService {
                 e.printStackTrace();
             }
         }
+        for (Linie linie : linien) {
+            linie.setHaltestellen(haltestellen(linie));
+        }
         return linien;
+    }
+
+    public List<Haltestelle> haltestellen(Linie linie) throws Exception {
+        String requestBody = TRIP_REQUEST
+                .replace("{requestTime}", LocalDateTime.now().toString())
+                .replace("{DepArrTime}", "2019-11-09T12:00:00Z")
+                .replace("{originStopPointRef}", linie.getTriasStartHaltestelleCode())
+                .replace("{destinationStopPointRef}", linie.getTriasEndHaltestelleCode());
+        HttpEntity<String> request = new HttpEntity<>(requestBody, textXmlHeaders);
+
+        ResponseEntity<String> response = restTemplate
+                .exchange(URL, HttpMethod.POST, request, String.class);
+        Document xml = parseXml(response.getBody());
+
+        XPath xPath = XPathFactory.newInstance().newXPath();
+        XPathExpression xPathExpression = xPath.compile(
+                "//*[local-name(.)='TripResult'][1]/descendant::*[local-name(.)='TimedLeg']/*/*[local-name(.)"
+                        + "='StopPointRef']/text()");
+        NodeList nodeList = (NodeList) xPathExpression.evaluate(xml, XPathConstants.NODESET);
+        List<String> stringList = nodeListToStringList(nodeList);
+        return stringList.stream().map(s -> new Haltestelle(s)).collect(Collectors.toList());
     }
 
     private List<String> nodeListToStringList(NodeList nodeList) {

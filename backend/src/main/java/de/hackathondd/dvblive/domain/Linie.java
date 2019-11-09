@@ -1,5 +1,7 @@
 package de.hackathondd.dvblive.domain;
 
+import java.util.List;
+
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class Linie {
@@ -8,6 +10,7 @@ public class Linie {
     private String triasNummer;
     private String triasStartHaltestelleCode;
     private String triasEndHaltestelleCode;
+    private List<Haltestelle> haltestellen;
 
     public Linie(String nummer, String startEndHaltestelle, String triasNummer, String triasStartHaltestelleCode,
             String triasEndHaltestelleCode) {
@@ -36,6 +39,14 @@ public class Linie {
 
     public String getTriasEndHaltestelleCode() {
         return triasEndHaltestelleCode;
+    }
+
+    public List<Haltestelle> getHaltestellen() {
+        return haltestellen;
+    }
+
+    public void setHaltestellen(List<Haltestelle> haltestellen) {
+        this.haltestellen = haltestellen;
     }
 
     @Override
