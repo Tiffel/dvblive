@@ -28,4 +28,37 @@ Bsp: "3 # Wilder Mann - Coschütz # voe:11003::R # de:14612:253 # de:14612:165"
 
 //ServiceSection[Mode/PtMode='tram']/concat(PublishedLineName/Text, ' # ', normalize-space(RouteDescription/Text), ' # ', LineRef, ' # ', ../OriginStopPointRef/replace(., '([a-z]*:[0-9]*:[0-9]*):.*', '$1'), ' # ', ../DestinationStopPointRef/replace(., '([a-z]*:[0-9]*:[0-9]*):.*', '$1'))
 
-Anschließend "unique strings" filtern.
+Alternativ: Bestandteile einzeln abrufen:
+
+1. Liniennummer
+
+XPath 2.0: //ServiceSection[Mode/PtMode='tram']/PublishedLineName/Text/text()
+XPath 1.0: //*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/*[local-name(.)='PublishedLineName']/*[local-name(.)='Text']/text()
+
+2. Anfangs- und Endhaltestelle als normalisierter String (Leerzeichen-bereinigt)
+
+XPath 2.0: //ServiceSection[Mode/PtMode='tram']/normalize-space(RouteDescription/Text)
+XPath 1.0 (ohne normalize-space!): //*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/*[local-name(.)='RouteDescription']/*[local-name(.)='Text']/text()
+
+3. Trias-interne Liniennummer (unterscheidet u.a. in "H"in- und "R"ückrichtung)
+
+XPath 2.0: //ServiceSection[Mode/PtMode='tram']/LineRef/text()
+XPath 2.0: //*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/*[local-name(.)='LineRef']/text()
+
+4. eingekürzter Trias-interne Haltestellencode für Linienanfang (ohne Haltestellenbereich und ohne Haltepunkt)
+
+XPath 2.0: //ServiceSection[Mode/PtMode='tram']/../OriginStopPointRef/replace(., '([a-z]*:[0-9]*:[0-9]*):.*', '$1')
+XPath 1.0: //*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/../*[local-name(.)='OriginStopPointRef']/text()
+
+bei XPath 1.0 anschließend RegExp-Korrektur entsprechend '([a-z]*:[0-9]*:[0-9]*):.*' durch '$1' ersetzen
+
+5. eingekürzter Trias-interne Haltestellencode für Linienende (ohne Haltestellenbereich und ohne Haltepunkt)
+
+XPath 2.0: //ServiceSection[Mode/PtMode='tram']/../DestinationStopPointRef/replace(., '([a-z]*:[0-9]*:[0-9]*):.*', '$1'))
+XPath 1.0: //*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/../*[local-name(.)='DestinationStopPointRef']/text()
+
+bei XPath 1.0 anschließend RegExp-Korrektur entsprechend '([a-z]*:[0-9]*:[0-9]*):.*' durch '$1' ersetzen
+
+Alle fünf Bestandteile entsprechend der Ergebnisse in Dokumentenreihenfolge zusammenbringen
+
+Anschließend "unique" filtern.
