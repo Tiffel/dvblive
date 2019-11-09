@@ -1,0 +1,12 @@
+TripRequest für alle Linien (inkl. Hin- und Rückrichtung, üblicherweise 2x 12)
+je Linienstring folgende Infos in den Request einbauen:
+
+Origin/LocationRef/StopPointRef <- 4. Teilstring vom "Linienstring"
+Destination/LocationRef/StopPointRef <- 5. Teilstring vom "Linienstring"
+Origin/DepArrTime <- aktuelles "DateTime" von 12:00 MEZ
+
+Aus den (vermutlich 24) Antworten folgende Haltestellencodes extrahieren:
+
+Bsp (Linie 3 Rückrichtung) : "de:14612:252" (Dresden Dorothea-Erxleben-Straße)
+
+//TripResult[1]/descendant::TimedLeg/*/StopPointRef/replace(., '([a-z]*:[0-9]*:[0-9]*):.*', '$1')
