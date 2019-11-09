@@ -17,9 +17,11 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
+import de.hackathondd.dvblive.domain.Haltestelle;
 import de.hackathondd.dvblive.domain.Linie;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -127,9 +129,22 @@ public class VvoQueryService {
         return response.getBody();
     }
 
-    public Set<Linie> alleLinien() {
+    public Set<Linie> alleLinien() throws Exception {
         XPath xPath = XPathFactory.newInstance().newXPath();
-        String expression = "//PublishedLineName/Text[../../Mode/PtMode = 'tram']/text()";
+        XPathExpression liniennummerExpression = xPath.compile(
+                "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)"
+                        + "='PtMode']='tram']/*[local-name(.)='PublishedLineName']/*[local-name(.)='Text']/text()");
+        XPathExpression startEndhaltestelleExpression = xPath.compile(
+                "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)"
+                        + "='PtMode']='tram']/*[local-name(.)='RouteDescription']/*[local-name(.)='Text']/text()");
+        XPathExpression triasLiniennummerExpression = xPath.compile(
+                "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)"
+                        + "='PtMode']='tram']/*[local-name(.)='LineRef']/text()");
+        XPathExpression triasStartHaltestelleCodeExpression = xPath.compile(
+                "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/."
+                        + "./*[local-name(.)='OriginStopPointRef']/text()");
+        XPathExpression triasEndHaltestelleCodeExpression = xPath.compile(
+                "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/../*[local-name(.)='DestinationStopPointRef']/text()");
 
         List<String> wichtigeHaltestellen = List
                 .of("de:14612:13", "de:14612:5", "de:14612:7"); //Albertplatz, Pirnaischer Platz, Straßburger Platz
@@ -146,10 +161,29 @@ public class VvoQueryService {
                     .exchange(URL, HttpMethod.POST, request, String.class);
             Document xml = parseXml(response.getBody());
             try {
-                NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(xml, XPathConstants.NODESET);
-                for (String string : nodeListToStringList(nodeList)) {
-                    //TODO: parse string to linie mit mehr eigenschaften
-                    Linie linie = new Linie(Integer.parseInt(string));
+                NodeList liniennummerNodelist = (NodeList) liniennummerExpression.evaluate(xml, XPathConstants.NODESET);
+                NodeList startEndhaltestelleNodelist = (NodeList) startEndhaltestelleExpression
+                        .evaluate(xml, XPathConstants.NODESET);
+                NodeList triasLiniennummerNodelist = (NodeList) triasLiniennummerExpression
+                        .evaluate(xml, XPathConstants.NODESET);
+                NodeList triasStartHaltestelleCodeNodelist = (NodeList) triasStartHaltestelleCodeExpression
+                        .evaluate(xml, XPathConstants.NODESET);
+                NodeList triasEndHaltestelleCodeNodelist = (NodeList) triasEndHaltestelleCodeExpression
+                        .evaluate(xml, XPathConstants.NODESET);
+
+                List<String> stringList0 = nodeListToStringList(liniennummerNodelist);
+                List<String> stringList1 = nodeListToStringList(startEndhaltestelleNodelist);
+                List<String> stringList2 = nodeListToStringList(triasLiniennummerNodelist);
+                List<String> stringList3 = nodeListToStringList(triasStartHaltestelleCodeNodelist);
+                List<String> stringList4 = nodeListToStringList(triasEndHaltestelleCodeNodelist);
+                for (int i = 0; i < stringList0.size(); i++) {
+                    Linie linie = new Linie(
+                            stringList0.get(i),
+                            stringList1.get(i),
+                            stringList2.get(i),
+                            stringList3.get(i),
+                            stringList4.get(i)
+                    );
                     linien.add(linie);
                 }
             } catch (XPathExpressionException e) {

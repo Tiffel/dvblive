@@ -24,7 +24,7 @@ public class DummyController {
     }
 
     @GetMapping(value = "/linien")
-    public Set<Linie> linien() {
+    public Set<Linie> linien() throws Exception {
         return vvoQueryService.alleLinien();
     }
 }
