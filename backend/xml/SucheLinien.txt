@@ -43,7 +43,7 @@ XPath 1.0 (ohne normalize-space!): //*[local-name(.)='ServiceSection'][*[local-n
 3. Trias-interne Liniennummer (unterscheidet u.a. in "H"in- und "R"ückrichtung)
 
 XPath 2.0: //ServiceSection[Mode/PtMode='tram']/LineRef/text()
-XPath 2.0: //*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/*[local-name(.)='LineRef']/text()
+XPath 1.0: //*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/*[local-name(.)='LineRef']/text()
 
 4. eingekürzter Trias-interne Haltestellencode für Linienanfang (ohne Haltestellenbereich und ohne Haltepunkt)
 

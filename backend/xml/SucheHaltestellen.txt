@@ -9,4 +9,7 @@ Aus den (vermutlich 24) Antworten folgende Haltestellencodes extrahieren:
 
 Bsp (Linie 3 Rückrichtung) : "de:14612:252" (Dresden Dorothea-Erxleben-Straße)
 
-//TripResult[1]/descendant::TimedLeg/*/StopPointRef/replace(., '([a-z]*:[0-9]*:[0-9]*):.*', '$1')
+XPath 2.0: //TripResult[1]/descendant::TimedLeg/*/StopPointRef/
+XPath 1.0: //*[local-name(.)='TripResult'][1]/descendant::*[local-name(.)='TimedLeg']/*/*[local-name(.)='StopPointRef']/text()
+
+bei XPath 1.0 anschließend RegExp-Korrektur entsprechend '([a-z]*:[0-9]*:[0-9]*):.*' durch '$1' ersetzen
