@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias xmlns="http://www.vdv.de/trias" version="1.2">
+    <ServiceDelivery>
+        <ResponseTimestamp xmlns="http://www.siri.org.uk/siri">2019-11-09T16:08:19Z</ResponseTimestamp>
+        <ProducerRef xmlns="http://www.siri.org.uk/siri">EFAController10.3.6.10-EFA3</ProducerRef>
+        <Status xmlns="http://www.siri.org.uk/siri">true</Status>
+        <MoreData>false</MoreData>
+        <Language>de</Language>
+        <DeliveryPayload>
+            <LocationInformationResponse>
+                <LocationResult>
+                    <Location>
+                        <StopPoint>
+                            <StopPointRef>de:14612:722</StopPointRef>
+                            <StopPointName>
+                                <Text>Zwickauer Straße</Text>
+                                <Language>de</Language>
+                            </StopPointName>
+                            <LocalityRef>14612000:1</LocalityRef>
+                            <WheelchairAccessible>false</WheelchairAccessible>
+                            <Lighting>false</Lighting>
+                            <Covered>false</Covered>
+                        </StopPoint>
+                        <LocationName>
+                            <Text>Dresden</Text>
+                            <Language>de</Language>
+                        </LocationName>
+                        <GeoPosition>
+                            <Longitude>13.71352</Longitude>
+                            <Latitude>51.03847</Latitude>
+                        </GeoPosition>
+                    </Location>
+                    <Complete>true</Complete>
+                    <Probability>0.899999976</Probability>
+                    <Mode>
+                        <PtMode>bus</PtMode>
+                        <BusSubmode>localBus</BusSubmode>
+                    </Mode>
+                </LocationResult>
+            </LocationInformationResponse>
+        </DeliveryPayload>
+    </ServiceDelivery>
+</Trias>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xmlns="http://www.vdv.de/trias"
+       xsi:schemaLocation="http://www.vdv.de/trias file:///C:/Develop/dvb/trias-xsd-v1.2/Trias.xsd">
+    <ServiceRequest>
+        <siri:RequestTimestamp>2018-04-11T11:00:00</siri:RequestTimestamp>
+        <siri:RequestorRef>OpenService</siri:RequestorRef>
+        <RequestPayload>
+            <LocationInformationRequest>
+                <LocationRef>
+                    <LocationName>
+                        <Text>Dresden, Zwickauer Straße</Text>
+                    </LocationName>
+                </LocationRef>
+                <Restrictions>
+                    <Type>stop</Type>
+                    <IncludePtModes>true</IncludePtModes>
+                </Restrictions>
+            </LocationInformationRequest>
+        </RequestPayload>
+    </ServiceRequest>
+</Trias>
