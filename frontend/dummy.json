@@ -1,11 +1,13 @@
 {"tramlines":
 	[
-		{"1":
+		{"points":
 			[
 				{"lat": 51.04, "long": 13.74},
 				{"lat": 51.05, "long": 13.75},
 				{"lat": 51.03, "long": 13.7}
-        	]
+        	],
+		"name": "1",
+		"directions": "Prohlis - Test"
         }
     ]
 }
