@@ -1,4 +1,4 @@
-StopEventRequest mit den drei Haltestellen:
+StopEventRequest mit den drei Haltestellen mittags (12:00):
 
 de:14612:13     Albertplatz
 de:14612:5      Pirnaischer Platz
@@ -6,6 +6,26 @@ de:14612:7      Straßburger Platz
 
 Aus drei Antworten folgende Straßenbahnlinien extrahieren:
 
+Bsp: "11"
+
 //PublishedLineName/Text[../../Mode/PtMode = 'tram']
+
+Alternativ: Straßenbahnlinie mit Anfangs- und Endhaltestelle extrahieren:
+
+Bsp: "11 + Zschertnitz - Bühlau"
+
+//ServiceSection[Mode/PtMode='tram']/concat(PublishedLineName/Text, ' + ', RouteDescription/Text)
+
+Alternativ: Straßenbahnlinie mit Anfangs- und Endhaltestelle mit interner Liniennumer mit StopPostRef-Anfang und StopPostRef-Ende
+
+Bsp: "3 # Wilder Mann - Coschütz # voe:11003::R # de:14612:253 # de:14612:165"
+
+1. Liniennummer
+2. Anfangs- und Endhaltestelle als normalisierter String (Leerzeichen-bereinigt)
+3. Trias-interne Liniennummer (unterscheidet u.a. in "H"in- und "R"ückrichtung)
+4. eingekürzter Trias-interne Haltestellencode für Linienanfang (ohne Haltestellenbereich und ohne Haltepunkt)
+5. eingekürzter Trias-interne Haltestellencode für Linienende (ohne Haltestellenbereich und ohne Haltepunkt)
+
+//ServiceSection[Mode/PtMode='tram']/concat(PublishedLineName/Text, ' # ', normalize-space(RouteDescription/Text), ' # ', LineRef, ' # ', ../OriginStopPointRef/replace(., '([a-z]*:[0-9]*:[0-9]*):.*', '$1'), ' # ', ../DestinationStopPointRef/replace(., '([a-z]*:[0-9]*:[0-9]*):.*', '$1'))
 
 Anschließend "unique strings" filtern.
