@@ -1,0 +1,11 @@
+StopEventRequest mit den drei Haltestellen:
+
+de:14612:13     Albertplatz
+de:14612:5      Pirnaischer Platz
+de:14612:7      Straßburger Platz
+
+Aus drei Antworten folgende Straßenbahnlinien extrahieren:
+
+//PublishedLineName/Text[../../Mode/PtMode = 'tram']
+
+Anschließend "unique strings" filtern.

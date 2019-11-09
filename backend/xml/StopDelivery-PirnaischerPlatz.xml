@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias xmlns="http://www.vdv.de/trias" version="1.2">
+    <ServiceDelivery>
+        <ResponseTimestamp xmlns="http://www.siri.org.uk/siri"
+            >2019-11-09T19:39:02Z</ResponseTimestamp>
+        <ProducerRef xmlns="http://www.siri.org.uk/siri">EFAController10.3.6.21-EFA1</ProducerRef>
+        <Status xmlns="http://www.siri.org.uk/siri">true</Status>
+        <MoreData>false</MoreData>
+        <Language>de</Language>
+        <DeliveryPayload>
+            <StopEventResponse>
+                <StopEventResponseContext>
+                    <Situations>
+                        <PtSituation>
+                            <CreationTime xmlns="http://www.siri.org.uk/siri"
+                                >2019-10-22T07:01:00Z</CreationTime>
+                            <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                            <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                >6442</SituationNumber>
+                            <Version xmlns="http://www.siri.org.uk/siri">88506062</Version>
+                            <Source xmlns="http://www.siri.org.uk/siri">
+                                <SourceType>other</SourceType>
+                            </Source>
+                            <Progress xmlns="http://www.siri.org.uk/siri">open</Progress>
+                            <ValidityPeriod xmlns="http://www.siri.org.uk/siri">
+                                <StartTime>2019-10-28T03:00:00Z</StartTime>
+                                <EndTime>2019-11-18T02:30:00Z</EndTime>
+                            </ValidityPeriod>
+                            <UnknownReason xmlns="http://www.siri.org.uk/siri"
+                                >unknown</UnknownReason>
+                            <Priority xmlns="http://www.siri.org.uk/siri">3</Priority>
+                            <Audience xmlns="http://www.siri.org.uk/siri">public</Audience>
+                            <ScopeType xmlns="http://www.siri.org.uk/siri">line</ScopeType>
+                            <Planned xmlns="http://www.siri.org.uk/siri">false</Planned>
+                            <Language xmlns="http://www.siri.org.uk/siri"/>
+                            <Summary xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Linienaenderung</Summary>
+                            <Description xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Dresden - Bodenbacher Straße, Gleis- und Straßenbau</Description>
+                            <Detail xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >&lt;h2&gt;Beschreibung&lt;/h2&gt;&#xA;&lt;p&gt;&lt;b&gt;Straßenbahnlinien
+                                1&lt;/b&gt; und &lt;b&gt;2&lt;/b&gt;: &lt;font
+                                color="#ff0000"&gt;verkürzte
+                                Linienführung&lt;/font&gt;&lt;br&gt;Leutewitz bzw. Gorbitz -
+                                Postplatz - Straßburger Platz - &lt;u&gt;Comeniusplatz&lt;/u&gt;,
+                                i&lt;i&gt;n Richtung Leutewitz/Gorbitz über Fetscherplatz.
+                                &lt;/i&gt;&lt;/p&gt;&#xA;&#xA;&lt;h2&gt;Ersatzverkehr&lt;/h2&gt;&#xA;&lt;p&gt;&lt;b&gt;Ersatzbusverkehr
+                                EV1&lt;/b&gt;:&lt;br&gt;&lt;u&gt;Comeniusplatz&lt;/u&gt; -
+                                Zwinglistraße - Abzweig nach Reick -
+                                &lt;u&gt;Albert-Wolf-Platz&lt;br&gt;&lt;/u&gt;&lt;b&gt;&lt;br&gt;Ersatzbusverkehr
+                                EV2&lt;/b&gt;:&lt;br&gt;&lt;u&gt;Comeniusplatz&lt;/u&gt; -
+                                Zwinglistraße - Abzweig nach Reick -
+                                Kleinzschachwitz&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Haltestellenanpassungen&lt;/h2&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Die
+                                Abfahrten des Ersatzverkehrs erfolgen am Comeniusplatz an der
+                                Ersatzhaltestelle in der Comeniusstraße.
+                                &lt;br&gt;&lt;/li&gt;&lt;li&gt;Der Ersatzverkehr verkehrt in
+                                Richtung Comeniusplatz zwischen den Haltestellen Marienberger Straße
+                                und Zwinglistraße über die
+                                Winterbergstraße.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h2&gt;Weiterführende
+                                Informationen&lt;br&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&lt;li&gt;Nutzen
+                                Sie bitte zwischen Albert-Wolf-Platz und Prohlis die Linien 9 und
+                                13.&lt;/li&gt;&lt;li&gt;&lt;a target="_blank"
+                                href="https://www.dvb.de/ext/pdf/Bau_Bodenbacher_281019.pdf"&gt;Bauinfo&lt;/a&gt;
+                                (PDF | 1.216 KB)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;
+                                inEFA="true";MeldungTyp="Information"</Detail>
+                            <Affects xmlns="http://www.siri.org.uk/siri">
+                                <VehicleJourneys>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11001: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11001: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21101::H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21101::R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11002: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11002: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21102: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21102: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                </VehicleJourneys>
+                            </Affects>
+                        </PtSituation>
+                        <PtSituation>
+                            <CreationTime xmlns="http://www.siri.org.uk/siri"
+                                >2019-01-14T08:31:00Z</CreationTime>
+                            <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                            <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                >4054</SituationNumber>
+                            <Version xmlns="http://www.siri.org.uk/siri">64229465</Version>
+                            <Source xmlns="http://www.siri.org.uk/siri">
+                                <SourceType>other</SourceType>
+                            </Source>
+                            <Progress xmlns="http://www.siri.org.uk/siri">open</Progress>
+                            <ValidityPeriod xmlns="http://www.siri.org.uk/siri">
+                                <StartTime>2017-08-07T02:00:00Z</StartTime>
+                                <EndTime>2500-12-30T23:00:00Z</EndTime>
+                            </ValidityPeriod>
+                            <UnknownReason xmlns="http://www.siri.org.uk/siri"
+                                >unknown</UnknownReason>
+                            <Priority xmlns="http://www.siri.org.uk/siri">3</Priority>
+                            <Audience xmlns="http://www.siri.org.uk/siri">public</Audience>
+                            <ScopeType xmlns="http://www.siri.org.uk/siri">line</ScopeType>
+                            <Planned xmlns="http://www.siri.org.uk/siri">false</Planned>
+                            <Language xmlns="http://www.siri.org.uk/siri"/>
+                            <Summary xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Linienaenderung</Summary>
+                            <Description xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Dresden - Augustusbrücke, Sperrung wegen
+                                Brückensanierung</Description>
+                            <Detail xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >&lt;h2&gt;Beschreibung&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Straßenbahnlinie
+                                4&lt;/b&gt;:&lt;br&gt;Umleitung in beiden Richtungen zwischen den
+                                Haltestellen Alter Schlachthof und Postplatz über die Haltestellen
+                                &lt;u&gt;Antonstr./Leipziger Str. (Li. 6,11) - Kongresszentrum - Am
+                                Zwingerteich&lt;/u&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Straßenbahnlinie
+                                8&lt;/b&gt;:&lt;br&gt;Umleitung in beiden Richtungen zwischen den
+                                Haltestellen Carolaplatz und Walpurgisstraße über die Haltestellen
+                                &lt;u&gt; Synagoge - Pirnaischer
+                                Platz&lt;/u&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Straßenbahnlinie
+                                9&lt;/b&gt;:&lt;br&gt;Umleitung in beiden Richtungen zwischen den
+                                Haltestellen Neustädter Markt und Walpurgisstraße über die
+                                Haltestellen &lt;u&gt;Carolaplatz - Synagoge- Pirnaischer
+                                Platz&lt;/u&gt;.&lt;br&gt;&lt;/p&gt;&lt;h2&gt;Haltestellenanpassungen&lt;/h2&gt;&lt;p&gt;Die
+                                Haltestelle &lt;b&gt;Theaterplatz&lt;/b&gt; kann nicht bedient
+                                werden.&lt;/p&gt; inEFA="true";MeldungTyp="Information"</Detail>
+                            <Affects xmlns="http://www.siri.org.uk/siri">
+                                <VehicleJourneys>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11004: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11004: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21104::H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21104::R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11008: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11008: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21108::H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21108::R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11009: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11009: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21109::H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21109::R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                </VehicleJourneys>
+                            </Affects>
+                        </PtSituation>
+                        <PtSituation>
+                            <CreationTime xmlns="http://www.siri.org.uk/siri"
+                                >2019-03-18T08:46:00Z</CreationTime>
+                            <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                            <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                >4197</SituationNumber>
+                            <Version xmlns="http://www.siri.org.uk/siri">69673567</Version>
+                            <Source xmlns="http://www.siri.org.uk/siri">
+                                <SourceType>other</SourceType>
+                            </Source>
+                            <Progress xmlns="http://www.siri.org.uk/siri">open</Progress>
+                            <ValidityPeriod xmlns="http://www.siri.org.uk/siri">
+                                <StartTime>2019-02-04T03:00:00Z</StartTime>
+                                <EndTime>2500-12-30T23:00:00Z</EndTime>
+                            </ValidityPeriod>
+                            <UnknownReason xmlns="http://www.siri.org.uk/siri"
+                                >unknown</UnknownReason>
+                            <Priority xmlns="http://www.siri.org.uk/siri">3</Priority>
+                            <Audience xmlns="http://www.siri.org.uk/siri">public</Audience>
+                            <ScopeType xmlns="http://www.siri.org.uk/siri">line</ScopeType>
+                            <Planned xmlns="http://www.siri.org.uk/siri">false</Planned>
+                            <Language xmlns="http://www.siri.org.uk/siri"/>
+                            <Summary xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Linienaenderung</Summary>
+                            <Description xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Radebeul - Meißner Straße, Gleisbau</Description>
+                            <Detail xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >&lt;p&gt;&lt;P&gt;&#xA;&lt;H2&gt;Beschreibung&lt;/H2&gt;&#xA;&lt;P&gt;&lt;STRONG&gt;Straßenbahnlinie
+                                4: &lt;/STRONG&gt;&lt;FONT color=#ff0000&gt;verkürzte
+                                Linienführung&lt;/FONT&gt;&lt;BR&gt;Laubegast - Postplatz - Mickten
+                                - &lt;U&gt;Radebeul
+                                Ost&lt;/U&gt;&lt;/P&gt;&#xA;&lt;H2&gt;Ersatzverkehr&lt;/H2&gt;&#xA;&lt;P&gt;&lt;B&gt;Ersatzbusverkehr
+                                EV4&lt;/B&gt;:&lt;BR&gt;&lt;U&gt;Radebeul Ost&lt;/U&gt; - Radebeul
+                                West - Weinböhla&lt;/P&gt;&#xA;&lt;P&gt;&lt;FONT color=#ff0000&gt;In
+                                Richtung Radebeul West / Weinböhla&lt;/FONT&gt; ab der Haltestelle
+                                Wasastraße über den Fahrweg &lt;U&gt;Paradiesstraße - Winzerstraße -
+                                Heinrich-Zille-Straße - Dr.-Rudolf-Friedrichs-Straße&lt;/U&gt; zur
+                                verlegten Haltestelle Borstraße.&lt;/P&gt;&#xA;&lt;P&gt;&lt;FONT
+                                color=#ff0000&gt;In Richtung Radebeul Ost &lt;/FONT&gt;verkehrt der
+                                EV4 auf dem normalen Weg über die Meißner
+                                Straße.&lt;/P&gt;&#xA;&lt;H2&gt;Haltestellenanpassungen&lt;/H2&gt;&#xA;&lt;P&gt;&lt;FONT
+                                color=#ff0000&gt;In Richtung Radebeul West /
+                                Weinböhla&lt;/FONT&gt;&lt;/P&gt;&#xA;&lt;UL&gt;&#xA;&lt;LI&gt;Die
+                                Haltestelle&amp;nbsp;&lt;STRONG&gt;Landesbühnen
+                                Sachsen&lt;/STRONG&gt; wird in die Paradiesstraße verlegt.
+                                &#xA;&lt;LI&gt;Die Haltestellen &lt;STRONG&gt;Zillerstraße
+                                &lt;/STRONG&gt;und&lt;STRONG&gt; Dr.-Külz-Straße&lt;/STRONG&gt;
+                                werden in die Heinrich-Zille-Straße verlegt. &#xA;&lt;LI&gt;Die
+                                Haltestelle &lt;B&gt;Borstraße&lt;/B&gt; wird auf der Meißner Straße
+                                hinter die Kreuzung Dr.-Rudolf-Friedrichs-Str.
+                                verlegt.&lt;/LI&gt;&lt;/UL&gt;&#xA;&lt;P&gt;&lt;FONT
+                                color=#ff0000&gt;In Richtung Radebeul Ost /
+                                (Dresden)&lt;/FONT&gt;&lt;/P&gt;&#xA;&lt;UL&gt;&#xA;&lt;LI&gt;Die
+                                Haltestelle &lt;STRONG&gt;Zillerstraße&lt;/STRONG&gt;&lt;FONT
+                                color=#ff0000&gt; &lt;/FONT&gt;wird &lt;B&gt;&lt;FONT
+                                color=#ff0000&gt;bis 20.03.2019 &lt;/FONT&gt;&lt;/B&gt;noch bedient.
+                                Anschließend muss diese bis zum Bauende ersatzlos
+                                entfallen.&lt;/LI&gt;&lt;/UL&gt;&#xA;&lt;H2&gt;Tarifinformationen&lt;/H2&gt;&#xA;&lt;UL&gt;&#xA;&lt;LI&gt;Während
+                                der Bauzeit gelten die Fahrausweise der Tarifzone Dresden bis
+                                Radebeul Ost.&lt;/LI&gt;&lt;/UL&gt;&#xA;&lt;H2&gt;Weiterführende
+                                Informationen&lt;/H2&gt;&#xA;&lt;UL&gt;&#xA;&lt;LI&gt;Der Umstieg
+                                zwischen Straßenbahn und Ersatzbusverkehr erfolgt an der Haltestelle
+                                Radebeul Ost. &#xA;&lt;LI&gt;&lt;A title=Bauflyer
+                                href="http://www.dvb.de/ext/pdf/BauInfo_Radebeul_040219%20-%20aktuell.pdf"
+                                target=_blank&gt;Infoflyer zur Baumaßnahme mit Karte der
+                                Umleitungsstrecken&lt;/A&gt;
+                                (PDF&amp;nbsp;|&amp;nbsp;672&amp;nbsp;KB)
+                                &lt;/LI&gt;&lt;/UL&gt;&#xA;&lt;P&gt;&lt;/P&gt;&lt;/p&gt;
+                                inEFA="true";MeldungTyp="Information"</Detail>
+                            <Affects xmlns="http://www.siri.org.uk/siri">
+                                <VehicleJourneys>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11004: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11004: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21104: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21104: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                </VehicleJourneys>
+                            </Affects>
+                        </PtSituation>
+                        <PtSituation>
+                            <CreationTime xmlns="http://www.siri.org.uk/siri"
+                                >2019-11-09T16:31:00Z</CreationTime>
+                            <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                            <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                >6350</SituationNumber>
+                            <Version xmlns="http://www.siri.org.uk/siri">90091862</Version>
+                            <Source xmlns="http://www.siri.org.uk/siri">
+                                <SourceType>other</SourceType>
+                            </Source>
+                            <Progress xmlns="http://www.siri.org.uk/siri">open</Progress>
+                            <ValidityPeriod xmlns="http://www.siri.org.uk/siri">
+                                <StartTime>2019-10-14T01:30:00Z</StartTime>
+                                <EndTime>2500-12-30T23:00:00Z</EndTime>
+                            </ValidityPeriod>
+                            <UnknownReason xmlns="http://www.siri.org.uk/siri"
+                                >unknown</UnknownReason>
+                            <Priority xmlns="http://www.siri.org.uk/siri">3</Priority>
+                            <Audience xmlns="http://www.siri.org.uk/siri">public</Audience>
+                            <ScopeType xmlns="http://www.siri.org.uk/siri">line</ScopeType>
+                            <Planned xmlns="http://www.siri.org.uk/siri">false</Planned>
+                            <Language xmlns="http://www.siri.org.uk/siri"/>
+                            <Summary xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Linienaenderung</Summary>
+                            <Description xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Dresden - Veränderungen im Studentenverkehr</Description>
+                            <Detail xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Beschreibung&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ab
+                                Montag, den 14.10.2019&lt;/strong&gt; werden die
+                                Verstärkerleistungen im Studentenverkehr der Linien
+                                &lt;strong&gt;3&lt;/strong&gt;, &lt;strong&gt;61&lt;/strong&gt; und
+                                &lt;strong&gt;66&lt;/strong&gt; wieder
+                                eingeführt.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+                                inEFA="false";MeldungTyp="Information"</Detail>
+                            <Affects xmlns="http://www.siri.org.uk/siri">
+                                <VehicleJourneys>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11003: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11003: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21103: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21103: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21061: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21061: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21061D::H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21061D::R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21066: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21066: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                </VehicleJourneys>
+                            </Affects>
+                        </PtSituation>
+                        <PtSituation>
+                            <CreationTime xmlns="http://www.siri.org.uk/siri"
+                                >2019-09-01T18:46:00Z</CreationTime>
+                            <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                            <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                >5998</SituationNumber>
+                            <Version xmlns="http://www.siri.org.uk/siri">84141961</Version>
+                            <Source xmlns="http://www.siri.org.uk/siri">
+                                <SourceType>other</SourceType>
+                            </Source>
+                            <Progress xmlns="http://www.siri.org.uk/siri">open</Progress>
+                            <ValidityPeriod xmlns="http://www.siri.org.uk/siri">
+                                <StartTime>2019-09-01T22:00:00Z</StartTime>
+                                <EndTime>2500-12-30T23:00:00Z</EndTime>
+                            </ValidityPeriod>
+                            <UnknownReason xmlns="http://www.siri.org.uk/siri"
+                                >unknown</UnknownReason>
+                            <Priority xmlns="http://www.siri.org.uk/siri">3</Priority>
+                            <Audience xmlns="http://www.siri.org.uk/siri">public</Audience>
+                            <ScopeType xmlns="http://www.siri.org.uk/siri">line</ScopeType>
+                            <Planned xmlns="http://www.siri.org.uk/siri">false</Planned>
+                            <Language xmlns="http://www.siri.org.uk/siri"/>
+                            <Summary xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Linienaenderung</Summary>
+                            <Description xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Einrichtung einer Einbahnstraße wegen Bauarbeiten Marienstraße in
+                                Dresden</Description>
+                            <Detail xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >&lt;p&gt;&#xA; &#xA; &lt;H2&gt;Einrichtung einer Einbahnstraße
+                                wegen Bauarbeiten Marienstraße in Dresden&lt;/H2&gt;&#xA;
+                                &lt;P&gt;&lt;b&gt;betrifft GuteNachtLinien 333, 360
+                                &lt;/b&gt;&lt;br&gt;&lt;br&gt; &#xA;&#xA;Wegen der Einrichtung einer
+                                Einbahnstraße auf der Marienstraße in Dresden enden und beginnen die
+                                oben genannten Linien an der Betriebshaltestelle Sternplatz auf der
+                                Josephinenstraße. Der weitere Fahrtweg führt über Annenstraße -
+                                Hertha-Lindner-Str. - Freiberger Str.. Die Haltestelle Marienstraße
+                                kann dabei nicht bedient werden.&lt;br&gt;&lt;br&gt;&#xA;&#xA;Als
+                                Ersatz wird die DVB-Haltestelle Reitbahnstraße (Linie 62 Richtung
+                                Dölzschen) bedient.&#xA;&#xA;&lt;/P&gt;&#xA;&#xA; &lt;/p&gt;
+                                inEFA="false";MeldungTyp="Information"</Detail>
+                            <Affects xmlns="http://www.siri.org.uk/siri">
+                                <VehicleJourneys>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23333: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23333: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23360: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23360: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                </VehicleJourneys>
+                            </Affects>
+                        </PtSituation>
+                        <PtSituation>
+                            <CreationTime xmlns="http://www.siri.org.uk/siri"
+                                >2019-10-18T12:46:00Z</CreationTime>
+                            <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                            <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                >6419</SituationNumber>
+                            <Version xmlns="http://www.siri.org.uk/siri">88181164</Version>
+                            <Source xmlns="http://www.siri.org.uk/siri">
+                                <SourceType>other</SourceType>
+                            </Source>
+                            <Progress xmlns="http://www.siri.org.uk/siri">open</Progress>
+                            <ValidityPeriod xmlns="http://www.siri.org.uk/siri">
+                                <StartTime>2019-10-13T22:00:00Z</StartTime>
+                                <EndTime>2500-12-30T23:00:00Z</EndTime>
+                            </ValidityPeriod>
+                            <UnknownReason xmlns="http://www.siri.org.uk/siri"
+                                >unknown</UnknownReason>
+                            <Priority xmlns="http://www.siri.org.uk/siri">3</Priority>
+                            <Audience xmlns="http://www.siri.org.uk/siri">public</Audience>
+                            <ScopeType xmlns="http://www.siri.org.uk/siri">line</ScopeType>
+                            <Planned xmlns="http://www.siri.org.uk/siri">false</Planned>
+                            <Language xmlns="http://www.siri.org.uk/siri"/>
+                            <Summary xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Linienaenderung</Summary>
+                            <Description xmlns="http://www.siri.org.uk/siri" overridden="true">Linie
+                                360, 352 - Haltestellenverlegung "Bannewitz /
+                                Nöthnitz"</Description>
+                            <Detail xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >&lt;p&gt;&#xA; &#xA; &lt;H2&gt;Linie 360, 352 -
+                                Haltestellenverlegung "Bannewitz / Nöthnitz" &lt;/H2&gt;&#xA;
+                                &lt;P&gt;&#xA;&#xA;die Haltestelle Bannewitz / Nöthnitz,
+                                Fahrtrichtung Dippoldiswalde wird auf Grund von Bauarbeiten bis auf
+                                Widerruf ca. 100 m in Richtung Dresden zurückverlegt.
+                                &lt;/P&gt;&#xA;&#xA; &lt;/p&gt;
+                                inEFA="false";MeldungTyp="Information"</Detail>
+                            <Affects xmlns="http://www.siri.org.uk/siri">
+                                <VehicleJourneys>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23352: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23352: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23360: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23360: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                </VehicleJourneys>
+                            </Affects>
+                        </PtSituation>
+                        <PtSituation>
+                            <CreationTime xmlns="http://www.siri.org.uk/siri"
+                                >2019-08-26T11:01:00Z</CreationTime>
+                            <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                            <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                >5941</SituationNumber>
+                            <Version xmlns="http://www.siri.org.uk/siri">83595662</Version>
+                            <Source xmlns="http://www.siri.org.uk/siri">
+                                <SourceType>other</SourceType>
+                            </Source>
+                            <Progress xmlns="http://www.siri.org.uk/siri">open</Progress>
+                            <ValidityPeriod xmlns="http://www.siri.org.uk/siri">
+                                <StartTime>2019-08-26T22:00:00Z</StartTime>
+                                <EndTime>2500-12-30T23:00:00Z</EndTime>
+                            </ValidityPeriod>
+                            <UnknownReason xmlns="http://www.siri.org.uk/siri"
+                                >unknown</UnknownReason>
+                            <Priority xmlns="http://www.siri.org.uk/siri">3</Priority>
+                            <Audience xmlns="http://www.siri.org.uk/siri">public</Audience>
+                            <ScopeType xmlns="http://www.siri.org.uk/siri">line</ScopeType>
+                            <Planned xmlns="http://www.siri.org.uk/siri">false</Planned>
+                            <Language xmlns="http://www.siri.org.uk/siri"/>
+                            <Summary xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Linienaenderung</Summary>
+                            <Description xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Haltestelle Altenberg, Platz des Bergmanns (Richtung
+                                Zinnwald)</Description>
+                            <Detail xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >&lt;p&gt;&#xA; &#xA; &lt;H2&gt;Haltestelle Altenberg, Platz des
+                                Bergmanns (Richtung Zinnwald)&lt;/H2&gt;&#xA; &lt;P&gt;Haltestelle
+                                Altenberg, Platz des Bergmanns (Richtung Zinnwald)&#xA;&#xA;Wegen
+                                der Baumaßnahme in Altenberg am Platz des Bergmanns kann die
+                                Haltestelle Altenberg Platz des Bergmanns in Richtung Zinnwald nicht
+                                bedient werden. Als Ersatz wird die Haltestelle Altenberg Bahnhof
+                                bedient.&#xA;&lt;/P&gt;&#xA;&#xA; &lt;/p&gt;
+                                inEFA="false";MeldungTyp="Information"</Detail>
+                            <Affects xmlns="http://www.siri.org.uk/siri">
+                                <VehicleJourneys>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23360: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23360: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23367: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23367: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23368: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23368: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23398: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:23398: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                </VehicleJourneys>
+                            </Affects>
+                        </PtSituation>
+                    </Situations>
+                </StopEventResponseContext>
+                <StopEventResult>
+                    <ResultId>ID-51CBC662-163A-435E-AC98-480DA9B206FE</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:2:3</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:07:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>22</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11007::H:j19:668</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11007::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>7</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Weixdorf (Rathenaustraße) - Trattendorfer Straße</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:6588:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Weixdorf Rathenaustraße, Gleisschleife</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:344:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Pennrich</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-900C563E-4AAA-431E-8CFA-D7A15AC21465</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:2:3</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:08:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>11</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:21062::H:j19:373</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:21062::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>bus</PtMode>
+                                    <BusSubmode>localBus</BusSubmode>
+                                    <Name>
+                                        <Text>Stadtbus</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>62</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Johannstadt - Dölzschen</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:47:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Johannstadt</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14628:1091:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Pesterwitz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-BCB26D22-1CC4-4567-966F-B8D36B023E52</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:08:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>6</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11002::H:j19:1614</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11002::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>2</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Kleinzschachwitz Freystraße - Betriebshof
+                                        Waltherstraße</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:81:3:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Comeniusplatz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:338:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Gorbitz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6442</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-CAE96EFE-AA87-4AAA-887C-C107E61DAE50</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:09:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>19</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11004::H:j19:883</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11004::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>4</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>DD-Laubegast - Radebeul</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:75:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>DD Laubegast Kronstädter Platz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14627:4215:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Radebeul Ost</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >4054</SituationNumber>
+                            </SituationFullRef>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >4197</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-81B95603-EFD3-43F7-A2B6-3355A08D3C39</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:2:3</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:13:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>14</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1172</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:165:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Coschütz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-261D0D45-3BFD-4BCC-9311-AD84479B8874</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:2:4</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:14:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>13</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:317</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:165:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Coschütz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-90DF966E-4C35-4C8A-8D37-3758D3F655FE</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:17:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>18</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11004::R:j19:11</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11004::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>4</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Radebeul - DD-Laubegast</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14627:4215:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Radebeul Ost (Schillerstraße)</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:321:2:4</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Laubegast</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >4054</SituationNumber>
+                            </SituationFullRef>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >4197</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-E7D9C4BC-06DC-46F0-9802-B81C979434BA</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:17:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>19</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11002::R:j19:824</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11002::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>2</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Gleisschleife - Dresden-Niedersedlitz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:338:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Betriebshof Gorbitz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:81:3:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Kleinzschachwitz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6442</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-C0350825-AFD0-4969-ABA2-9B7B29B3F684</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:2:4</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:19:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>21</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11007::R:j19:1350</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11007::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>7</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Gleisschleife - Tannenstraße (Goethe-Institut)</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:344:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Pennrich Gleisschleife</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:6588:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Weixdorf</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-CA480EB0-4A5D-495B-B878-0851D669C6FD</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:2:4</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:20:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>21</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:21062::R:j19:1132</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:21062::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>bus</PtMode>
+                                    <BusSubmode>localBus</BusSubmode>
+                                    <Name>
+                                        <Text>Stadtbus</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>62</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Dölzschen - Johannstadt</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:709:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Dölzschen</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:52:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Pillnitz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-8774AAF0-1C3E-4B19-A399-7B20241ED146</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:3:5</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <PlannedBay>
+                                    <Text>5</Text>
+                                    <Language>de</Language>
+                                </PlannedBay>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:20:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>4</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:23333::H:j19:6</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:23333::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>bus</PtMode>
+                                    <BusSubmode>regionalBus</BusSubmode>
+                                    <Name>
+                                        <Text>PlusBus</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>333</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:3</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Dresden - Wilsdruff - Mohorn - Hetzdorf</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:37:7:8</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Postplatz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14628:4700:0:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilsdruff Markt</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >5998</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-A053D15D-B319-4042-9106-E8C8EB460206</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:3:5</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <PlannedBay>
+                                    <Text>5</Text>
+                                    <Language>de</Language>
+                                </PlannedBay>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:24:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>4</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:23360::H:j19:4</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:23360::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>bus</PtMode>
+                                    <BusSubmode>regionalBus</BusSubmode>
+                                    <Name>
+                                        <Text>PlusBus</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>360</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:3</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Dresden - Dippoldiswalde - Kurort Kipsdorf - Altenberg -
+                                        Zinnwald</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:37:7:8</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Postplatz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14628:1400:0:4</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Dippoldiswalde Busbahnhof</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6419</SituationNumber>
+                            </SituationFullRef>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >5941</SituationNumber>
+                            </SituationFullRef>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >5998</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-D10EECDC-C1CD-4A0D-A88B-94B67CED10EB</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:2:3</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:37:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>22</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11007::H:j19:670</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11007::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>7</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Weixdorf (Rathenaustraße) - Trattendorfer Straße</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:6588:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Weixdorf Rathenaustraße, Gleisschleife</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:344:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Pennrich</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-E5E075BD-8038-41BB-B25D-0781E5C26452</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:2:3</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:38:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>16</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:21062::H:j19:355</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:21062::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>bus</PtMode>
+                                    <BusSubmode>localBus</BusSubmode>
+                                    <Name>
+                                        <Text>Stadtbus</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>62</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Johannstadt - Dölzschen</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:52:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>DD Blasewitz Schillerplatz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14628:1091:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Pesterwitz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-83F2FA7D-0EC9-475B-8787-86E03ACDFF30</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:38:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>6</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11002::H:j19:1615</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11002::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>2</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Kleinzschachwitz Freystraße - Betriebshof
+                                        Waltherstraße</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:81:3:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Comeniusplatz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:338:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Gorbitz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6442</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-1CF412A1-A5EE-4B28-8BED-364898D48FC8</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:5:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Pirnaischer Platz</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T00:39:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>19</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11004::H:j19:974</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11004::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>4</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>DD-Laubegast - Radebeul</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:75:1:2</OriginStopPointRef>
+                            <OriginText>
+                                <Text>DD Laubegast Kronstädter Platz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14627:4215:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Weinböhla</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >4054</SituationNumber>
+                            </SituationFullRef>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >4197</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+            </StopEventResponse>
+        </DeliveryPayload>
+    </ServiceDelivery>
+</Trias>

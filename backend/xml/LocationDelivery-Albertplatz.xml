@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias xmlns="http://www.vdv.de/trias" version="1.2">
+    <ServiceDelivery>
+        <ResponseTimestamp xmlns="http://www.siri.org.uk/siri"
+            >2019-11-09T19:19:42Z</ResponseTimestamp>
+        <ProducerRef xmlns="http://www.siri.org.uk/siri">EFAController10.3.6.10-EFA3</ProducerRef>
+        <Status xmlns="http://www.siri.org.uk/siri">true</Status>
+        <MoreData>false</MoreData>
+        <Language>de</Language>
+        <DeliveryPayload>
+            <LocationInformationResponse>
+                <LocationResult>
+                    <Location>
+                        <StopPoint>
+                            <StopPointRef>de:14612:13</StopPointRef>
+                            <StopPointName>
+                                <Text>Albertplatz</Text>
+                                <Language>de</Language>
+                            </StopPointName>
+                            <LocalityRef>14612000:1</LocalityRef>
+                            <WheelchairAccessible>false</WheelchairAccessible>
+                            <Lighting>false</Lighting>
+                            <Covered>false</Covered>
+                        </StopPoint>
+                        <LocationName>
+                            <Text>Dresden</Text>
+                            <Language>de</Language>
+                        </LocationName>
+                        <GeoPosition>
+                            <Longitude>13.74673</Longitude>
+                            <Latitude>51.06331</Latitude>
+                        </GeoPosition>
+                    </Location>
+                    <Complete>true</Complete>
+                    <Probability>0.899999976</Probability>
+                    <Mode>
+                        <PtMode>tram</PtMode>
+                        <TramSubmode>cityTram</TramSubmode>
+                    </Mode>
+                    <Mode>
+                        <PtMode>bus</PtMode>
+                        <BusSubmode>regionalBus</BusSubmode>
+                    </Mode>
+                </LocationResult>
+            </LocationInformationResponse>
+        </DeliveryPayload>
+    </ServiceDelivery>
+</Trias>
