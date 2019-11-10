@@ -1,25 +1,27 @@
-var polyline = [];
+var circles = [];
 async function getJsonAsync(name) 
 {
 	let response = await fetch(`${name}`);
 	let data = await response.json()
 	return data;
 }
-getJsonAsync('/dummy.json')
+getJsonAsync('/dummy12.json')
 	.then(function(data) {
-	var output = [];
-	var tramlines = data.tramlines;
-	for (i = 0; i < tramlines.length; i++){
-		var tramline = tramlines[i];
-		var tramoutput = tramline;
-		for (j = 0; j < tramline.points.length; j++){
-			tramoutput.points[j] = [tramline.points[j].lat, tramline.points[j].long];
+	for (i = 0; i < data.length; i++){
+		circles[i] = []
+		var tramline = data[i];
+		for (j = 0; j < tramline.haltestellen.length; j++){
+			var aktuelle_haltestelle = tramline.haltestellen[j]
+			circles[i][j] = L.circle([aktuelle_haltestelle.latitude, aktuelle_haltestelle.longitude], {
+				color: 'red',
+				fillColor: '#f03',
+				fillOpacity: 0.5,
+				radius: 500
+			}).addTo(mymap);
 		}
-		output.push(tramoutput);
 	}
-	return output;
+	return data;
 }).then(function(output) {
-	for (i = 0; i < output.length; i++){
-		polyline[i] = L.polyline(output[i].points, {color: 'red'}).addTo(mymap);
-	}
+	console.log('Berechnung fertig')
+	console.log(circles)
 }); 
