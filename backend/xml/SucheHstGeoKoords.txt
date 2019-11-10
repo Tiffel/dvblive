@@ -1,0 +1,15 @@
+LocationInformationRequest für alle Haltestellen (nicht mehrfach für jede Linie)
+je Haltestellen-Code folgende Infos in den Request einbauen:
+
+LocationRef/StopPointRef <- Trias-Haltestellen-Code aus Haltestellenabfrage
+
+Aus den Antworten beide Geo-Koordinaten extrahieren:
+
+Bsp (Dresden Wilder Mann): "13.71925" (Longitude)
+                           "51.09577" (Latitude)
+
+XPath 2.0: //GeoPosition/Longitude/text()
+XPath 1.0: //*[local-name(.)='GeoPosition']/*[local-name(.)='Longitude']/text()
+
+XPath 2.0: //GeoPosition/Latitude/text()
+XPath 1.0: //*[local-name(.)='GeoPosition']/*[local-name(.)='Latitude']/text()

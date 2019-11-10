@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias xmlns="http://www.vdv.de/trias" version="1.2">
+    <ServiceDelivery>
+        <ResponseTimestamp xmlns="http://www.siri.org.uk/siri"
+            >2019-11-09T23:57:04Z</ResponseTimestamp>
+        <ProducerRef xmlns="http://www.siri.org.uk/siri">EFAController10.3.6.21-EFA1</ProducerRef>
+        <Status xmlns="http://www.siri.org.uk/siri">true</Status>
+        <MoreData>false</MoreData>
+        <Language>de</Language>
+        <DeliveryPayload>
+            <LocationInformationResponse>
+                <LocationResult>
+                    <Location>
+                        <StopPoint>
+                            <StopPointRef>de:14612:253</StopPointRef>
+                            <StopPointName>
+                                <Text>Dresden, Wilder Mann</Text>
+                                <Language>de</Language>
+                            </StopPointName>
+                            <LocalityRef>14612000:1</LocalityRef>
+                            <WheelchairAccessible>false</WheelchairAccessible>
+                            <Lighting>false</Lighting>
+                            <Covered>false</Covered>
+                        </StopPoint>
+                        <LocationName>
+                            <Text>Dresden</Text>
+                            <Language>de</Language>
+                        </LocationName>
+                        <GeoPosition>
+                            <Longitude>13.71925</Longitude>
+                            <Latitude>51.09577</Latitude>
+                        </GeoPosition>
+                    </Location>
+                    <Complete>true</Complete>
+                    <Probability>100</Probability>
+                </LocationResult>
+            </LocationInformationResponse>
+        </DeliveryPayload>
+    </ServiceDelivery>
+</Trias>
