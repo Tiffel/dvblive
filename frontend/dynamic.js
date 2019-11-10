@@ -25,6 +25,10 @@ getJsonAsync('/abschnitte.json')
 		    [verbindung.startPosition.longitude, verbindung.startPosition.latitude],
 		    [verbindung.endPosition.longitude, verbindung.endPosition.latitude]
 		];
+		var tooltip = "";
+		for (tooltip_count = 0; tooltip_count < verbindung.linien.length; tooltip_count++){
+			tooltip += "Linie " + verbindung.linien[tooltip_count] + "<br>";
+		}
 		var farbe = "green";
 		if (verbindung.maxVerspaetung >= 60){
 			farbe = "orange";
@@ -32,6 +36,6 @@ getJsonAsync('/abschnitte.json')
 		if (verbindung.maxVerspaetung >= 180){
 			farbe = "red";
 		}
-		L.polyline(latlngs, {color: farbe}).addTo(mymap).bindTooltip("my tooltip text");
+		L.polyline(latlngs, {color: farbe}).addTo(mymap).bindTooltip(tooltip);
 	}
 });
