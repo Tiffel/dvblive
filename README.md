@@ -6,14 +6,16 @@ Dieser Code ist schlecht. Bitte nicht kopieren oder schon garnicht versuchen, da
 
 # Anwendung starten
 ## Frontend
-```docker run --name dvblive -v $(pwd):/usr/share/nginx/html:ro -d -p 8000:80 nginx```
+```
+frontend$ docker run --name dvblive -v $(pwd):/usr/share/nginx/html:ro -d -p 8000:80 nginx
+```
 
 ## Backend
 Vorraussetzungen
 * Java 11
 * Maven 3
 ```
-mvn spring-boot:run
+backend$ mvn spring-boot:run
 ```
 
 # Datenquelle
