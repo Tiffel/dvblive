@@ -5,7 +5,9 @@ async function getJsonAsync(name)
 	let data = await response.json()
 	return data;
 }
-getJsonAsync('/haltestellen.json')
+
+//getJsonAsync('/haltestellen.json')
+getJsonAsync('http://localhost:8080/haltestelle')
 	.then(function(data) {
 	for (i = 0; i < data.length; i++){
 		var aktuelle_haltestelle = data[i]
@@ -17,7 +19,8 @@ getJsonAsync('/haltestellen.json')
 		}).addTo(mymap);
 	}
 });
-getJsonAsync('/abschnitte.json')
+//getJsonAsync('/abschnitte.json')
+getJsonAsync('http://localhost:8080/abschnitte')
 	.then(function(data) {
 	alle = L.layerGroup().addTo(mymap);
 // Könnte man hinzufügen, wenn man ahnung hätte
