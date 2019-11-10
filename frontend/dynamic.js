@@ -1,9 +1,4 @@
-var latlngs = [
-	[51.04, 13.74],
-	[51.05, 13.75],
-	[51.03, 13.7]
-];
-var polyline = L.polyline(latlngs, {color: 'red'}).addTo(mymap);
+var polyline = [];
 async function getJsonAsync(name) 
 {
 	let response = await fetch(`${name}`);
@@ -23,4 +18,8 @@ getJsonAsync('/dummy.json')
 		output.push(tramoutput);
 	}
 	return output;
-}).then(output => console.log(output)); 
+}).then(function(output) {
+	for (i = 0; i < output.length; i++){
+		polyline[i] = L.polyline(output[i].points, {color: 'red'}).addTo(mymap);
+	}
+}); 
