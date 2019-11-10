@@ -171,7 +171,7 @@ public class VvoQueryService {
         return null;
     }
 
-    public Set<Linie> alleLinien() throws Exception {
+    public Set<Linie> initLinienUndHaltestellen() throws Exception {
         XPath xPath = XPathFactory.newInstance().newXPath();
         XPathExpression liniennummerExpression = xPath.compile(
                 "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)"

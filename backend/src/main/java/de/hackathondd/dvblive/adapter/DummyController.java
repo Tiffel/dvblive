@@ -27,9 +27,9 @@ public class DummyController {
         this.haltestellenRepository = haltestellenRepository;
     }
 
-    @GetMapping(value = "/updatelinien")
-    public Set<Linie> updatelinien() throws Exception {
-        return vvoQueryService.alleLinien();
+    @GetMapping(value = "/initdata")
+    public Set<Linie> initLinienUndHaltestellen() throws Exception {
+        return vvoQueryService.initLinienUndHaltestellen();
     }
 
     @GetMapping(value = "/linien")
