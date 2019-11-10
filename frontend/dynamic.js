@@ -24,7 +24,7 @@ getJsonAsync('http://localhost:8080/abschnitte')
 		if (verbindung.maxVerspaetung >= 60){
 			farbe = "orange";
 		}
-		if (verbindung.maxVerspaetung >= 180){
+		if (verbindung.maxVerspaetung >= 300){
 			farbe = "red";
 		}
 		hintergrund.addLayer(L.polyline(latlngs, {color: "gray"}).addTo(mymap).bindTooltip(tooltip));
