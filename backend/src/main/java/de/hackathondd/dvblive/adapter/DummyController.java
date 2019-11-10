@@ -8,6 +8,7 @@ import de.hackathondd.dvblive.domain.Linie;
 import de.hackathondd.dvblive.domain.inmemorydb.HaltestellenRepository;
 import de.hackathondd.dvblive.domain.inmemorydb.LinienRepository;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -32,9 +33,14 @@ public class DummyController {
         return vvoQueryService.initLinienUndHaltestellen();
     }
 
-    @GetMapping(value = "/linien")
+    @GetMapping(value = "/linie")
     public Set<Linie> linien() throws Exception {
         return linienRepository.getAll();
+    }
+
+    @GetMapping(value = "/linie/{id}")
+    public Linie linien(@PathVariable String id) throws Exception {
+        return linienRepository.getLinie(id);
     }
 
     @GetMapping(value = "/haltestellen")
