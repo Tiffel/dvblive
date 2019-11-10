@@ -18,11 +18,6 @@ public class DummyController {
         this.vvoQueryService = vvoQueryService;
     }
 
-    @GetMapping(value = "/locationInformationRequest")
-    public String test() {
-        return vvoQueryService.locationInformationRequest();
-    }
-
     @GetMapping(value = "/linien")
     public Set<Linie> linien() throws Exception {
         return vvoQueryService.alleLinien();

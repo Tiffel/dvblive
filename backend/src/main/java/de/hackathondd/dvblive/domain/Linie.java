@@ -1,5 +1,6 @@
 package de.hackathondd.dvblive.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
@@ -10,7 +11,7 @@ public class Linie {
     private String triasNummer;
     private String triasStartHaltestelleCode;
     private String triasEndHaltestelleCode;
-    private List<Haltestelle> haltestellen;
+    private List<Haltestelle> haltestellen = new ArrayList<>();
 
     public Linie(String nummer, String startEndHaltestelle, String triasNummer, String triasStartHaltestelleCode,
             String triasEndHaltestelleCode) {
@@ -45,8 +46,8 @@ public class Linie {
         return haltestellen;
     }
 
-    public void setHaltestellen(List<Haltestelle> haltestellen) {
-        this.haltestellen = haltestellen;
+    public void addHaltestelle(Haltestelle haltestelle) {
+        haltestellen.add(haltestelle);
     }
 
     @Override

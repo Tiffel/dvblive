@@ -1,13 +1,3812 @@
-{"tramlines":
-	[
-		{"points":
-			[
-				{"lat": 51.04, "long": 13.74},
-				{"lat": 51.05, "long": 13.75},
-				{"lat": 51.03, "long": 13.7}
-        	],
-		"name": "1",
-		"directions": "Prohlis - Test"
-        }
+[
+  {
+    "nummer": "12",
+    "startEndHaltestelle": "Leutewitz - Betriebshof Trachenberge",
+    "triasNummer": "voe:11012::R",
+    "triasStartHaltestelleCode": "de:14612:148",
+    "triasEndHaltestelleCode": "de:14612:68",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:148",
+        "latitude": "13.68178",
+        "longitude": "51.04325"
+      },
+      {
+        "triasCode": "de:14612:147",
+        "latitude": "13.68414",
+        "longitude": "51.04245"
+      },
+      {
+        "triasCode": "de:14612:146",
+        "latitude": "13.69128",
+        "longitude": "51.04275"
+      },
+      {
+        "triasCode": "de:14612:145",
+        "latitude": "13.69783",
+        "longitude": "51.04348"
+      },
+      {
+        "triasCode": "de:14612:144",
+        "latitude": "13.70348",
+        "longitude": "51.04374"
+      },
+      {
+        "triasCode": "de:14612:154",
+        "latitude": "13.70757",
+        "longitude": "51.04632"
+      },
+      {
+        "triasCode": "de:14612:153",
+        "latitude": "13.71322",
+        "longitude": "51.05045"
+      },
+      {
+        "triasCode": "de:14612:197",
+        "latitude": "13.72014",
+        "longitude": "51.05476"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:21",
+        "latitude": "13.72778",
+        "longitude": "51.05829"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:16",
+        "latitude": "13.74088",
+        "longitude": "51.06543"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:12",
+        "latitude": "13.75190",
+        "longitude": "51.06299"
+      },
+      {
+        "triasCode": "de:14612:11",
+        "latitude": "13.75292",
+        "longitude": "51.05932"
+      },
+      {
+        "triasCode": "de:14612:10",
+        "latitude": "13.75738",
+        "longitude": "51.05460"
+      },
+      {
+        "triasCode": "de:14612:41",
+        "latitude": "13.76303",
+        "longitude": "51.05316"
+      },
+      {
+        "triasCode": "de:14612:42",
+        "latitude": "13.76983",
+        "longitude": "51.05245"
+      },
+      {
+        "triasCode": "de:14612:43",
+        "latitude": "13.77770",
+        "longitude": "51.05289"
+      },
+      {
+        "triasCode": "de:14612:48",
+        "latitude": "13.78167",
+        "longitude": "51.05328"
+      },
+      {
+        "triasCode": "de:14612:49",
+        "latitude": "13.78694",
+        "longitude": "51.05382"
+      },
+      {
+        "triasCode": "de:14612:50",
+        "latitude": "13.79225",
+        "longitude": "51.05380"
+      },
+      {
+        "triasCode": "de:14612:51",
+        "latitude": "13.79871",
+        "longitude": "51.05302"
+      },
+      {
+        "triasCode": "de:14612:52",
+        "latitude": "13.80487",
+        "longitude": "51.05218"
+      },
+      {
+        "triasCode": "de:14612:56",
+        "latitude": "13.80978",
+        "longitude": "51.04924"
+      },
+      {
+        "triasCode": "de:14612:54",
+        "latitude": "13.81284",
+        "longitude": "51.04604"
+      },
+      {
+        "triasCode": "de:14612:55",
+        "latitude": "13.81293",
+        "longitude": "51.04181"
+      },
+      {
+        "triasCode": "de:14612:68",
+        "latitude": "13.80868",
+        "longitude": "51.03803"
+      }
     ]
-}
+  },
+  {
+    "nummer": "4",
+    "startEndHaltestelle": "DD-Laubegast - Radebeul",
+    "triasNummer": "voe:11004::H",
+    "triasStartHaltestelleCode": "de:14612:75",
+    "triasEndHaltestelleCode": "de:14627:4215",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:75",
+        "latitude": "13.83865",
+        "longitude": "51.02286"
+      },
+      {
+        "triasCode": "de:14612:74",
+        "latitude": "13.83742",
+        "longitude": "51.02481"
+      },
+      {
+        "triasCode": "de:14612:73",
+        "latitude": "13.83465",
+        "longitude": "51.02782"
+      },
+      {
+        "triasCode": "de:14612:72",
+        "latitude": "13.83216",
+        "longitude": "51.02988"
+      },
+      {
+        "triasCode": "de:14612:71",
+        "latitude": "13.82281",
+        "longitude": "51.03408"
+      },
+      {
+        "triasCode": "de:14612:70",
+        "latitude": "13.81646",
+        "longitude": "51.03574"
+      },
+      {
+        "triasCode": "de:14612:69",
+        "latitude": "13.81267",
+        "longitude": "51.03679"
+      },
+      {
+        "triasCode": "de:14612:68",
+        "latitude": "13.80868",
+        "longitude": "51.03803"
+      },
+      {
+        "triasCode": "de:14612:67",
+        "latitude": "13.80585",
+        "longitude": "51.03948"
+      },
+      {
+        "triasCode": "de:14612:66",
+        "latitude": "13.80093",
+        "longitude": "51.04117"
+      },
+      {
+        "triasCode": "de:14612:65",
+        "latitude": "13.79532",
+        "longitude": "51.04287"
+      },
+      {
+        "triasCode": "de:14612:64",
+        "latitude": "13.78835",
+        "longitude": "51.04330"
+      },
+      {
+        "triasCode": "de:14612:824",
+        "latitude": "13.78223",
+        "longitude": "51.04368"
+      },
+      {
+        "triasCode": "de:14612:63",
+        "latitude": "13.77778",
+        "longitude": "51.04483"
+      },
+      {
+        "triasCode": "de:14612:62",
+        "latitude": "13.77085",
+        "longitude": "51.04635"
+      },
+      {
+        "triasCode": "de:14612:61",
+        "latitude": "13.76298",
+        "longitude": "51.04676"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:6",
+        "latitude": "13.75008",
+        "longitude": "51.04763"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:4",
+        "latitude": "13.73851",
+        "longitude": "51.05025"
+      },
+      {
+        "triasCode": "de:14612:37",
+        "latitude": "13.73352",
+        "longitude": "51.05084"
+      },
+      {
+        "triasCode": "de:14612:35",
+        "latitude": "13.73037",
+        "longitude": "51.05447"
+      },
+      {
+        "triasCode": "de:14612:21",
+        "latitude": "13.72778",
+        "longitude": "51.05829"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:201",
+        "latitude": "13.73164",
+        "longitude": "51.06792"
+      },
+      {
+        "triasCode": "de:14612:202",
+        "latitude": "13.72857",
+        "longitude": "51.07087"
+      },
+      {
+        "triasCode": "de:14612:203",
+        "latitude": "13.72307",
+        "longitude": "51.07451"
+      },
+      {
+        "triasCode": "de:14612:200",
+        "latitude": "13.71712",
+        "longitude": "51.07738"
+      },
+      {
+        "triasCode": "de:14612:205",
+        "latitude": "13.71391",
+        "longitude": "51.08038"
+      },
+      {
+        "triasCode": "de:14612:209",
+        "latitude": "13.70900",
+        "longitude": "51.08434"
+      },
+      {
+        "triasCode": "de:14612:210",
+        "latitude": "13.70481",
+        "longitude": "51.08586"
+      },
+      {
+        "triasCode": "de:14612:212",
+        "latitude": "13.70257",
+        "longitude": "51.09021"
+      },
+      {
+        "triasCode": "de:14612:213",
+        "latitude": "13.69974",
+        "longitude": "51.09235"
+      },
+      {
+        "triasCode": "de:14627:4214",
+        "latitude": "13.69465",
+        "longitude": "51.09601"
+      },
+      {
+        "triasCode": "de:14627:4215",
+        "latitude": "13.68852",
+        "longitude": "51.09982"
+      }
+    ]
+  },
+  {
+    "nummer": "6",
+    "startEndHaltestelle": "Dresden-Niedersedlitz - Betriebshof WaltherstraÃ&#159;e",
+    "triasNummer": "voe:11006::H",
+    "triasStartHaltestelleCode": "de:14612:98",
+    "triasEndHaltestelleCode": "de:14612:148",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:98",
+        "latitude": "13.82882",
+        "longitude": "50.99946"
+      },
+      {
+        "triasCode": "de:14612:919",
+        "latitude": "13.80852",
+        "longitude": "51.01163"
+      },
+      {
+        "triasCode": "de:14612:907",
+        "latitude": "13.79064",
+        "longitude": "51.02127"
+      },
+      {
+        "triasCode": "de:14612:757",
+        "latitude": "13.76106",
+        "longitude": "51.03095"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:141",
+        "latitude": "13.71328",
+        "longitude": "51.04666"
+      },
+      {
+        "triasCode": "de:14612:142",
+        "latitude": "13.70962",
+        "longitude": "51.04488"
+      },
+      {
+        "triasCode": "de:14612:144",
+        "latitude": "13.70348",
+        "longitude": "51.04374"
+      },
+      {
+        "triasCode": "de:14612:145",
+        "latitude": "13.69783",
+        "longitude": "51.04348"
+      },
+      {
+        "triasCode": "de:14612:146",
+        "latitude": "13.69128",
+        "longitude": "51.04275"
+      },
+      {
+        "triasCode": "de:14612:147",
+        "latitude": "13.68414",
+        "longitude": "51.04245"
+      },
+      {
+        "triasCode": "de:14612:331",
+        "latitude": "13.68001",
+        "longitude": "51.04286"
+      },
+      {
+        "triasCode": "de:14612:148",
+        "latitude": "13.68178",
+        "longitude": "51.04325"
+      }
+    ]
+  },
+  {
+    "nummer": "8",
+    "startEndHaltestelle": "SÃ¼dvorstadt - Hellerau",
+    "triasNummer": "voe:11008::R",
+    "triasStartHaltestelleCode": "de:14612:133",
+    "triasEndHaltestelleCode": "de:14612:275",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:133",
+        "latitude": "13.72228",
+        "longitude": "51.03399"
+      },
+      {
+        "triasCode": "de:14612:132",
+        "latitude": "13.72694",
+        "longitude": "51.03177"
+      },
+      {
+        "triasCode": "de:14612:131",
+        "latitude": "13.73139",
+        "longitude": "51.03512"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:261",
+        "latitude": "13.74764",
+        "longitude": "51.06796"
+      },
+      {
+        "triasCode": "de:14612:262",
+        "latitude": "13.75074",
+        "longitude": "51.07143"
+      },
+      {
+        "triasCode": "de:14612:259",
+        "latitude": "13.75289",
+        "longitude": "51.07382"
+      },
+      {
+        "triasCode": "de:14612:265",
+        "latitude": "13.75554",
+        "longitude": "51.07662"
+      },
+      {
+        "triasCode": "de:14612:266",
+        "latitude": "13.76012",
+        "longitude": "51.08188"
+      },
+      {
+        "triasCode": "de:14612:267",
+        "latitude": "13.76303",
+        "longitude": "51.08699"
+      },
+      {
+        "triasCode": "de:14612:268",
+        "latitude": "13.76502",
+        "longitude": "51.09174"
+      },
+      {
+        "triasCode": "de:14612:269",
+        "latitude": "13.76868",
+        "longitude": "51.09911"
+      },
+      {
+        "triasCode": "de:14612:270",
+        "latitude": "13.77010",
+        "longitude": "51.10286"
+      },
+      {
+        "triasCode": "de:14612:271",
+        "latitude": "13.76338",
+        "longitude": "51.11084"
+      },
+      {
+        "triasCode": "de:14612:272",
+        "latitude": "13.75949",
+        "longitude": "51.11244"
+      },
+      {
+        "triasCode": "de:14612:273",
+        "latitude": "13.75111",
+        "longitude": "51.11254"
+      },
+      {
+        "triasCode": "de:14612:274",
+        "latitude": "13.74597",
+        "longitude": "51.11563"
+      },
+      {
+        "triasCode": "de:14612:275",
+        "latitude": "13.74069",
+        "longitude": "51.11679"
+      }
+    ]
+  },
+  {
+    "nummer": "10",
+    "startEndHaltestelle": "Messe%Gleisschleife%85 - Georg-Arnhold-Bad (Deutsches Hygiene-Museum)",
+    "triasNummer": "voe:11010::R",
+    "triasStartHaltestelleCode": "de:14612:523",
+    "triasEndHaltestelleCode": "de:14612:68",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:523",
+        "latitude": "13.71490",
+        "longitude": "51.07257"
+      },
+      {
+        "triasCode": "de:14612:522",
+        "latitude": "13.71429",
+        "longitude": "51.06982"
+      },
+      {
+        "triasCode": "de:14612:526",
+        "latitude": "13.71647",
+        "longitude": "51.06775"
+      },
+      {
+        "triasCode": "de:14612:520",
+        "latitude": "13.71565",
+        "longitude": "51.06333"
+      },
+      {
+        "triasCode": "de:14612:182",
+        "latitude": "13.71458",
+        "longitude": "51.06101"
+      },
+      {
+        "triasCode": "de:14612:181",
+        "latitude": "13.71820",
+        "longitude": "51.05988"
+      },
+      {
+        "triasCode": "de:14612:149",
+        "latitude": "13.72327",
+        "longitude": "51.05823"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:27",
+        "latitude": "13.72489",
+        "longitude": "51.04375"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:30",
+        "latitude": "13.73972",
+        "longitude": "51.03883"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:8",
+        "latitude": "13.75133",
+        "longitude": "51.04257"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:61",
+        "latitude": "13.76298",
+        "longitude": "51.04676"
+      },
+      {
+        "triasCode": "de:14612:62",
+        "latitude": "13.77085",
+        "longitude": "51.04635"
+      },
+      {
+        "triasCode": "de:14612:63",
+        "latitude": "13.77778",
+        "longitude": "51.04483"
+      },
+      {
+        "triasCode": "de:14612:824",
+        "latitude": "13.78223",
+        "longitude": "51.04368"
+      },
+      {
+        "triasCode": "de:14612:64",
+        "latitude": "13.78835",
+        "longitude": "51.04330"
+      },
+      {
+        "triasCode": "de:14612:65",
+        "latitude": "13.79532",
+        "longitude": "51.04287"
+      },
+      {
+        "triasCode": "de:14612:66",
+        "latitude": "13.80093",
+        "longitude": "51.04117"
+      },
+      {
+        "triasCode": "de:14612:67",
+        "latitude": "13.80585",
+        "longitude": "51.03948"
+      },
+      {
+        "triasCode": "de:14612:68",
+        "latitude": "13.80868",
+        "longitude": "51.03803"
+      }
+    ]
+  },
+  {
+    "nummer": "6",
+    "startEndHaltestelle": "Betriebshof Gorbitz - Betriebshof Gorbitz",
+    "triasNummer": "voe:11006::R",
+    "triasStartHaltestelleCode": "de:14612:148",
+    "triasEndHaltestelleCode": "de:14612:98",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:148",
+        "latitude": "13.68178",
+        "longitude": "51.04325"
+      },
+      {
+        "triasCode": "de:14612:147",
+        "latitude": "13.68414",
+        "longitude": "51.04245"
+      },
+      {
+        "triasCode": "de:14612:146",
+        "latitude": "13.69128",
+        "longitude": "51.04275"
+      },
+      {
+        "triasCode": "de:14612:145",
+        "latitude": "13.69783",
+        "longitude": "51.04348"
+      },
+      {
+        "triasCode": "de:14612:144",
+        "latitude": "13.70348",
+        "longitude": "51.04374"
+      },
+      {
+        "triasCode": "de:14612:142",
+        "latitude": "13.70962",
+        "longitude": "51.04488"
+      },
+      {
+        "triasCode": "de:14612:141",
+        "latitude": "13.71328",
+        "longitude": "51.04666"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:757",
+        "latitude": "13.76106",
+        "longitude": "51.03095"
+      },
+      {
+        "triasCode": "de:14612:907",
+        "latitude": "13.79064",
+        "longitude": "51.02127"
+      },
+      {
+        "triasCode": "de:14612:919",
+        "latitude": "13.80852",
+        "longitude": "51.01163"
+      },
+      {
+        "triasCode": "de:14612:98",
+        "latitude": "13.82882",
+        "longitude": "50.99946"
+      }
+    ]
+  },
+  {
+    "nummer": "8",
+    "startEndHaltestelle": "Hellerau - SÃ¼dvorstadt",
+    "triasNummer": "voe:11008::H",
+    "triasStartHaltestelleCode": "de:14612:275",
+    "triasEndHaltestelleCode": "de:14612:133",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:275",
+        "latitude": "13.74069",
+        "longitude": "51.11679"
+      },
+      {
+        "triasCode": "de:14612:274",
+        "latitude": "13.74597",
+        "longitude": "51.11563"
+      },
+      {
+        "triasCode": "de:14612:273",
+        "latitude": "13.75111",
+        "longitude": "51.11254"
+      },
+      {
+        "triasCode": "de:14612:272",
+        "latitude": "13.75949",
+        "longitude": "51.11244"
+      },
+      {
+        "triasCode": "de:14612:271",
+        "latitude": "13.76338",
+        "longitude": "51.11084"
+      },
+      {
+        "triasCode": "de:14612:270",
+        "latitude": "13.77010",
+        "longitude": "51.10286"
+      },
+      {
+        "triasCode": "de:14612:269",
+        "latitude": "13.76868",
+        "longitude": "51.09911"
+      },
+      {
+        "triasCode": "de:14612:268",
+        "latitude": "13.76502",
+        "longitude": "51.09174"
+      },
+      {
+        "triasCode": "de:14612:267",
+        "latitude": "13.76303",
+        "longitude": "51.08699"
+      },
+      {
+        "triasCode": "de:14612:266",
+        "latitude": "13.76012",
+        "longitude": "51.08188"
+      },
+      {
+        "triasCode": "de:14612:265",
+        "latitude": "13.75554",
+        "longitude": "51.07662"
+      },
+      {
+        "triasCode": "de:14612:259",
+        "latitude": "13.75289",
+        "longitude": "51.07382"
+      },
+      {
+        "triasCode": "de:14612:262",
+        "latitude": "13.75074",
+        "longitude": "51.07143"
+      },
+      {
+        "triasCode": "de:14612:261",
+        "latitude": "13.74764",
+        "longitude": "51.06796"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:131",
+        "latitude": "13.73139",
+        "longitude": "51.03512"
+      },
+      {
+        "triasCode": "de:14612:132",
+        "latitude": "13.72694",
+        "longitude": "51.03177"
+      },
+      {
+        "triasCode": "de:14612:133",
+        "latitude": "13.72228",
+        "longitude": "51.03399"
+      }
+    ]
+  },
+  {
+    "nummer": "2",
+    "startEndHaltestelle": "Kleinzschachwitz FreystraÃ&#159;e - Betriebshof WaltherstraÃ&#159;e",
+    "triasNummer": "voe:11002::H",
+    "triasStartHaltestelleCode": "de:14612:81",
+    "triasEndHaltestelleCode": "de:14612:338",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:81",
+        "latitude": "13.76647",
+        "longitude": "51.04166"
+      },
+      {
+        "triasCode": "de:14612:62",
+        "latitude": "13.77085",
+        "longitude": "51.04635"
+      },
+      {
+        "triasCode": "de:14612:61",
+        "latitude": "13.76298",
+        "longitude": "51.04676"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:6",
+        "latitude": "13.75008",
+        "longitude": "51.04763"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:4",
+        "latitude": "13.73851",
+        "longitude": "51.05025"
+      },
+      {
+        "triasCode": "de:14612:37",
+        "latitude": "13.73352",
+        "longitude": "51.05084"
+      },
+      {
+        "triasCode": "de:14612:23",
+        "latitude": "13.72670",
+        "longitude": "51.05276"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:197",
+        "latitude": "13.72014",
+        "longitude": "51.05476"
+      },
+      {
+        "triasCode": "de:14612:153",
+        "latitude": "13.71322",
+        "longitude": "51.05045"
+      },
+      {
+        "triasCode": "de:14612:171",
+        "latitude": "13.70537",
+        "longitude": "51.05128"
+      },
+      {
+        "triasCode": "de:14612:172",
+        "latitude": "13.69571",
+        "longitude": "51.04901"
+      },
+      {
+        "triasCode": "de:14612:173",
+        "latitude": "13.69209",
+        "longitude": "51.04907"
+      },
+      {
+        "triasCode": "de:14612:178",
+        "latitude": "13.68787",
+        "longitude": "51.04926"
+      },
+      {
+        "triasCode": "de:14612:179",
+        "latitude": "13.68274",
+        "longitude": "51.05133"
+      },
+      {
+        "triasCode": "de:14612:333",
+        "latitude": "13.68069",
+        "longitude": "51.04820"
+      },
+      {
+        "triasCode": "de:14612:332",
+        "latitude": "13.67982",
+        "longitude": "51.04623"
+      },
+      {
+        "triasCode": "de:14612:334",
+        "latitude": "13.67795",
+        "longitude": "51.04532"
+      },
+      {
+        "triasCode": "de:14612:335",
+        "latitude": "13.66998",
+        "longitude": "51.04457"
+      },
+      {
+        "triasCode": "de:14612:336",
+        "latitude": "13.66364",
+        "longitude": "51.04597"
+      },
+      {
+        "triasCode": "de:14612:337",
+        "latitude": "13.65913",
+        "longitude": "51.04891"
+      },
+      {
+        "triasCode": "de:14612:338",
+        "latitude": "13.65299",
+        "longitude": "51.04685"
+      }
+    ]
+  },
+  {
+    "nummer": "1",
+    "startEndHaltestelle": "Leutewitz - Dresden-Niedersedlitz",
+    "triasNummer": "voe:11001::R",
+    "triasStartHaltestelleCode": "de:14612:191",
+    "triasEndHaltestelleCode": "de:14612:81",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:191",
+        "latitude": "13.67049",
+        "longitude": "51.05926"
+      },
+      {
+        "triasCode": "de:14612:190",
+        "latitude": "13.67773",
+        "longitude": "51.06100"
+      },
+      {
+        "triasCode": "de:14612:189",
+        "latitude": "13.68065",
+        "longitude": "51.06166"
+      },
+      {
+        "triasCode": "de:14612:188",
+        "latitude": "13.69036",
+        "longitude": "51.06155"
+      },
+      {
+        "triasCode": "de:14612:187",
+        "latitude": "13.69483",
+        "longitude": "51.06066"
+      },
+      {
+        "triasCode": "de:14612:186",
+        "latitude": "13.70160",
+        "longitude": "51.05923"
+      },
+      {
+        "triasCode": "de:14612:185",
+        "latitude": "13.71006",
+        "longitude": "51.05812"
+      },
+      {
+        "triasCode": "de:14612:184",
+        "latitude": "13.71469",
+        "longitude": "51.05657"
+      },
+      {
+        "triasCode": "de:14612:197",
+        "latitude": "13.72014",
+        "longitude": "51.05476"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:23",
+        "latitude": "13.72670",
+        "longitude": "51.05276"
+      },
+      {
+        "triasCode": "de:14612:37",
+        "latitude": "13.73352",
+        "longitude": "51.05084"
+      },
+      {
+        "triasCode": "de:14612:4",
+        "latitude": "13.73851",
+        "longitude": "51.05025"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:6",
+        "latitude": "13.75008",
+        "longitude": "51.04763"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:81",
+        "latitude": "13.76647",
+        "longitude": "51.04166"
+      }
+    ]
+  },
+  {
+    "nummer": "3",
+    "startEndHaltestelle": "Wilder Mann - CoschÃ¼tz",
+    "triasNummer": "voe:11003::R",
+    "triasStartHaltestelleCode": "de:14612:253",
+    "triasEndHaltestelleCode": "de:14612:165",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:253",
+        "latitude": "13.71925",
+        "longitude": "51.09577"
+      },
+      {
+        "triasCode": "de:14612:252",
+        "latitude": "13.72063",
+        "longitude": "51.09293"
+      },
+      {
+        "triasCode": "de:14612:251",
+        "latitude": "13.72332",
+        "longitude": "51.08963"
+      },
+      {
+        "triasCode": "de:14612:249",
+        "latitude": "13.72783",
+        "longitude": "51.08464"
+      },
+      {
+        "triasCode": "de:14612:248",
+        "latitude": "13.73015",
+        "longitude": "51.08238"
+      },
+      {
+        "triasCode": "de:14612:243",
+        "latitude": "13.73300",
+        "longitude": "51.07661"
+      },
+      {
+        "triasCode": "de:14612:242",
+        "latitude": "13.73576",
+        "longitude": "51.07274"
+      },
+      {
+        "triasCode": "de:14612:241",
+        "latitude": "13.73821",
+        "longitude": "51.06942"
+      },
+      {
+        "triasCode": "de:14612:198",
+        "latitude": "13.73911",
+        "longitude": "51.06637"
+      },
+      {
+        "triasCode": "de:14612:16",
+        "latitude": "13.74088",
+        "longitude": "51.06543"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:131",
+        "latitude": "13.73139",
+        "longitude": "51.03512"
+      },
+      {
+        "triasCode": "de:14612:132",
+        "latitude": "13.72694",
+        "longitude": "51.03177"
+      },
+      {
+        "triasCode": "de:14612:134",
+        "latitude": "13.72157",
+        "longitude": "51.02990"
+      },
+      {
+        "triasCode": "de:14612:135",
+        "latitude": "13.71577",
+        "longitude": "51.02763"
+      },
+      {
+        "triasCode": "de:14612:161",
+        "latitude": "13.71741",
+        "longitude": "51.02222"
+      },
+      {
+        "triasCode": "de:14612:162",
+        "latitude": "13.71035",
+        "longitude": "51.02169"
+      },
+      {
+        "triasCode": "de:14612:163",
+        "latitude": "13.70614",
+        "longitude": "51.01911"
+      },
+      {
+        "triasCode": "de:14612:164",
+        "latitude": "13.70094",
+        "longitude": "51.01642"
+      },
+      {
+        "triasCode": "de:14612:165",
+        "latitude": "13.69867",
+        "longitude": "51.01581"
+      }
+    ]
+  },
+  {
+    "nummer": "11",
+    "startEndHaltestelle": "BÃ¼hlau - Zschertnitz",
+    "triasNummer": "voe:11011::H",
+    "triasStartHaltestelleCode": "de:14612:302",
+    "triasEndHaltestelleCode": "de:14612:314",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:302",
+        "latitude": "13.85463",
+        "longitude": "51.06215"
+      },
+      {
+        "triasCode": "de:14612:301",
+        "latitude": "13.84851",
+        "longitude": "51.06183"
+      },
+      {
+        "triasCode": "de:14612:305",
+        "latitude": "13.84367",
+        "longitude": "51.06196"
+      },
+      {
+        "triasCode": "de:14612:300",
+        "latitude": "13.83892",
+        "longitude": "51.06223"
+      },
+      {
+        "triasCode": "de:14612:299",
+        "latitude": "13.83126",
+        "longitude": "51.06187"
+      },
+      {
+        "triasCode": "de:14612:298",
+        "latitude": "13.82150",
+        "longitude": "51.06376"
+      },
+      {
+        "triasCode": "de:14612:297",
+        "latitude": "13.81170",
+        "longitude": "51.06430"
+      },
+      {
+        "triasCode": "de:14612:296",
+        "latitude": "13.79776",
+        "longitude": "51.06595"
+      },
+      {
+        "triasCode": "de:14612:295",
+        "latitude": "13.78958",
+        "longitude": "51.06720"
+      },
+      {
+        "triasCode": "de:14612:294",
+        "latitude": "13.78374",
+        "longitude": "51.06700"
+      },
+      {
+        "triasCode": "de:14612:293",
+        "latitude": "13.77741",
+        "longitude": "51.06740"
+      },
+      {
+        "triasCode": "de:14612:292",
+        "latitude": "13.76937",
+        "longitude": "51.06614"
+      },
+      {
+        "triasCode": "de:14612:291",
+        "latitude": "13.76243",
+        "longitude": "51.06426"
+      },
+      {
+        "triasCode": "de:14612:290",
+        "latitude": "13.75754",
+        "longitude": "51.06330"
+      },
+      {
+        "triasCode": "de:14612:12",
+        "latitude": "13.75190",
+        "longitude": "51.06299"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:16",
+        "latitude": "13.74088",
+        "longitude": "51.06543"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:21",
+        "latitude": "13.72778",
+        "longitude": "51.05829"
+      },
+      {
+        "triasCode": "de:14612:35",
+        "latitude": "13.73037",
+        "longitude": "51.05447"
+      },
+      {
+        "triasCode": "de:14612:37",
+        "latitude": "13.73352",
+        "longitude": "51.05084"
+      },
+      {
+        "triasCode": "de:14612:3",
+        "latitude": "13.73783",
+        "longitude": "51.04715"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:30",
+        "latitude": "13.73972",
+        "longitude": "51.03883"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:311",
+        "latitude": "13.74927",
+        "longitude": "51.03376"
+      },
+      {
+        "triasCode": "de:14612:312",
+        "latitude": "13.74585",
+        "longitude": "51.02837"
+      },
+      {
+        "triasCode": "de:14612:313",
+        "latitude": "13.74247",
+        "longitude": "51.02354"
+      },
+      {
+        "triasCode": "de:14612:314",
+        "latitude": "13.74115",
+        "longitude": "51.01918"
+      }
+    ]
+  },
+  {
+    "nummer": "13",
+    "startEndHaltestelle": "Prohlis - Mickten/ Kaditz",
+    "triasNummer": "voe:11013::H",
+    "triasStartHaltestelleCode": "de:14612:791",
+    "triasEndHaltestelleCode": "de:14612:585",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:791",
+        "latitude": "13.79938",
+        "longitude": "50.99938"
+      },
+      {
+        "triasCode": "de:14612:323",
+        "latitude": "13.79786",
+        "longitude": "51.00212"
+      },
+      {
+        "triasCode": "de:14612:322",
+        "latitude": "13.79904",
+        "longitude": "51.00524"
+      },
+      {
+        "triasCode": "de:14612:321",
+        "latitude": "13.80332",
+        "longitude": "51.00836"
+      },
+      {
+        "triasCode": "de:14612:127",
+        "latitude": "13.80079",
+        "longitude": "51.01012"
+      },
+      {
+        "triasCode": "de:14612:124",
+        "latitude": "13.79512",
+        "longitude": "51.01304"
+      },
+      {
+        "triasCode": "de:14612:123",
+        "latitude": "13.79081",
+        "longitude": "51.01353"
+      },
+      {
+        "triasCode": "de:14612:122",
+        "latitude": "13.78693",
+        "longitude": "51.01583"
+      },
+      {
+        "triasCode": "de:14612:121",
+        "latitude": "13.78382",
+        "longitude": "51.01763"
+      },
+      {
+        "triasCode": "de:14612:120",
+        "latitude": "13.78054",
+        "longitude": "51.01946"
+      },
+      {
+        "triasCode": "de:14612:119",
+        "latitude": "13.77432",
+        "longitude": "51.02271"
+      },
+      {
+        "triasCode": "de:14612:118",
+        "latitude": "13.76993",
+        "longitude": "51.02497"
+      },
+      {
+        "triasCode": "de:14612:117",
+        "latitude": "13.76543",
+        "longitude": "51.02243"
+      },
+      {
+        "triasCode": "de:14612:116",
+        "latitude": "13.76228",
+        "longitude": "51.02453"
+      },
+      {
+        "triasCode": "de:14612:115",
+        "latitude": "13.75918",
+        "longitude": "51.02812"
+      },
+      {
+        "triasCode": "de:14612:757",
+        "latitude": "13.76106",
+        "longitude": "51.03095"
+      },
+      {
+        "triasCode": "de:14612:113",
+        "latitude": "13.75833",
+        "longitude": "51.03451"
+      },
+      {
+        "triasCode": "de:14612:112",
+        "latitude": "13.75217",
+        "longitude": "51.03694"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:8",
+        "latitude": "13.75133",
+        "longitude": "51.04257"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:80",
+        "latitude": "13.75718",
+        "longitude": "51.04975"
+      },
+      {
+        "triasCode": "de:14612:9",
+        "latitude": "13.75791",
+        "longitude": "51.05192"
+      },
+      {
+        "triasCode": "de:14612:10",
+        "latitude": "13.75738",
+        "longitude": "51.05460"
+      },
+      {
+        "triasCode": "de:14612:11",
+        "latitude": "13.75292",
+        "longitude": "51.05932"
+      },
+      {
+        "triasCode": "de:14612:12",
+        "latitude": "13.75190",
+        "longitude": "51.06299"
+      },
+      {
+        "triasCode": "de:14612:264",
+        "latitude": "13.75370",
+        "longitude": "51.06610"
+      },
+      {
+        "triasCode": "de:14612:263",
+        "latitude": "13.75550",
+        "longitude": "51.06991"
+      },
+      {
+        "triasCode": "de:14612:262",
+        "latitude": "13.75074",
+        "longitude": "51.07143"
+      },
+      {
+        "triasCode": "de:14612:247",
+        "latitude": "13.74674",
+        "longitude": "51.07205"
+      },
+      {
+        "triasCode": "de:14612:246",
+        "latitude": "13.74088",
+        "longitude": "51.07344"
+      },
+      {
+        "triasCode": "de:14612:243",
+        "latitude": "13.73300",
+        "longitude": "51.07661"
+      },
+      {
+        "triasCode": "de:14612:244",
+        "latitude": "13.72557",
+        "longitude": "51.07690"
+      },
+      {
+        "triasCode": "de:14612:245",
+        "latitude": "13.72169",
+        "longitude": "51.07740"
+      },
+      {
+        "triasCode": "de:14612:200",
+        "latitude": "13.71712",
+        "longitude": "51.07738"
+      },
+      {
+        "triasCode": "de:14612:205",
+        "latitude": "13.71391",
+        "longitude": "51.08038"
+      },
+      {
+        "triasCode": "de:14612:206",
+        "latitude": "13.70812",
+        "longitude": "51.07892"
+      },
+      {
+        "triasCode": "de:14612:217",
+        "latitude": "13.69908",
+        "longitude": "51.07718"
+      },
+      {
+        "triasCode": "de:14612:218",
+        "latitude": "13.69713",
+        "longitude": "51.07982"
+      },
+      {
+        "triasCode": "de:14612:588",
+        "latitude": "13.69536",
+        "longitude": "51.08198"
+      },
+      {
+        "triasCode": "de:14612:220",
+        "latitude": "13.69126",
+        "longitude": "51.08228"
+      },
+      {
+        "triasCode": "de:14612:585",
+        "latitude": "13.68670",
+        "longitude": "51.08361"
+      }
+    ]
+  },
+  {
+    "nummer": "9",
+    "startEndHaltestelle": "Kaditz Riegelplatz - Betriebshof Gorbitz",
+    "triasNummer": "voe:11009::R",
+    "triasStartHaltestelleCode": "de:14612:585",
+    "triasEndHaltestelleCode": "de:14612:791",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:585",
+        "latitude": "13.68670",
+        "longitude": "51.08361"
+      },
+      {
+        "triasCode": "de:14612:220",
+        "latitude": "13.69126",
+        "longitude": "51.08228"
+      },
+      {
+        "triasCode": "de:14612:588",
+        "latitude": "13.69536",
+        "longitude": "51.08198"
+      },
+      {
+        "triasCode": "de:14612:218",
+        "latitude": "13.69713",
+        "longitude": "51.07982"
+      },
+      {
+        "triasCode": "de:14612:217",
+        "latitude": "13.69908",
+        "longitude": "51.07718"
+      },
+      {
+        "triasCode": "de:14612:206",
+        "latitude": "13.70812",
+        "longitude": "51.07892"
+      },
+      {
+        "triasCode": "de:14612:205",
+        "latitude": "13.71391",
+        "longitude": "51.08038"
+      },
+      {
+        "triasCode": "de:14612:200",
+        "latitude": "13.71712",
+        "longitude": "51.07738"
+      },
+      {
+        "triasCode": "de:14612:203",
+        "latitude": "13.72307",
+        "longitude": "51.07451"
+      },
+      {
+        "triasCode": "de:14612:202",
+        "latitude": "13.72857",
+        "longitude": "51.07087"
+      },
+      {
+        "triasCode": "de:14612:201",
+        "latitude": "13.73164",
+        "longitude": "51.06792"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:18",
+        "latitude": "13.73840",
+        "longitude": "51.06020"
+      },
+      {
+        "triasCode": "de:14612:19",
+        "latitude": "13.74123",
+        "longitude": "51.05779"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:30",
+        "latitude": "13.73972",
+        "longitude": "51.03883"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:112",
+        "latitude": "13.75217",
+        "longitude": "51.03694"
+      },
+      {
+        "triasCode": "de:14612:113",
+        "latitude": "13.75833",
+        "longitude": "51.03451"
+      },
+      {
+        "triasCode": "de:14612:757",
+        "latitude": "13.76106",
+        "longitude": "51.03095"
+      },
+      {
+        "triasCode": "de:14612:115",
+        "latitude": "13.75918",
+        "longitude": "51.02812"
+      },
+      {
+        "triasCode": "de:14612:116",
+        "latitude": "13.76228",
+        "longitude": "51.02453"
+      },
+      {
+        "triasCode": "de:14612:117",
+        "latitude": "13.76543",
+        "longitude": "51.02243"
+      },
+      {
+        "triasCode": "de:14612:118",
+        "latitude": "13.76993",
+        "longitude": "51.02497"
+      },
+      {
+        "triasCode": "de:14612:119",
+        "latitude": "13.77432",
+        "longitude": "51.02271"
+      },
+      {
+        "triasCode": "de:14612:120",
+        "latitude": "13.78054",
+        "longitude": "51.01946"
+      },
+      {
+        "triasCode": "de:14612:121",
+        "latitude": "13.78382",
+        "longitude": "51.01763"
+      },
+      {
+        "triasCode": "de:14612:122",
+        "latitude": "13.78693",
+        "longitude": "51.01583"
+      },
+      {
+        "triasCode": "de:14612:123",
+        "latitude": "13.79081",
+        "longitude": "51.01353"
+      },
+      {
+        "triasCode": "de:14612:124",
+        "latitude": "13.79512",
+        "longitude": "51.01304"
+      },
+      {
+        "triasCode": "de:14612:127",
+        "latitude": "13.80079",
+        "longitude": "51.01012"
+      },
+      {
+        "triasCode": "de:14612:321",
+        "latitude": "13.80332",
+        "longitude": "51.00836"
+      },
+      {
+        "triasCode": "de:14612:322",
+        "latitude": "13.79904",
+        "longitude": "51.00524"
+      },
+      {
+        "triasCode": "de:14612:323",
+        "latitude": "13.79786",
+        "longitude": "51.00212"
+      },
+      {
+        "triasCode": "de:14612:791",
+        "latitude": "13.79938",
+        "longitude": "50.99938"
+      }
+    ]
+  },
+  {
+    "nummer": "7",
+    "startEndHaltestelle": "Gleisschleife - TannenstraÃ&#159;e (Goethe-Institut)",
+    "triasNummer": "voe:11007::R",
+    "triasStartHaltestelleCode": "de:14612:344",
+    "triasEndHaltestelleCode": "de:14612:6588",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:344",
+        "latitude": "13.62581",
+        "longitude": "51.04070"
+      },
+      {
+        "triasCode": "de:14612:342",
+        "latitude": "13.63250",
+        "longitude": "51.04018"
+      },
+      {
+        "triasCode": "de:14612:341",
+        "latitude": "13.63786",
+        "longitude": "51.03889"
+      },
+      {
+        "triasCode": "de:14612:340",
+        "latitude": "13.64554",
+        "longitude": "51.04002"
+      },
+      {
+        "triasCode": "de:14612:338",
+        "latitude": "13.65299",
+        "longitude": "51.04685"
+      },
+      {
+        "triasCode": "de:14612:337",
+        "latitude": "13.65913",
+        "longitude": "51.04891"
+      },
+      {
+        "triasCode": "de:14612:336",
+        "latitude": "13.66364",
+        "longitude": "51.04597"
+      },
+      {
+        "triasCode": "de:14612:335",
+        "latitude": "13.66998",
+        "longitude": "51.04457"
+      },
+      {
+        "triasCode": "de:14612:334",
+        "latitude": "13.67795",
+        "longitude": "51.04532"
+      },
+      {
+        "triasCode": "de:14612:331",
+        "latitude": "13.68001",
+        "longitude": "51.04286"
+      },
+      {
+        "triasCode": "de:14612:147",
+        "latitude": "13.68414",
+        "longitude": "51.04245"
+      },
+      {
+        "triasCode": "de:14612:146",
+        "latitude": "13.69128",
+        "longitude": "51.04275"
+      },
+      {
+        "triasCode": "de:14612:145",
+        "latitude": "13.69783",
+        "longitude": "51.04348"
+      },
+      {
+        "triasCode": "de:14612:144",
+        "latitude": "13.70348",
+        "longitude": "51.04374"
+      },
+      {
+        "triasCode": "de:14612:142",
+        "latitude": "13.70962",
+        "longitude": "51.04488"
+      },
+      {
+        "triasCode": "de:14612:141",
+        "latitude": "13.71328",
+        "longitude": "51.04666"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:27",
+        "latitude": "13.72489",
+        "longitude": "51.04375"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:261",
+        "latitude": "13.74764",
+        "longitude": "51.06796"
+      },
+      {
+        "triasCode": "de:14612:262",
+        "latitude": "13.75074",
+        "longitude": "51.07143"
+      },
+      {
+        "triasCode": "de:14612:259",
+        "latitude": "13.75289",
+        "longitude": "51.07382"
+      },
+      {
+        "triasCode": "de:14612:265",
+        "latitude": "13.75554",
+        "longitude": "51.07662"
+      },
+      {
+        "triasCode": "de:14612:266",
+        "latitude": "13.76012",
+        "longitude": "51.08188"
+      },
+      {
+        "triasCode": "de:14612:267",
+        "latitude": "13.76303",
+        "longitude": "51.08699"
+      },
+      {
+        "triasCode": "de:14612:268",
+        "latitude": "13.76502",
+        "longitude": "51.09174"
+      },
+      {
+        "triasCode": "de:14612:269",
+        "latitude": "13.76868",
+        "longitude": "51.09911"
+      },
+      {
+        "triasCode": "de:14612:270",
+        "latitude": "13.77010",
+        "longitude": "51.10286"
+      },
+      {
+        "triasCode": "de:14612:276",
+        "latitude": "13.77286",
+        "longitude": "51.10759"
+      },
+      {
+        "triasCode": "de:14612:277",
+        "latitude": "13.77576",
+        "longitude": "51.11061"
+      },
+      {
+        "triasCode": "de:14612:278",
+        "latitude": "13.78406",
+        "longitude": "51.11435"
+      },
+      {
+        "triasCode": "de:14612:279",
+        "latitude": "13.78951",
+        "longitude": "51.11847"
+      },
+      {
+        "triasCode": "de:14612:280",
+        "latitude": "13.79123",
+        "longitude": "51.12311"
+      },
+      {
+        "triasCode": "de:14612:281",
+        "latitude": "13.79280",
+        "longitude": "51.12761"
+      },
+      {
+        "triasCode": "de:14612:6583",
+        "latitude": "13.79535",
+        "longitude": "51.13377"
+      },
+      {
+        "triasCode": "de:14612:6584",
+        "latitude": "13.80090",
+        "longitude": "51.13998"
+      },
+      {
+        "triasCode": "de:14612:6588",
+        "latitude": "13.80387",
+        "longitude": "51.14405"
+      }
+    ]
+  },
+  {
+    "nummer": "11",
+    "startEndHaltestelle": "Zschertnitz - BÃ¼hlau",
+    "triasNummer": "voe:11011::R",
+    "triasStartHaltestelleCode": "de:14612:314",
+    "triasEndHaltestelleCode": "de:14612:302",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:314",
+        "latitude": "13.74115",
+        "longitude": "51.01918"
+      },
+      {
+        "triasCode": "de:14612:313",
+        "latitude": "13.74247",
+        "longitude": "51.02354"
+      },
+      {
+        "triasCode": "de:14612:312",
+        "latitude": "13.74585",
+        "longitude": "51.02837"
+      },
+      {
+        "triasCode": "de:14612:311",
+        "latitude": "13.74927",
+        "longitude": "51.03376"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:30",
+        "latitude": "13.73972",
+        "longitude": "51.03883"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:3",
+        "latitude": "13.73783",
+        "longitude": "51.04715"
+      },
+      {
+        "triasCode": "de:14612:37",
+        "latitude": "13.73352",
+        "longitude": "51.05084"
+      },
+      {
+        "triasCode": "de:14612:35",
+        "latitude": "13.73037",
+        "longitude": "51.05447"
+      },
+      {
+        "triasCode": "de:14612:21",
+        "latitude": "13.72778",
+        "longitude": "51.05829"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:16",
+        "latitude": "13.74088",
+        "longitude": "51.06543"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:12",
+        "latitude": "13.75190",
+        "longitude": "51.06299"
+      },
+      {
+        "triasCode": "de:14612:290",
+        "latitude": "13.75754",
+        "longitude": "51.06330"
+      },
+      {
+        "triasCode": "de:14612:291",
+        "latitude": "13.76243",
+        "longitude": "51.06426"
+      },
+      {
+        "triasCode": "de:14612:292",
+        "latitude": "13.76937",
+        "longitude": "51.06614"
+      },
+      {
+        "triasCode": "de:14612:293",
+        "latitude": "13.77741",
+        "longitude": "51.06740"
+      },
+      {
+        "triasCode": "de:14612:294",
+        "latitude": "13.78374",
+        "longitude": "51.06700"
+      },
+      {
+        "triasCode": "de:14612:295",
+        "latitude": "13.78958",
+        "longitude": "51.06720"
+      },
+      {
+        "triasCode": "de:14612:296",
+        "latitude": "13.79776",
+        "longitude": "51.06595"
+      },
+      {
+        "triasCode": "de:14612:297",
+        "latitude": "13.81170",
+        "longitude": "51.06430"
+      },
+      {
+        "triasCode": "de:14612:298",
+        "latitude": "13.82150",
+        "longitude": "51.06376"
+      },
+      {
+        "triasCode": "de:14612:299",
+        "latitude": "13.83126",
+        "longitude": "51.06187"
+      },
+      {
+        "triasCode": "de:14612:300",
+        "latitude": "13.83892",
+        "longitude": "51.06223"
+      },
+      {
+        "triasCode": "de:14612:305",
+        "latitude": "13.84367",
+        "longitude": "51.06196"
+      },
+      {
+        "triasCode": "de:14612:301",
+        "latitude": "13.84851",
+        "longitude": "51.06183"
+      },
+      {
+        "triasCode": "de:14612:302",
+        "latitude": "13.85463",
+        "longitude": "51.06215"
+      }
+    ]
+  },
+  {
+    "nummer": "13",
+    "startEndHaltestelle": "Kaditz/ Mickten - Prohlis",
+    "triasNummer": "voe:11013::R",
+    "triasStartHaltestelleCode": "de:14612:585",
+    "triasEndHaltestelleCode": "de:14612:791",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:585",
+        "latitude": "13.68670",
+        "longitude": "51.08361"
+      },
+      {
+        "triasCode": "de:14612:220",
+        "latitude": "13.69126",
+        "longitude": "51.08228"
+      },
+      {
+        "triasCode": "de:14612:588",
+        "latitude": "13.69536",
+        "longitude": "51.08198"
+      },
+      {
+        "triasCode": "de:14612:218",
+        "latitude": "13.69713",
+        "longitude": "51.07982"
+      },
+      {
+        "triasCode": "de:14612:217",
+        "latitude": "13.69908",
+        "longitude": "51.07718"
+      },
+      {
+        "triasCode": "de:14612:206",
+        "latitude": "13.70812",
+        "longitude": "51.07892"
+      },
+      {
+        "triasCode": "de:14612:205",
+        "latitude": "13.71391",
+        "longitude": "51.08038"
+      },
+      {
+        "triasCode": "de:14612:200",
+        "latitude": "13.71712",
+        "longitude": "51.07738"
+      },
+      {
+        "triasCode": "de:14612:203",
+        "latitude": "13.72307",
+        "longitude": "51.07451"
+      },
+      {
+        "triasCode": "de:14612:202",
+        "latitude": "13.72857",
+        "longitude": "51.07087"
+      },
+      {
+        "triasCode": "de:14612:201",
+        "latitude": "13.73164",
+        "longitude": "51.06792"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:18",
+        "latitude": "13.73840",
+        "longitude": "51.06020"
+      },
+      {
+        "triasCode": "de:14612:19",
+        "latitude": "13.74123",
+        "longitude": "51.05779"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:30",
+        "latitude": "13.73972",
+        "longitude": "51.03883"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:112",
+        "latitude": "13.75217",
+        "longitude": "51.03694"
+      },
+      {
+        "triasCode": "de:14612:113",
+        "latitude": "13.75833",
+        "longitude": "51.03451"
+      },
+      {
+        "triasCode": "de:14612:757",
+        "latitude": "13.76106",
+        "longitude": "51.03095"
+      },
+      {
+        "triasCode": "de:14612:115",
+        "latitude": "13.75918",
+        "longitude": "51.02812"
+      },
+      {
+        "triasCode": "de:14612:116",
+        "latitude": "13.76228",
+        "longitude": "51.02453"
+      },
+      {
+        "triasCode": "de:14612:117",
+        "latitude": "13.76543",
+        "longitude": "51.02243"
+      },
+      {
+        "triasCode": "de:14612:118",
+        "latitude": "13.76993",
+        "longitude": "51.02497"
+      },
+      {
+        "triasCode": "de:14612:119",
+        "latitude": "13.77432",
+        "longitude": "51.02271"
+      },
+      {
+        "triasCode": "de:14612:120",
+        "latitude": "13.78054",
+        "longitude": "51.01946"
+      },
+      {
+        "triasCode": "de:14612:121",
+        "latitude": "13.78382",
+        "longitude": "51.01763"
+      },
+      {
+        "triasCode": "de:14612:122",
+        "latitude": "13.78693",
+        "longitude": "51.01583"
+      },
+      {
+        "triasCode": "de:14612:123",
+        "latitude": "13.79081",
+        "longitude": "51.01353"
+      },
+      {
+        "triasCode": "de:14612:124",
+        "latitude": "13.79512",
+        "longitude": "51.01304"
+      },
+      {
+        "triasCode": "de:14612:127",
+        "latitude": "13.80079",
+        "longitude": "51.01012"
+      },
+      {
+        "triasCode": "de:14612:321",
+        "latitude": "13.80332",
+        "longitude": "51.00836"
+      },
+      {
+        "triasCode": "de:14612:322",
+        "latitude": "13.79904",
+        "longitude": "51.00524"
+      },
+      {
+        "triasCode": "de:14612:323",
+        "latitude": "13.79786",
+        "longitude": "51.00212"
+      },
+      {
+        "triasCode": "de:14612:791",
+        "latitude": "13.79938",
+        "longitude": "50.99938"
+      }
+    ]
+  },
+  {
+    "nummer": "9",
+    "startEndHaltestelle": "P+R Prohlis - A.-Wolf-Platz",
+    "triasNummer": "voe:11009::H",
+    "triasStartHaltestelleCode": "de:14612:791",
+    "triasEndHaltestelleCode": "de:14612:585",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:791",
+        "latitude": "13.79938",
+        "longitude": "50.99938"
+      },
+      {
+        "triasCode": "de:14612:323",
+        "latitude": "13.79786",
+        "longitude": "51.00212"
+      },
+      {
+        "triasCode": "de:14612:322",
+        "latitude": "13.79904",
+        "longitude": "51.00524"
+      },
+      {
+        "triasCode": "de:14612:321",
+        "latitude": "13.80332",
+        "longitude": "51.00836"
+      },
+      {
+        "triasCode": "de:14612:127",
+        "latitude": "13.80079",
+        "longitude": "51.01012"
+      },
+      {
+        "triasCode": "de:14612:124",
+        "latitude": "13.79512",
+        "longitude": "51.01304"
+      },
+      {
+        "triasCode": "de:14612:123",
+        "latitude": "13.79081",
+        "longitude": "51.01353"
+      },
+      {
+        "triasCode": "de:14612:122",
+        "latitude": "13.78693",
+        "longitude": "51.01583"
+      },
+      {
+        "triasCode": "de:14612:121",
+        "latitude": "13.78382",
+        "longitude": "51.01763"
+      },
+      {
+        "triasCode": "de:14612:120",
+        "latitude": "13.78054",
+        "longitude": "51.01946"
+      },
+      {
+        "triasCode": "de:14612:119",
+        "latitude": "13.77432",
+        "longitude": "51.02271"
+      },
+      {
+        "triasCode": "de:14612:118",
+        "latitude": "13.76993",
+        "longitude": "51.02497"
+      },
+      {
+        "triasCode": "de:14612:117",
+        "latitude": "13.76543",
+        "longitude": "51.02243"
+      },
+      {
+        "triasCode": "de:14612:116",
+        "latitude": "13.76228",
+        "longitude": "51.02453"
+      },
+      {
+        "triasCode": "de:14612:115",
+        "latitude": "13.75918",
+        "longitude": "51.02812"
+      },
+      {
+        "triasCode": "de:14612:757",
+        "latitude": "13.76106",
+        "longitude": "51.03095"
+      },
+      {
+        "triasCode": "de:14612:113",
+        "latitude": "13.75833",
+        "longitude": "51.03451"
+      },
+      {
+        "triasCode": "de:14612:112",
+        "latitude": "13.75217",
+        "longitude": "51.03694"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:8",
+        "latitude": "13.75133",
+        "longitude": "51.04257"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:80",
+        "latitude": "13.75718",
+        "longitude": "51.04975"
+      },
+      {
+        "triasCode": "de:14612:9",
+        "latitude": "13.75791",
+        "longitude": "51.05192"
+      },
+      {
+        "triasCode": "de:14612:10",
+        "latitude": "13.75738",
+        "longitude": "51.05460"
+      },
+      {
+        "triasCode": "de:14612:11",
+        "latitude": "13.75292",
+        "longitude": "51.05932"
+      },
+      {
+        "triasCode": "de:14612:12",
+        "latitude": "13.75190",
+        "longitude": "51.06299"
+      },
+      {
+        "triasCode": "de:14612:264",
+        "latitude": "13.75370",
+        "longitude": "51.06610"
+      },
+      {
+        "triasCode": "de:14612:263",
+        "latitude": "13.75550",
+        "longitude": "51.06991"
+      },
+      {
+        "triasCode": "de:14612:262",
+        "latitude": "13.75074",
+        "longitude": "51.07143"
+      },
+      {
+        "triasCode": "de:14612:247",
+        "latitude": "13.74674",
+        "longitude": "51.07205"
+      },
+      {
+        "triasCode": "de:14612:246",
+        "latitude": "13.74088",
+        "longitude": "51.07344"
+      },
+      {
+        "triasCode": "de:14612:243",
+        "latitude": "13.73300",
+        "longitude": "51.07661"
+      },
+      {
+        "triasCode": "de:14612:244",
+        "latitude": "13.72557",
+        "longitude": "51.07690"
+      },
+      {
+        "triasCode": "de:14612:245",
+        "latitude": "13.72169",
+        "longitude": "51.07740"
+      },
+      {
+        "triasCode": "de:14612:200",
+        "latitude": "13.71712",
+        "longitude": "51.07738"
+      },
+      {
+        "triasCode": "de:14612:205",
+        "latitude": "13.71391",
+        "longitude": "51.08038"
+      },
+      {
+        "triasCode": "de:14612:206",
+        "latitude": "13.70812",
+        "longitude": "51.07892"
+      },
+      {
+        "triasCode": "de:14612:217",
+        "latitude": "13.69908",
+        "longitude": "51.07718"
+      },
+      {
+        "triasCode": "de:14612:218",
+        "latitude": "13.69713",
+        "longitude": "51.07982"
+      },
+      {
+        "triasCode": "de:14612:588",
+        "latitude": "13.69536",
+        "longitude": "51.08198"
+      },
+      {
+        "triasCode": "de:14612:220",
+        "latitude": "13.69126",
+        "longitude": "51.08228"
+      },
+      {
+        "triasCode": "de:14612:585",
+        "latitude": "13.68670",
+        "longitude": "51.08361"
+      }
+    ]
+  },
+  {
+    "nummer": "7",
+    "startEndHaltestelle": "Weixdorf (RathenaustraÃ&#159;e) - Trattendorfer StraÃ&#159;e",
+    "triasNummer": "voe:11007::H",
+    "triasStartHaltestelleCode": "de:14612:6588",
+    "triasEndHaltestelleCode": "de:14612:344",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:6588",
+        "latitude": "13.80387",
+        "longitude": "51.14405"
+      },
+      {
+        "triasCode": "de:14612:6584",
+        "latitude": "13.80090",
+        "longitude": "51.13998"
+      },
+      {
+        "triasCode": "de:14612:6583",
+        "latitude": "13.79535",
+        "longitude": "51.13377"
+      },
+      {
+        "triasCode": "de:14612:281",
+        "latitude": "13.79280",
+        "longitude": "51.12761"
+      },
+      {
+        "triasCode": "de:14612:280",
+        "latitude": "13.79123",
+        "longitude": "51.12311"
+      },
+      {
+        "triasCode": "de:14612:279",
+        "latitude": "13.78951",
+        "longitude": "51.11847"
+      },
+      {
+        "triasCode": "de:14612:278",
+        "latitude": "13.78406",
+        "longitude": "51.11435"
+      },
+      {
+        "triasCode": "de:14612:277",
+        "latitude": "13.77576",
+        "longitude": "51.11061"
+      },
+      {
+        "triasCode": "de:14612:276",
+        "latitude": "13.77286",
+        "longitude": "51.10759"
+      },
+      {
+        "triasCode": "de:14612:270",
+        "latitude": "13.77010",
+        "longitude": "51.10286"
+      },
+      {
+        "triasCode": "de:14612:269",
+        "latitude": "13.76868",
+        "longitude": "51.09911"
+      },
+      {
+        "triasCode": "de:14612:268",
+        "latitude": "13.76502",
+        "longitude": "51.09174"
+      },
+      {
+        "triasCode": "de:14612:267",
+        "latitude": "13.76303",
+        "longitude": "51.08699"
+      },
+      {
+        "triasCode": "de:14612:266",
+        "latitude": "13.76012",
+        "longitude": "51.08188"
+      },
+      {
+        "triasCode": "de:14612:265",
+        "latitude": "13.75554",
+        "longitude": "51.07662"
+      },
+      {
+        "triasCode": "de:14612:259",
+        "latitude": "13.75289",
+        "longitude": "51.07382"
+      },
+      {
+        "triasCode": "de:14612:262",
+        "latitude": "13.75074",
+        "longitude": "51.07143"
+      },
+      {
+        "triasCode": "de:14612:261",
+        "latitude": "13.74764",
+        "longitude": "51.06796"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:27",
+        "latitude": "13.72489",
+        "longitude": "51.04375"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:141",
+        "latitude": "13.71328",
+        "longitude": "51.04666"
+      },
+      {
+        "triasCode": "de:14612:142",
+        "latitude": "13.70962",
+        "longitude": "51.04488"
+      },
+      {
+        "triasCode": "de:14612:144",
+        "latitude": "13.70348",
+        "longitude": "51.04374"
+      },
+      {
+        "triasCode": "de:14612:145",
+        "latitude": "13.69783",
+        "longitude": "51.04348"
+      },
+      {
+        "triasCode": "de:14612:146",
+        "latitude": "13.69128",
+        "longitude": "51.04275"
+      },
+      {
+        "triasCode": "de:14612:147",
+        "latitude": "13.68414",
+        "longitude": "51.04245"
+      },
+      {
+        "triasCode": "de:14612:331",
+        "latitude": "13.68001",
+        "longitude": "51.04286"
+      },
+      {
+        "triasCode": "de:14612:334",
+        "latitude": "13.67795",
+        "longitude": "51.04532"
+      },
+      {
+        "triasCode": "de:14612:335",
+        "latitude": "13.66998",
+        "longitude": "51.04457"
+      },
+      {
+        "triasCode": "de:14612:336",
+        "latitude": "13.66364",
+        "longitude": "51.04597"
+      },
+      {
+        "triasCode": "de:14612:337",
+        "latitude": "13.65913",
+        "longitude": "51.04891"
+      },
+      {
+        "triasCode": "de:14612:338",
+        "latitude": "13.65299",
+        "longitude": "51.04685"
+      },
+      {
+        "triasCode": "de:14612:340",
+        "latitude": "13.64554",
+        "longitude": "51.04002"
+      },
+      {
+        "triasCode": "de:14612:341",
+        "latitude": "13.63786",
+        "longitude": "51.03889"
+      },
+      {
+        "triasCode": "de:14612:342",
+        "latitude": "13.63250",
+        "longitude": "51.04018"
+      },
+      {
+        "triasCode": "de:14612:344",
+        "latitude": "13.62581",
+        "longitude": "51.04070"
+      }
+    ]
+  },
+  {
+    "nummer": "3",
+    "startEndHaltestelle": "CoschÃ¼tz - Wilder Mann",
+    "triasNummer": "voe:11003::H",
+    "triasStartHaltestelleCode": "de:14612:165",
+    "triasEndHaltestelleCode": "de:14612:253",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:165",
+        "latitude": "13.69867",
+        "longitude": "51.01581"
+      },
+      {
+        "triasCode": "de:14612:164",
+        "latitude": "13.70094",
+        "longitude": "51.01642"
+      },
+      {
+        "triasCode": "de:14612:163",
+        "latitude": "13.70614",
+        "longitude": "51.01911"
+      },
+      {
+        "triasCode": "de:14612:162",
+        "latitude": "13.71035",
+        "longitude": "51.02169"
+      },
+      {
+        "triasCode": "de:14612:161",
+        "latitude": "13.71741",
+        "longitude": "51.02222"
+      },
+      {
+        "triasCode": "de:14612:135",
+        "latitude": "13.71577",
+        "longitude": "51.02763"
+      },
+      {
+        "triasCode": "de:14612:134",
+        "latitude": "13.72157",
+        "longitude": "51.02990"
+      },
+      {
+        "triasCode": "de:14612:132",
+        "latitude": "13.72694",
+        "longitude": "51.03177"
+      },
+      {
+        "triasCode": "de:14612:131",
+        "latitude": "13.73139",
+        "longitude": "51.03512"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:16",
+        "latitude": "13.74088",
+        "longitude": "51.06543"
+      },
+      {
+        "triasCode": "de:14612:198",
+        "latitude": "13.73911",
+        "longitude": "51.06637"
+      },
+      {
+        "triasCode": "de:14612:241",
+        "latitude": "13.73821",
+        "longitude": "51.06942"
+      },
+      {
+        "triasCode": "de:14612:242",
+        "latitude": "13.73576",
+        "longitude": "51.07274"
+      },
+      {
+        "triasCode": "de:14612:243",
+        "latitude": "13.73300",
+        "longitude": "51.07661"
+      },
+      {
+        "triasCode": "de:14612:248",
+        "latitude": "13.73015",
+        "longitude": "51.08238"
+      },
+      {
+        "triasCode": "de:14612:249",
+        "latitude": "13.72783",
+        "longitude": "51.08464"
+      },
+      {
+        "triasCode": "de:14612:251",
+        "latitude": "13.72332",
+        "longitude": "51.08963"
+      },
+      {
+        "triasCode": "de:14612:252",
+        "latitude": "13.72063",
+        "longitude": "51.09293"
+      },
+      {
+        "triasCode": "de:14612:253",
+        "latitude": "13.71925",
+        "longitude": "51.09577"
+      }
+    ]
+  },
+  {
+    "nummer": "1",
+    "startEndHaltestelle": "P+R Prohlis - Messe%Gleisschleife%85",
+    "triasNummer": "voe:11001::H",
+    "triasStartHaltestelleCode": "de:14612:81",
+    "triasEndHaltestelleCode": "de:14612:191",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:81",
+        "latitude": "13.76647",
+        "longitude": "51.04166"
+      },
+      {
+        "triasCode": "de:14612:62",
+        "latitude": "13.77085",
+        "longitude": "51.04635"
+      },
+      {
+        "triasCode": "de:14612:61",
+        "latitude": "13.76298",
+        "longitude": "51.04676"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:6",
+        "latitude": "13.75008",
+        "longitude": "51.04763"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:4",
+        "latitude": "13.73851",
+        "longitude": "51.05025"
+      },
+      {
+        "triasCode": "de:14612:37",
+        "latitude": "13.73352",
+        "longitude": "51.05084"
+      },
+      {
+        "triasCode": "de:14612:23",
+        "latitude": "13.72670",
+        "longitude": "51.05276"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:197",
+        "latitude": "13.72014",
+        "longitude": "51.05476"
+      },
+      {
+        "triasCode": "de:14612:184",
+        "latitude": "13.71469",
+        "longitude": "51.05657"
+      },
+      {
+        "triasCode": "de:14612:185",
+        "latitude": "13.71006",
+        "longitude": "51.05812"
+      },
+      {
+        "triasCode": "de:14612:186",
+        "latitude": "13.70160",
+        "longitude": "51.05923"
+      },
+      {
+        "triasCode": "de:14612:187",
+        "latitude": "13.69483",
+        "longitude": "51.06066"
+      },
+      {
+        "triasCode": "de:14612:188",
+        "latitude": "13.69036",
+        "longitude": "51.06155"
+      },
+      {
+        "triasCode": "de:14612:189",
+        "latitude": "13.68065",
+        "longitude": "51.06166"
+      },
+      {
+        "triasCode": "de:14612:190",
+        "latitude": "13.67773",
+        "longitude": "51.06100"
+      },
+      {
+        "triasCode": "de:14612:191",
+        "latitude": "13.67049",
+        "longitude": "51.05926"
+      }
+    ]
+  },
+  {
+    "nummer": "16",
+    "startEndHaltestelle": "Albertplatz - Betriebshof Trachenberge",
+    "triasNummer": "voe:11016::H",
+    "triasStartHaltestelleCode": "de:14612:13",
+    "triasEndHaltestelleCode": "de:14612:250",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:14",
+        "latitude": "13.74596",
+        "longitude": "51.05793"
+      },
+      {
+        "triasCode": "de:14612:15",
+        "latitude": "13.74711",
+        "longitude": "51.05247"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:4",
+        "latitude": "13.73851",
+        "longitude": "51.05025"
+      },
+      {
+        "triasCode": "de:14612:37",
+        "latitude": "13.73352",
+        "longitude": "51.05084"
+      },
+      {
+        "triasCode": "de:14612:35",
+        "latitude": "13.73037",
+        "longitude": "51.05447"
+      },
+      {
+        "triasCode": "de:14612:21",
+        "latitude": "13.72778",
+        "longitude": "51.05829"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:198",
+        "latitude": "13.73911",
+        "longitude": "51.06637"
+      },
+      {
+        "triasCode": "de:14612:241",
+        "latitude": "13.73821",
+        "longitude": "51.06942"
+      },
+      {
+        "triasCode": "de:14612:242",
+        "latitude": "13.73576",
+        "longitude": "51.07274"
+      },
+      {
+        "triasCode": "de:14612:243",
+        "latitude": "13.73300",
+        "longitude": "51.07661"
+      },
+      {
+        "triasCode": "de:14612:248",
+        "latitude": "13.73015",
+        "longitude": "51.08238"
+      },
+      {
+        "triasCode": "de:14612:249",
+        "latitude": "13.72783",
+        "longitude": "51.08464"
+      },
+      {
+        "triasCode": "de:14612:250",
+        "latitude": "13.72950",
+        "longitude": "51.08738"
+      }
+    ]
+  },
+  {
+    "nummer": "2",
+    "startEndHaltestelle": "Gleisschleife - Dresden-Niedersedlitz",
+    "triasNummer": "voe:11002::R",
+    "triasStartHaltestelleCode": "de:14612:338",
+    "triasEndHaltestelleCode": "de:14612:81",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:338",
+        "latitude": "13.65299",
+        "longitude": "51.04685"
+      },
+      {
+        "triasCode": "de:14612:337",
+        "latitude": "13.65913",
+        "longitude": "51.04891"
+      },
+      {
+        "triasCode": "de:14612:336",
+        "latitude": "13.66364",
+        "longitude": "51.04597"
+      },
+      {
+        "triasCode": "de:14612:335",
+        "latitude": "13.66998",
+        "longitude": "51.04457"
+      },
+      {
+        "triasCode": "de:14612:334",
+        "latitude": "13.67795",
+        "longitude": "51.04532"
+      },
+      {
+        "triasCode": "de:14612:331",
+        "latitude": "13.68001",
+        "longitude": "51.04286"
+      },
+      {
+        "triasCode": "de:14612:147",
+        "latitude": "13.68414",
+        "longitude": "51.04245"
+      },
+      {
+        "triasCode": "de:14612:146",
+        "latitude": "13.69128",
+        "longitude": "51.04275"
+      },
+      {
+        "triasCode": "de:14612:145",
+        "latitude": "13.69783",
+        "longitude": "51.04348"
+      },
+      {
+        "triasCode": "de:14612:144",
+        "latitude": "13.70348",
+        "longitude": "51.04374"
+      },
+      {
+        "triasCode": "de:14612:142",
+        "latitude": "13.70962",
+        "longitude": "51.04488"
+      },
+      {
+        "triasCode": "de:14612:141",
+        "latitude": "13.71328",
+        "longitude": "51.04666"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:27",
+        "latitude": "13.72489",
+        "longitude": "51.04375"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:32",
+        "latitude": "13.73509",
+        "longitude": "51.04137"
+      },
+      {
+        "triasCode": "de:14612:29",
+        "latitude": "13.73766",
+        "longitude": "51.04381"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:6",
+        "latitude": "13.75008",
+        "longitude": "51.04763"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:81",
+        "latitude": "13.76647",
+        "longitude": "51.04166"
+      }
+    ]
+  },
+  {
+    "nummer": "4",
+    "startEndHaltestelle": "Radebeul - DD-Laubegast",
+    "triasNummer": "voe:11004::R",
+    "triasStartHaltestelleCode": "de:14627:4215",
+    "triasEndHaltestelleCode": "de:14612:75",
+    "haltestellen": [
+      {
+        "triasCode": "de:14627:4215",
+        "latitude": "13.68852",
+        "longitude": "51.09982"
+      },
+      {
+        "triasCode": "de:14627:4214",
+        "latitude": "13.69465",
+        "longitude": "51.09601"
+      },
+      {
+        "triasCode": "de:14612:213",
+        "latitude": "13.69974",
+        "longitude": "51.09235"
+      },
+      {
+        "triasCode": "de:14612:212",
+        "latitude": "13.70257",
+        "longitude": "51.09021"
+      },
+      {
+        "triasCode": "de:14612:211",
+        "latitude": "13.70342",
+        "longitude": "51.08858"
+      },
+      {
+        "triasCode": "de:14612:210",
+        "latitude": "13.70481",
+        "longitude": "51.08586"
+      },
+      {
+        "triasCode": "de:14612:209",
+        "latitude": "13.70900",
+        "longitude": "51.08434"
+      },
+      {
+        "triasCode": "de:14612:205",
+        "latitude": "13.71391",
+        "longitude": "51.08038"
+      },
+      {
+        "triasCode": "de:14612:200",
+        "latitude": "13.71712",
+        "longitude": "51.07738"
+      },
+      {
+        "triasCode": "de:14612:203",
+        "latitude": "13.72307",
+        "longitude": "51.07451"
+      },
+      {
+        "triasCode": "de:14612:202",
+        "latitude": "13.72857",
+        "longitude": "51.07087"
+      },
+      {
+        "triasCode": "de:14612:201",
+        "latitude": "13.73164",
+        "longitude": "51.06792"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:21",
+        "latitude": "13.72778",
+        "longitude": "51.05829"
+      },
+      {
+        "triasCode": "de:14612:35",
+        "latitude": "13.73037",
+        "longitude": "51.05447"
+      },
+      {
+        "triasCode": "de:14612:37",
+        "latitude": "13.73352",
+        "longitude": "51.05084"
+      },
+      {
+        "triasCode": "de:14612:4",
+        "latitude": "13.73851",
+        "longitude": "51.05025"
+      },
+      {
+        "triasCode": "de:14612:5",
+        "latitude": "13.74400",
+        "longitude": "51.04948"
+      },
+      {
+        "triasCode": "de:14612:6",
+        "latitude": "13.75008",
+        "longitude": "51.04763"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:61",
+        "latitude": "13.76298",
+        "longitude": "51.04676"
+      },
+      {
+        "triasCode": "de:14612:62",
+        "latitude": "13.77085",
+        "longitude": "51.04635"
+      },
+      {
+        "triasCode": "de:14612:63",
+        "latitude": "13.77778",
+        "longitude": "51.04483"
+      },
+      {
+        "triasCode": "de:14612:824",
+        "latitude": "13.78223",
+        "longitude": "51.04368"
+      },
+      {
+        "triasCode": "de:14612:64",
+        "latitude": "13.78835",
+        "longitude": "51.04330"
+      },
+      {
+        "triasCode": "de:14612:65",
+        "latitude": "13.79532",
+        "longitude": "51.04287"
+      },
+      {
+        "triasCode": "de:14612:66",
+        "latitude": "13.80093",
+        "longitude": "51.04117"
+      },
+      {
+        "triasCode": "de:14612:67",
+        "latitude": "13.80585",
+        "longitude": "51.03948"
+      },
+      {
+        "triasCode": "de:14612:68",
+        "latitude": "13.80868",
+        "longitude": "51.03803"
+      },
+      {
+        "triasCode": "de:14612:69",
+        "latitude": "13.81267",
+        "longitude": "51.03679"
+      },
+      {
+        "triasCode": "de:14612:70",
+        "latitude": "13.81646",
+        "longitude": "51.03574"
+      },
+      {
+        "triasCode": "de:14612:71",
+        "latitude": "13.82281",
+        "longitude": "51.03408"
+      },
+      {
+        "triasCode": "de:14612:72",
+        "latitude": "13.83216",
+        "longitude": "51.02988"
+      },
+      {
+        "triasCode": "de:14612:73",
+        "latitude": "13.83465",
+        "longitude": "51.02782"
+      },
+      {
+        "triasCode": "de:14612:74",
+        "latitude": "13.83742",
+        "longitude": "51.02481"
+      },
+      {
+        "triasCode": "de:14612:75",
+        "latitude": "13.83865",
+        "longitude": "51.02286"
+      }
+    ]
+  },
+  {
+    "nummer": "12",
+    "startEndHaltestelle": "A.-Wolf-Platz - A.-Wolf-Platz",
+    "triasNummer": "voe:11012::H",
+    "triasStartHaltestelleCode": "de:14612:68",
+    "triasEndHaltestelleCode": "de:14612:148",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:68",
+        "latitude": "13.80868",
+        "longitude": "51.03803"
+      },
+      {
+        "triasCode": "de:14612:55",
+        "latitude": "13.81293",
+        "longitude": "51.04181"
+      },
+      {
+        "triasCode": "de:14612:54",
+        "latitude": "13.81284",
+        "longitude": "51.04604"
+      },
+      {
+        "triasCode": "de:14612:56",
+        "latitude": "13.80978",
+        "longitude": "51.04924"
+      },
+      {
+        "triasCode": "de:14612:52",
+        "latitude": "13.80487",
+        "longitude": "51.05218"
+      },
+      {
+        "triasCode": "de:14612:51",
+        "latitude": "13.79871",
+        "longitude": "51.05302"
+      },
+      {
+        "triasCode": "de:14612:50",
+        "latitude": "13.79225",
+        "longitude": "51.05380"
+      },
+      {
+        "triasCode": "de:14612:49",
+        "latitude": "13.78694",
+        "longitude": "51.05382"
+      },
+      {
+        "triasCode": "de:14612:48",
+        "latitude": "13.78167",
+        "longitude": "51.05328"
+      },
+      {
+        "triasCode": "de:14612:43",
+        "latitude": "13.77770",
+        "longitude": "51.05289"
+      },
+      {
+        "triasCode": "de:14612:42",
+        "latitude": "13.76983",
+        "longitude": "51.05245"
+      },
+      {
+        "triasCode": "de:14612:41",
+        "latitude": "13.76303",
+        "longitude": "51.05316"
+      },
+      {
+        "triasCode": "de:14612:10",
+        "latitude": "13.75738",
+        "longitude": "51.05460"
+      },
+      {
+        "triasCode": "de:14612:11",
+        "latitude": "13.75292",
+        "longitude": "51.05932"
+      },
+      {
+        "triasCode": "de:14612:12",
+        "latitude": "13.75190",
+        "longitude": "51.06299"
+      },
+      {
+        "triasCode": "de:14612:13",
+        "latitude": "13.74673",
+        "longitude": "51.06331"
+      },
+      {
+        "triasCode": "de:14612:16",
+        "latitude": "13.74088",
+        "longitude": "51.06543"
+      },
+      {
+        "triasCode": "de:14612:17",
+        "latitude": "13.73699",
+        "longitude": "51.06309"
+      },
+      {
+        "triasCode": "de:14612:21",
+        "latitude": "13.72778",
+        "longitude": "51.05829"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:197",
+        "latitude": "13.72014",
+        "longitude": "51.05476"
+      },
+      {
+        "triasCode": "de:14612:153",
+        "latitude": "13.71322",
+        "longitude": "51.05045"
+      },
+      {
+        "triasCode": "de:14612:154",
+        "latitude": "13.70757",
+        "longitude": "51.04632"
+      },
+      {
+        "triasCode": "de:14612:144",
+        "latitude": "13.70348",
+        "longitude": "51.04374"
+      },
+      {
+        "triasCode": "de:14612:145",
+        "latitude": "13.69783",
+        "longitude": "51.04348"
+      },
+      {
+        "triasCode": "de:14612:146",
+        "latitude": "13.69128",
+        "longitude": "51.04275"
+      },
+      {
+        "triasCode": "de:14612:147",
+        "latitude": "13.68414",
+        "longitude": "51.04245"
+      },
+      {
+        "triasCode": "de:14612:331",
+        "latitude": "13.68001",
+        "longitude": "51.04286"
+      },
+      {
+        "triasCode": "de:14612:148",
+        "latitude": "13.68178",
+        "longitude": "51.04325"
+      }
+    ]
+  },
+  {
+    "nummer": "10",
+    "startEndHaltestelle": "A.-Wolf-Platz - Betriebshof WaltherstraÃ&#159;e",
+    "triasNummer": "voe:11010::H",
+    "triasStartHaltestelleCode": "de:14612:68",
+    "triasEndHaltestelleCode": "de:14612:523",
+    "haltestellen": [
+      {
+        "triasCode": "de:14612:68",
+        "latitude": "13.80868",
+        "longitude": "51.03803"
+      },
+      {
+        "triasCode": "de:14612:67",
+        "latitude": "13.80585",
+        "longitude": "51.03948"
+      },
+      {
+        "triasCode": "de:14612:66",
+        "latitude": "13.80093",
+        "longitude": "51.04117"
+      },
+      {
+        "triasCode": "de:14612:65",
+        "latitude": "13.79532",
+        "longitude": "51.04287"
+      },
+      {
+        "triasCode": "de:14612:64",
+        "latitude": "13.78835",
+        "longitude": "51.04330"
+      },
+      {
+        "triasCode": "de:14612:824",
+        "latitude": "13.78223",
+        "longitude": "51.04368"
+      },
+      {
+        "triasCode": "de:14612:63",
+        "latitude": "13.77778",
+        "longitude": "51.04483"
+      },
+      {
+        "triasCode": "de:14612:62",
+        "latitude": "13.77085",
+        "longitude": "51.04635"
+      },
+      {
+        "triasCode": "de:14612:61",
+        "latitude": "13.76298",
+        "longitude": "51.04676"
+      },
+      {
+        "triasCode": "de:14612:7",
+        "latitude": "13.75499",
+        "longitude": "51.04611"
+      },
+      {
+        "triasCode": "de:14612:8",
+        "latitude": "13.75133",
+        "longitude": "51.04257"
+      },
+      {
+        "triasCode": "de:14612:111",
+        "latitude": "13.74660",
+        "longitude": "51.03838"
+      },
+      {
+        "triasCode": "de:14612:30",
+        "latitude": "13.73972",
+        "longitude": "51.03883"
+      },
+      {
+        "triasCode": "de:14612:28",
+        "latitude": "13.73293",
+        "longitude": "51.03993"
+      },
+      {
+        "triasCode": "de:14612:27",
+        "latitude": "13.72489",
+        "longitude": "51.04375"
+      },
+      {
+        "triasCode": "de:14612:25",
+        "latitude": "13.72012",
+        "longitude": "51.04862"
+      },
+      {
+        "triasCode": "de:14612:1",
+        "latitude": "13.72339",
+        "longitude": "51.05564"
+      },
+      {
+        "triasCode": "de:14612:149",
+        "latitude": "13.72327",
+        "longitude": "51.05823"
+      },
+      {
+        "triasCode": "de:14612:181",
+        "latitude": "13.71820",
+        "longitude": "51.05988"
+      },
+      {
+        "triasCode": "de:14612:182",
+        "latitude": "13.71458",
+        "longitude": "51.06101"
+      },
+      {
+        "triasCode": "de:14612:520",
+        "latitude": "13.71565",
+        "longitude": "51.06333"
+      },
+      {
+        "triasCode": "de:14612:526",
+        "latitude": "13.71647",
+        "longitude": "51.06775"
+      },
+      {
+        "triasCode": "de:14612:522",
+        "latitude": "13.71429",
+        "longitude": "51.06982"
+      },
+      {
+        "triasCode": "de:14612:523",
+        "latitude": "13.71490",
+        "longitude": "51.07257"
+      }
+    ]
+  }
+]

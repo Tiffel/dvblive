@@ -4,8 +4,10 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -40,27 +42,24 @@ import org.xml.sax.InputSource;
 public class VvoQueryService {
     public static final String URL = "http://efa.vvo-online.de:8080/std3/trias";
     public static final String LOCATION_INFORMATION_REQUEST = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
-            + "<Trias xmlns:siri=\"http://www.siri.org.uk/siri\" xmlns:xsi=\"http://www.w3"
-            + ".org/2001/XMLSchema-instance\" version=\"1.2\" xmlns=\"http://www.vdv.de/trias\"\n"
-            + "       xsi:schemaLocation=\"http://www.vdv.de/trias file:///C:/Develop/dvblive/trias-xsd-v1"
-            + ".2/Trias.xsd\">\n"
-            + "    <ServiceRequest>\n"
-            + "        <siri:RequestTimestamp>{requestTime}</siri:RequestTimestamp>\n"
-            + "        <siri:RequestorRef>OpenService</siri:RequestorRef>\n"
-            + "        <RequestPayload>\n"
-            + "            <LocationInformationRequest>\n"
-            + "                <LocationRef>\n"
-            + "                    <LocationName>\n"
-            + "                        <Text>{LocationName}</Text>\n"
-            + "                    </LocationName>\n"
-            + "                </LocationRef>\n"
-            + "                <Restrictions>\n"
-            + "                    <Type>stop</Type>\n"
-            + "                    <IncludePtModes>true</IncludePtModes>\n"
-            + "                </Restrictions>\n"
-            + "            </LocationInformationRequest>\n"
-            + "        </RequestPayload>\n"
-            + "    </ServiceRequest>\n"
+            + "<Trias version=\"1.2\" xmlns=\"http://www.vdv.de/trias\" xmlns:siri=\"http://www.siri.org.uk/siri\"\n"
+            + "  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n"
+            + "  xsi:schemaLocation=\"http://www.vdv.de/trias ../../trias-xsd-v1.2/trias.xsd\">\n"
+            + "  <ServiceRequest>\n"
+            + "    <siri:RequestTimestamp>{requestTime}</siri:RequestTimestamp>\n"
+            + "    <siri:RequestorRef>OpenService</siri:RequestorRef>\n"
+            + "    <RequestPayload>\n"
+            + "      <LocationInformationRequest>\n"
+            + "        <LocationRef>\n"
+            + "          <StopPointRef>{StopPointRef}</StopPointRef>\n"
+            + "        </LocationRef>\n"
+            + "        <Restrictions>\n"
+            + "          <Type>stop</Type>\n"
+            + "          <IncludePtModes>true</IncludePtModes>\n"
+            + "        </Restrictions>\n"
+            + "      </LocationInformationRequest>\n"
+            + "    </RequestPayload>\n"
+            + "  </ServiceRequest>\n"
             + "</Trias>";
     public static final String STOP_EVENT_REQUEST = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
             + "<Trias version=\"1.2\" xmlns=\"http://www.vdv.de/trias\" xmlns:siri=\"http://www.siri.org.uk/siri\" "
@@ -147,19 +146,6 @@ public class VvoQueryService {
 
     }
 
-    public String locationInformationRequest() {
-        String location = "Dresden, Zwickauer Straße";
-        String requestBody = LOCATION_INFORMATION_REQUEST
-                .replace("{requestTime}", LocalDateTime.now().toString())
-                .replace("{LocationName}", location);
-
-        HttpEntity<String> request = new HttpEntity<>(requestBody, textXmlHeaders);
-
-        ResponseEntity<String> response = restTemplate
-                .exchange(URL, HttpMethod.POST, request, String.class);
-        return response.getBody();
-    }
-
     public Set<Linie> alleLinien() throws Exception {
         XPath xPath = XPathFactory.newInstance().newXPath();
         XPathExpression liniennummerExpression = xPath.compile(
@@ -221,13 +207,41 @@ public class VvoQueryService {
                 e.printStackTrace();
             }
         }
+        Map<String, Haltestelle> alleHaltestellenMap = new HashMap<>();
         for (Linie linie : linien) {
-            linie.setHaltestellen(haltestellen(linie));
+            List<String> haltestellenIds = haltestellenIds(linie);
+            for (String haltestellenId : haltestellenIds) {
+                if (!alleHaltestellenMap.containsKey(haltestellenId)) {
+                    Haltestelle haltestelle = forHaltestelleId(haltestellenId);
+                    alleHaltestellenMap.put(haltestellenId, haltestelle);
+                }
+                linie.addHaltestelle(alleHaltestellenMap.get(haltestellenId));
+            }
         }
         return linien;
     }
 
-    public List<Haltestelle> haltestellen(Linie linie) throws Exception {
+    private Haltestelle forHaltestelleId(String id) throws XPathExpressionException {
+        String requestBody = LOCATION_INFORMATION_REQUEST
+                .replace("{requestTime}", LocalDateTime.now().toString())
+                .replace("{StopPointRef}", id);
+        HttpEntity<String> request = new HttpEntity<>(requestBody, textXmlHeaders);
+
+        ResponseEntity<String> response = restTemplate
+                .exchange(URL, HttpMethod.POST, request, String.class);
+
+        Document xml = parseXml(response.getBody());
+        XPath xPath = XPathFactory.newInstance().newXPath();
+        XPathExpression longExpression = xPath
+                .compile("//*[local-name(.)='GeoPosition']/*[local-name(.)='Longitude']/text()");
+        NodeList longNodeList = (NodeList) longExpression.evaluate(xml, XPathConstants.NODESET);
+        XPathExpression latExpression = xPath
+                .compile("//*[local-name(.)='GeoPosition']/*[local-name(.)='Latitude']/text()");
+        NodeList latNodeList = (NodeList) latExpression.evaluate(xml, XPathConstants.NODESET);
+        return new Haltestelle(id, convertNodeToString(longNodeList.item(0)), convertNodeToString(latNodeList.item(0)));
+    }
+
+    private List<String> haltestellenIds(Linie linie) throws Exception {
         String requestBody = TRIP_REQUEST
                 .replace("{requestTime}", LocalDateTime.now().toString())
                 .replace("{DepArrTime}", "2019-11-09T12:00:00Z")
@@ -245,7 +259,8 @@ public class VvoQueryService {
                         + "='StopPointRef']/text()");
         NodeList nodeList = (NodeList) xPathExpression.evaluate(xml, XPathConstants.NODESET);
         List<String> stringList = nodeListToStringList(nodeList);
-        return stringList.stream().map(s -> new Haltestelle(s)).collect(Collectors.toList());
+        return stringList.stream().map(s -> s.replaceAll("([a-z]*:[0-9]*:[0-9]*):.*", "$1"))
+                .collect(Collectors.toList());
     }
 
     private List<String> nodeListToStringList(NodeList nodeList) {
