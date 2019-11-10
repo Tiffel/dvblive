@@ -1,11 +1,14 @@
 package de.hackathondd.dvblive.adapter;
 
+import java.util.Collection;
 import java.util.Set;
 
+import de.hackathondd.dvblive.application.AbschnittService;
 import de.hackathondd.dvblive.application.HaltestellenService;
 import de.hackathondd.dvblive.application.LinieTo;
 import de.hackathondd.dvblive.application.LinienService;
 import de.hackathondd.dvblive.application.VvoQueryService;
+import de.hackathondd.dvblive.domain.Abschnitt;
 import de.hackathondd.dvblive.domain.Haltestelle;
 import de.hackathondd.dvblive.domain.Linie;
 import de.hackathondd.dvblive.domain.inmemorydb.HaltestellenRepository;
@@ -24,16 +27,19 @@ public class DummyController {
     private final LinienRepository linienRepository;
     private final HaltestellenRepository haltestellenRepository;
     private final HaltestellenService haltestellenService;
+    private final AbschnittService abschnittService;
 
     public DummyController(VvoQueryService vvoQueryService,
             LinienService linienService, LinienRepository linienRepository,
             HaltestellenRepository haltestellenRepository,
-            HaltestellenService haltestellenService) {
+            HaltestellenService haltestellenService,
+            AbschnittService abschnittService) {
         this.vvoQueryService = vvoQueryService;
         this.linienService = linienService;
         this.linienRepository = linienRepository;
         this.haltestellenRepository = haltestellenRepository;
         this.haltestellenService = haltestellenService;
+        this.abschnittService = abschnittService;
     }
 
     @GetMapping(value = "/initdata")
@@ -70,5 +76,10 @@ public class DummyController {
     public void haltestellenUpdate() throws Exception {
         haltestellenService.updateAll();
         ;
+    }
+
+    @GetMapping(value = "/abschnitte")
+    public Collection<Abschnitt> abschnitte() {
+        return abschnittService.alle();
     }
 }

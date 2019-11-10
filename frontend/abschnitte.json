@@ -1,0 +1,5488 @@
+[
+  {
+    "start": "de:14612:116",
+    "end": "de:14612:117",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76228",
+      "longitude": "51.02453"
+    },
+    "endPosition": {
+      "latitude": "13.76543",
+      "longitude": "51.02243"
+    }
+  },
+  {
+    "start": "de:14612:115",
+    "end": "de:14612:116",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75918",
+      "longitude": "51.02812"
+    },
+    "endPosition": {
+      "latitude": "13.76228",
+      "longitude": "51.02453"
+    }
+  },
+  {
+    "start": "de:14612:113",
+    "end": "de:14612:112",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75833",
+      "longitude": "51.03451"
+    },
+    "endPosition": {
+      "latitude": "13.75217",
+      "longitude": "51.03694"
+    }
+  },
+  {
+    "start": "de:14612:116",
+    "end": "de:14612:115",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76228",
+      "longitude": "51.02453"
+    },
+    "endPosition": {
+      "latitude": "13.75918",
+      "longitude": "51.02812"
+    }
+  },
+  {
+    "start": "de:14612:117",
+    "end": "de:14612:118",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76543",
+      "longitude": "51.02243"
+    },
+    "endPosition": {
+      "latitude": "13.76993",
+      "longitude": "51.02497"
+    }
+  },
+  {
+    "start": "de:14612:111",
+    "end": "de:14612:111",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    },
+    "endPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    }
+  },
+  {
+    "start": "de:14612:112",
+    "end": "de:14612:113",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75217",
+      "longitude": "51.03694"
+    },
+    "endPosition": {
+      "latitude": "13.75833",
+      "longitude": "51.03451"
+    }
+  },
+  {
+    "start": "de:14612:118",
+    "end": "de:14612:117",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76993",
+      "longitude": "51.02497"
+    },
+    "endPosition": {
+      "latitude": "13.76543",
+      "longitude": "51.02243"
+    }
+  },
+  {
+    "start": "de:14612:111",
+    "end": "de:14612:112",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    },
+    "endPosition": {
+      "latitude": "13.75217",
+      "longitude": "51.03694"
+    }
+  },
+  {
+    "start": "de:14612:118",
+    "end": "de:14612:119",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76993",
+      "longitude": "51.02497"
+    },
+    "endPosition": {
+      "latitude": "13.77432",
+      "longitude": "51.02271"
+    }
+  },
+  {
+    "start": "de:14612:112",
+    "end": "de:14612:111",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75217",
+      "longitude": "51.03694"
+    },
+    "endPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    }
+  },
+  {
+    "start": "de:14612:337",
+    "end": "de:14612:336",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.65913",
+      "longitude": "51.04891"
+    },
+    "endPosition": {
+      "latitude": "13.66364",
+      "longitude": "51.04597"
+    }
+  },
+  {
+    "start": "de:14612:119",
+    "end": "de:14612:118",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77432",
+      "longitude": "51.02271"
+    },
+    "endPosition": {
+      "latitude": "13.76993",
+      "longitude": "51.02497"
+    }
+  },
+  {
+    "start": "de:14612:13",
+    "end": "de:14612:16",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74673",
+      "longitude": "51.06331"
+    },
+    "endPosition": {
+      "latitude": "13.74088",
+      "longitude": "51.06543"
+    }
+  },
+  {
+    "start": "de:14612:340",
+    "end": "de:14612:341",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.64554",
+      "longitude": "51.04002"
+    },
+    "endPosition": {
+      "latitude": "13.63786",
+      "longitude": "51.03889"
+    }
+  },
+  {
+    "start": "de:14612:336",
+    "end": "de:14612:337",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.66364",
+      "longitude": "51.04597"
+    },
+    "endPosition": {
+      "latitude": "13.65913",
+      "longitude": "51.04891"
+    }
+  },
+  {
+    "start": "de:14612:13",
+    "end": "de:14612:14",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.74673",
+      "longitude": "51.06331"
+    },
+    "endPosition": {
+      "latitude": "13.74596",
+      "longitude": "51.05793"
+    }
+  },
+  {
+    "start": "de:14612:336",
+    "end": "de:14612:335",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.66364",
+      "longitude": "51.04597"
+    },
+    "endPosition": {
+      "latitude": "13.66998",
+      "longitude": "51.04457"
+    }
+  },
+  {
+    "start": "de:14612:342",
+    "end": "de:14612:341",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.63250",
+      "longitude": "51.04018"
+    },
+    "endPosition": {
+      "latitude": "13.63786",
+      "longitude": "51.03889"
+    }
+  },
+  {
+    "start": "de:14612:341",
+    "end": "de:14612:340",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.63786",
+      "longitude": "51.03889"
+    },
+    "endPosition": {
+      "latitude": "13.64554",
+      "longitude": "51.04002"
+    }
+  },
+  {
+    "start": "de:14612:341",
+    "end": "de:14612:342",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.63786",
+      "longitude": "51.03889"
+    },
+    "endPosition": {
+      "latitude": "13.63250",
+      "longitude": "51.04018"
+    }
+  },
+  {
+    "start": "de:14612:337",
+    "end": "de:14612:338",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.65913",
+      "longitude": "51.04891"
+    },
+    "endPosition": {
+      "latitude": "13.65299",
+      "longitude": "51.04685"
+    }
+  },
+  {
+    "start": "de:14612:342",
+    "end": "de:14612:344",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.63250",
+      "longitude": "51.04018"
+    },
+    "endPosition": {
+      "latitude": "13.62581",
+      "longitude": "51.04070"
+    }
+  },
+  {
+    "start": "de:14612:338",
+    "end": "de:14612:337",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.65299",
+      "longitude": "51.04685"
+    },
+    "endPosition": {
+      "latitude": "13.65913",
+      "longitude": "51.04891"
+    }
+  },
+  {
+    "start": "de:14612:120",
+    "end": "de:14612:121",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78054",
+      "longitude": "51.01946"
+    },
+    "endPosition": {
+      "latitude": "13.78382",
+      "longitude": "51.01763"
+    }
+  },
+  {
+    "start": "de:14612:217",
+    "end": "de:14612:206",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69908",
+      "longitude": "51.07718"
+    },
+    "endPosition": {
+      "latitude": "13.70812",
+      "longitude": "51.07892"
+    }
+  },
+  {
+    "start": "de:14612:121",
+    "end": "de:14612:122",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78382",
+      "longitude": "51.01763"
+    },
+    "endPosition": {
+      "latitude": "13.78693",
+      "longitude": "51.01583"
+    }
+  },
+  {
+    "start": "de:14612:55",
+    "end": "de:14612:68",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81293",
+      "longitude": "51.04181"
+    },
+    "endPosition": {
+      "latitude": "13.80868",
+      "longitude": "51.03803"
+    }
+  },
+  {
+    "start": "de:14612:117",
+    "end": "de:14612:116",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76543",
+      "longitude": "51.02243"
+    },
+    "endPosition": {
+      "latitude": "13.76228",
+      "longitude": "51.02453"
+    }
+  },
+  {
+    "start": "de:14612:344",
+    "end": "de:14612:342",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.62581",
+      "longitude": "51.04070"
+    },
+    "endPosition": {
+      "latitude": "13.63250",
+      "longitude": "51.04018"
+    }
+  },
+  {
+    "start": "de:14612:121",
+    "end": "de:14612:120",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78382",
+      "longitude": "51.01763"
+    },
+    "endPosition": {
+      "latitude": "13.78054",
+      "longitude": "51.01946"
+    }
+  },
+  {
+    "start": "de:14612:218",
+    "end": "de:14612:217",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69713",
+      "longitude": "51.07982"
+    },
+    "endPosition": {
+      "latitude": "13.69908",
+      "longitude": "51.07718"
+    }
+  },
+  {
+    "start": "de:14612:65",
+    "end": "de:14612:66",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79532",
+      "longitude": "51.04287"
+    },
+    "endPosition": {
+      "latitude": "13.80093",
+      "longitude": "51.04117"
+    }
+  },
+  {
+    "start": "de:14612:340",
+    "end": "de:14612:338",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.64554",
+      "longitude": "51.04002"
+    },
+    "endPosition": {
+      "latitude": "13.65299",
+      "longitude": "51.04685"
+    }
+  },
+  {
+    "start": "de:14612:80",
+    "end": "de:14612:9",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75718",
+      "longitude": "51.04975"
+    },
+    "endPosition": {
+      "latitude": "13.75791",
+      "longitude": "51.05192"
+    }
+  },
+  {
+    "start": "de:14612:1",
+    "end": "de:14612:21",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    },
+    "endPosition": {
+      "latitude": "13.72778",
+      "longitude": "51.05829"
+    }
+  },
+  {
+    "start": "de:14612:1",
+    "end": "de:14612:23",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    },
+    "endPosition": {
+      "latitude": "13.72670",
+      "longitude": "51.05276"
+    }
+  },
+  {
+    "start": "de:14612:249",
+    "end": "de:14612:251",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72783",
+      "longitude": "51.08464"
+    },
+    "endPosition": {
+      "latitude": "13.72332",
+      "longitude": "51.08963"
+    }
+  },
+  {
+    "start": "de:14612:249",
+    "end": "de:14612:250",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72783",
+      "longitude": "51.08464"
+    },
+    "endPosition": {
+      "latitude": "13.72950",
+      "longitude": "51.08738"
+    }
+  },
+  {
+    "start": "de:14612:213",
+    "end": "de:14612:212",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69974",
+      "longitude": "51.09235"
+    },
+    "endPosition": {
+      "latitude": "13.70257",
+      "longitude": "51.09021"
+    }
+  },
+  {
+    "start": "de:14612:13",
+    "end": "de:14612:12",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74673",
+      "longitude": "51.06331"
+    },
+    "endPosition": {
+      "latitude": "13.75190",
+      "longitude": "51.06299"
+    }
+  },
+  {
+    "start": "de:14612:149",
+    "end": "de:14612:181",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72327",
+      "longitude": "51.05823"
+    },
+    "endPosition": {
+      "latitude": "13.71820",
+      "longitude": "51.05988"
+    }
+  },
+  {
+    "start": "de:14612:220",
+    "end": "de:14612:588",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69126",
+      "longitude": "51.08228"
+    },
+    "endPosition": {
+      "latitude": "13.69536",
+      "longitude": "51.08198"
+    }
+  },
+  {
+    "start": "de:14612:120",
+    "end": "de:14612:119",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78054",
+      "longitude": "51.01946"
+    },
+    "endPosition": {
+      "latitude": "13.77432",
+      "longitude": "51.02271"
+    }
+  },
+  {
+    "start": "de:14612:335",
+    "end": "de:14612:336",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.66998",
+      "longitude": "51.04457"
+    },
+    "endPosition": {
+      "latitude": "13.66364",
+      "longitude": "51.04597"
+    }
+  },
+  {
+    "start": "de:14612:220",
+    "end": "de:14612:585",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69126",
+      "longitude": "51.08228"
+    },
+    "endPosition": {
+      "latitude": "13.68670",
+      "longitude": "51.08361"
+    }
+  },
+  {
+    "start": "de:14612:335",
+    "end": "de:14612:334",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.66998",
+      "longitude": "51.04457"
+    },
+    "endPosition": {
+      "latitude": "13.67795",
+      "longitude": "51.04532"
+    }
+  },
+  {
+    "start": "de:14612:1",
+    "end": "de:14612:25",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    },
+    "endPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    }
+  },
+  {
+    "start": "de:14612:331",
+    "end": "de:14612:334",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.68001",
+      "longitude": "51.04286"
+    },
+    "endPosition": {
+      "latitude": "13.67795",
+      "longitude": "51.04532"
+    }
+  },
+  {
+    "start": "de:14612:334",
+    "end": "de:14612:335",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.67795",
+      "longitude": "51.04532"
+    },
+    "endPosition": {
+      "latitude": "13.66998",
+      "longitude": "51.04457"
+    }
+  },
+  {
+    "start": "de:14612:75",
+    "end": "de:14612:74",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83865",
+      "longitude": "51.02286"
+    },
+    "endPosition": {
+      "latitude": "13.83742",
+      "longitude": "51.02481"
+    }
+  },
+  {
+    "start": "de:14612:334",
+    "end": "de:14612:331",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.67795",
+      "longitude": "51.04532"
+    },
+    "endPosition": {
+      "latitude": "13.68001",
+      "longitude": "51.04286"
+    }
+  },
+  {
+    "start": "de:14612:8",
+    "end": "de:14612:7",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75133",
+      "longitude": "51.04257"
+    },
+    "endPosition": {
+      "latitude": "13.75499",
+      "longitude": "51.04611"
+    }
+  },
+  {
+    "start": "de:14612:153",
+    "end": "de:14612:197",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71322",
+      "longitude": "51.05045"
+    },
+    "endPosition": {
+      "latitude": "13.72014",
+      "longitude": "51.05476"
+    }
+  },
+  {
+    "start": "de:14612:217",
+    "end": "de:14612:218",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69908",
+      "longitude": "51.07718"
+    },
+    "endPosition": {
+      "latitude": "13.69713",
+      "longitude": "51.07982"
+    }
+  },
+  {
+    "start": "de:14612:333",
+    "end": "de:14612:332",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68069",
+      "longitude": "51.04820"
+    },
+    "endPosition": {
+      "latitude": "13.67982",
+      "longitude": "51.04623"
+    }
+  },
+  {
+    "start": "de:14612:332",
+    "end": "de:14612:334",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.67982",
+      "longitude": "51.04623"
+    },
+    "endPosition": {
+      "latitude": "13.67795",
+      "longitude": "51.04532"
+    }
+  },
+  {
+    "start": "de:14612:55",
+    "end": "de:14612:54",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81293",
+      "longitude": "51.04181"
+    },
+    "endPosition": {
+      "latitude": "13.81284",
+      "longitude": "51.04604"
+    }
+  },
+  {
+    "start": "de:14612:153",
+    "end": "de:14612:171",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71322",
+      "longitude": "51.05045"
+    },
+    "endPosition": {
+      "latitude": "13.70537",
+      "longitude": "51.05128"
+    }
+  },
+  {
+    "start": "de:14612:249",
+    "end": "de:14612:248",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72783",
+      "longitude": "51.08464"
+    },
+    "endPosition": {
+      "latitude": "13.73015",
+      "longitude": "51.08238"
+    }
+  },
+  {
+    "start": "de:14612:259",
+    "end": "de:14612:265",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75289",
+      "longitude": "51.07382"
+    },
+    "endPosition": {
+      "latitude": "13.75554",
+      "longitude": "51.07662"
+    }
+  },
+  {
+    "start": "de:14612:248",
+    "end": "de:14612:243",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73015",
+      "longitude": "51.08238"
+    },
+    "endPosition": {
+      "latitude": "13.73300",
+      "longitude": "51.07661"
+    }
+  },
+  {
+    "start": "de:14612:246",
+    "end": "de:14612:243",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74088",
+      "longitude": "51.07344"
+    },
+    "endPosition": {
+      "latitude": "13.73300",
+      "longitude": "51.07661"
+    }
+  },
+  {
+    "start": "de:14612:248",
+    "end": "de:14612:249",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73015",
+      "longitude": "51.08238"
+    },
+    "endPosition": {
+      "latitude": "13.72783",
+      "longitude": "51.08464"
+    }
+  },
+  {
+    "start": "de:14612:247",
+    "end": "de:14612:246",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74674",
+      "longitude": "51.07205"
+    },
+    "endPosition": {
+      "latitude": "13.74088",
+      "longitude": "51.07344"
+    }
+  },
+  {
+    "start": "de:14612:259",
+    "end": "de:14612:262",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.75289",
+      "longitude": "51.07382"
+    },
+    "endPosition": {
+      "latitude": "13.75074",
+      "longitude": "51.07143"
+    }
+  },
+  {
+    "start": "de:14612:314",
+    "end": "de:14612:313",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74115",
+      "longitude": "51.01918"
+    },
+    "endPosition": {
+      "latitude": "13.74247",
+      "longitude": "51.02354"
+    }
+  },
+  {
+    "start": "de:14612:585",
+    "end": "de:14612:220",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68670",
+      "longitude": "51.08361"
+    },
+    "endPosition": {
+      "latitude": "13.69126",
+      "longitude": "51.08228"
+    }
+  },
+  {
+    "start": "de:14612:588",
+    "end": "de:14612:220",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69536",
+      "longitude": "51.08198"
+    },
+    "endPosition": {
+      "latitude": "13.69126",
+      "longitude": "51.08228"
+    }
+  },
+  {
+    "start": "de:14612:212",
+    "end": "de:14612:213",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70257",
+      "longitude": "51.09021"
+    },
+    "endPosition": {
+      "latitude": "13.69974",
+      "longitude": "51.09235"
+    }
+  },
+  {
+    "start": "de:14612:212",
+    "end": "de:14612:211",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70257",
+      "longitude": "51.09021"
+    },
+    "endPosition": {
+      "latitude": "13.70342",
+      "longitude": "51.08858"
+    }
+  },
+  {
+    "start": "de:14612:65",
+    "end": "de:14612:64",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79532",
+      "longitude": "51.04287"
+    },
+    "endPosition": {
+      "latitude": "13.78835",
+      "longitude": "51.04330"
+    }
+  },
+  {
+    "start": "de:14612:142",
+    "end": "de:14612:144",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.70962",
+      "longitude": "51.04488"
+    },
+    "endPosition": {
+      "latitude": "13.70348",
+      "longitude": "51.04374"
+    }
+  },
+  {
+    "start": "de:14612:211",
+    "end": "de:14612:210",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70342",
+      "longitude": "51.08858"
+    },
+    "endPosition": {
+      "latitude": "13.70481",
+      "longitude": "51.08586"
+    }
+  },
+  {
+    "start": "de:14612:210",
+    "end": "de:14612:212",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70481",
+      "longitude": "51.08586"
+    },
+    "endPosition": {
+      "latitude": "13.70257",
+      "longitude": "51.09021"
+    }
+  },
+  {
+    "start": "de:14612:124",
+    "end": "de:14612:123",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79512",
+      "longitude": "51.01304"
+    },
+    "endPosition": {
+      "latitude": "13.79081",
+      "longitude": "51.01353"
+    }
+  },
+  {
+    "start": "de:14612:123",
+    "end": "de:14612:122",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79081",
+      "longitude": "51.01353"
+    },
+    "endPosition": {
+      "latitude": "13.78693",
+      "longitude": "51.01583"
+    }
+  },
+  {
+    "start": "de:14612:122",
+    "end": "de:14612:121",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78693",
+      "longitude": "51.01583"
+    },
+    "endPosition": {
+      "latitude": "13.78382",
+      "longitude": "51.01763"
+    }
+  },
+  {
+    "start": "de:14612:588",
+    "end": "de:14612:218",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69536",
+      "longitude": "51.08198"
+    },
+    "endPosition": {
+      "latitude": "13.69713",
+      "longitude": "51.07982"
+    }
+  },
+  {
+    "start": "de:14612:123",
+    "end": "de:14612:124",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79081",
+      "longitude": "51.01353"
+    },
+    "endPosition": {
+      "latitude": "13.79512",
+      "longitude": "51.01304"
+    }
+  },
+  {
+    "start": "de:14612:142",
+    "end": "de:14612:141",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70962",
+      "longitude": "51.04488"
+    },
+    "endPosition": {
+      "latitude": "13.71328",
+      "longitude": "51.04666"
+    }
+  },
+  {
+    "start": "de:14612:122",
+    "end": "de:14612:123",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78693",
+      "longitude": "51.01583"
+    },
+    "endPosition": {
+      "latitude": "13.79081",
+      "longitude": "51.01353"
+    }
+  },
+  {
+    "start": "de:14612:141",
+    "end": "de:14612:142",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.71328",
+      "longitude": "51.04666"
+    },
+    "endPosition": {
+      "latitude": "13.70962",
+      "longitude": "51.04488"
+    }
+  },
+  {
+    "start": "de:14612:3",
+    "end": "de:14612:37",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73783",
+      "longitude": "51.04715"
+    },
+    "endPosition": {
+      "latitude": "13.73352",
+      "longitude": "51.05084"
+    }
+  },
+  {
+    "start": "de:14612:135",
+    "end": "de:14612:161",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71577",
+      "longitude": "51.02763"
+    },
+    "endPosition": {
+      "latitude": "13.71741",
+      "longitude": "51.02222"
+    }
+  },
+  {
+    "start": "de:14612:6",
+    "end": "de:14612:5",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75008",
+      "longitude": "51.04763"
+    },
+    "endPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    }
+  },
+  {
+    "start": "de:14612:6",
+    "end": "de:14612:7",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75008",
+      "longitude": "51.04763"
+    },
+    "endPosition": {
+      "latitude": "13.75499",
+      "longitude": "51.04611"
+    }
+  },
+  {
+    "start": "de:14612:124",
+    "end": "de:14612:127",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79512",
+      "longitude": "51.01304"
+    },
+    "endPosition": {
+      "latitude": "13.80079",
+      "longitude": "51.01012"
+    }
+  },
+  {
+    "start": "de:14612:70",
+    "end": "de:14612:71",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81646",
+      "longitude": "51.03574"
+    },
+    "endPosition": {
+      "latitude": "13.82281",
+      "longitude": "51.03408"
+    }
+  },
+  {
+    "start": "de:14612:313",
+    "end": "de:14612:314",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74247",
+      "longitude": "51.02354"
+    },
+    "endPosition": {
+      "latitude": "13.74115",
+      "longitude": "51.01918"
+    }
+  },
+  {
+    "start": "de:14612:312",
+    "end": "de:14612:313",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74585",
+      "longitude": "51.02837"
+    },
+    "endPosition": {
+      "latitude": "13.74247",
+      "longitude": "51.02354"
+    }
+  },
+  {
+    "start": "de:14612:243",
+    "end": "de:14612:248",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73300",
+      "longitude": "51.07661"
+    },
+    "endPosition": {
+      "latitude": "13.73015",
+      "longitude": "51.08238"
+    }
+  },
+  {
+    "start": "de:14612:312",
+    "end": "de:14612:311",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74585",
+      "longitude": "51.02837"
+    },
+    "endPosition": {
+      "latitude": "13.74927",
+      "longitude": "51.03376"
+    }
+  },
+  {
+    "start": "de:14612:241",
+    "end": "de:14612:242",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73821",
+      "longitude": "51.06942"
+    },
+    "endPosition": {
+      "latitude": "13.73576",
+      "longitude": "51.07274"
+    }
+  },
+  {
+    "start": "de:14612:210",
+    "end": "de:14612:209",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70481",
+      "longitude": "51.08586"
+    },
+    "endPosition": {
+      "latitude": "13.70900",
+      "longitude": "51.08434"
+    }
+  },
+  {
+    "start": "de:14612:313",
+    "end": "de:14612:312",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74247",
+      "longitude": "51.02354"
+    },
+    "endPosition": {
+      "latitude": "13.74585",
+      "longitude": "51.02837"
+    }
+  },
+  {
+    "start": "de:14612:243",
+    "end": "de:14612:242",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73300",
+      "longitude": "51.07661"
+    },
+    "endPosition": {
+      "latitude": "13.73576",
+      "longitude": "51.07274"
+    }
+  },
+  {
+    "start": "de:14612:242",
+    "end": "de:14612:241",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73576",
+      "longitude": "51.07274"
+    },
+    "endPosition": {
+      "latitude": "13.73821",
+      "longitude": "51.06942"
+    }
+  },
+  {
+    "start": "de:14612:244",
+    "end": "de:14612:245",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72557",
+      "longitude": "51.07690"
+    },
+    "endPosition": {
+      "latitude": "13.72169",
+      "longitude": "51.07740"
+    }
+  },
+  {
+    "start": "de:14612:242",
+    "end": "de:14612:243",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73576",
+      "longitude": "51.07274"
+    },
+    "endPosition": {
+      "latitude": "13.73300",
+      "longitude": "51.07661"
+    }
+  },
+  {
+    "start": "de:14612:127",
+    "end": "de:14612:124",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80079",
+      "longitude": "51.01012"
+    },
+    "endPosition": {
+      "latitude": "13.79512",
+      "longitude": "51.01304"
+    }
+  },
+  {
+    "start": "de:14612:311",
+    "end": "de:14612:312",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74927",
+      "longitude": "51.03376"
+    },
+    "endPosition": {
+      "latitude": "13.74585",
+      "longitude": "51.02837"
+    }
+  },
+  {
+    "start": "de:14612:243",
+    "end": "de:14612:244",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73300",
+      "longitude": "51.07661"
+    },
+    "endPosition": {
+      "latitude": "13.72557",
+      "longitude": "51.07690"
+    }
+  },
+  {
+    "start": "de:14612:21",
+    "end": "de:14612:1",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72778",
+      "longitude": "51.05829"
+    },
+    "endPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    }
+  },
+  {
+    "start": "de:14612:269",
+    "end": "de:14612:268",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.76868",
+      "longitude": "51.09911"
+    },
+    "endPosition": {
+      "latitude": "13.76502",
+      "longitude": "51.09174"
+    }
+  },
+  {
+    "start": "de:14612:522",
+    "end": "de:14612:523",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71429",
+      "longitude": "51.06982"
+    },
+    "endPosition": {
+      "latitude": "13.71490",
+      "longitude": "51.07257"
+    }
+  },
+  {
+    "start": "de:14612:267",
+    "end": "de:14612:266",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.76303",
+      "longitude": "51.08699"
+    },
+    "endPosition": {
+      "latitude": "13.76012",
+      "longitude": "51.08188"
+    }
+  },
+  {
+    "start": "de:14612:37",
+    "end": "de:14612:4",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73352",
+      "longitude": "51.05084"
+    },
+    "endPosition": {
+      "latitude": "13.73851",
+      "longitude": "51.05025"
+    }
+  },
+  {
+    "start": "de:14612:279",
+    "end": "de:14612:280",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78951",
+      "longitude": "51.11847"
+    },
+    "endPosition": {
+      "latitude": "13.79123",
+      "longitude": "51.12311"
+    }
+  },
+  {
+    "start": "de:14612:520",
+    "end": "de:14612:526",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71565",
+      "longitude": "51.06333"
+    },
+    "endPosition": {
+      "latitude": "13.71647",
+      "longitude": "51.06775"
+    }
+  },
+  {
+    "start": "de:14612:263",
+    "end": "de:14612:262",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75550",
+      "longitude": "51.06991"
+    },
+    "endPosition": {
+      "latitude": "13.75074",
+      "longitude": "51.07143"
+    }
+  },
+  {
+    "start": "de:14612:267",
+    "end": "de:14612:268",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76303",
+      "longitude": "51.08699"
+    },
+    "endPosition": {
+      "latitude": "13.76502",
+      "longitude": "51.09174"
+    }
+  },
+  {
+    "start": "de:14612:37",
+    "end": "de:14612:3",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73352",
+      "longitude": "51.05084"
+    },
+    "endPosition": {
+      "latitude": "13.73783",
+      "longitude": "51.04715"
+    }
+  },
+  {
+    "start": "de:14612:526",
+    "end": "de:14612:522",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71647",
+      "longitude": "51.06775"
+    },
+    "endPosition": {
+      "latitude": "13.71429",
+      "longitude": "51.06982"
+    }
+  },
+  {
+    "start": "de:14612:261",
+    "end": "de:14612:262",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74764",
+      "longitude": "51.06796"
+    },
+    "endPosition": {
+      "latitude": "13.75074",
+      "longitude": "51.07143"
+    }
+  },
+  {
+    "start": "de:14612:28",
+    "end": "de:14612:32",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    },
+    "endPosition": {
+      "latitude": "13.73509",
+      "longitude": "51.04137"
+    }
+  },
+  {
+    "start": "de:14612:301",
+    "end": "de:14612:302",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.84851",
+      "longitude": "51.06183"
+    },
+    "endPosition": {
+      "latitude": "13.85463",
+      "longitude": "51.06215"
+    }
+  },
+  {
+    "start": "de:14612:11",
+    "end": "de:14612:10",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75292",
+      "longitude": "51.05932"
+    },
+    "endPosition": {
+      "latitude": "13.75738",
+      "longitude": "51.05460"
+    }
+  },
+  {
+    "start": "de:14612:265",
+    "end": "de:14612:259",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.75554",
+      "longitude": "51.07662"
+    },
+    "endPosition": {
+      "latitude": "13.75289",
+      "longitude": "51.07382"
+    }
+  },
+  {
+    "start": "de:14612:526",
+    "end": "de:14612:520",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71647",
+      "longitude": "51.06775"
+    },
+    "endPosition": {
+      "latitude": "13.71565",
+      "longitude": "51.06333"
+    }
+  },
+  {
+    "start": "de:14612:274",
+    "end": "de:14612:275",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74597",
+      "longitude": "51.11563"
+    },
+    "endPosition": {
+      "latitude": "13.74069",
+      "longitude": "51.11679"
+    }
+  },
+  {
+    "start": "de:14612:301",
+    "end": "de:14612:305",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.84851",
+      "longitude": "51.06183"
+    },
+    "endPosition": {
+      "latitude": "13.84367",
+      "longitude": "51.06196"
+    }
+  },
+  {
+    "start": "de:14612:276",
+    "end": "de:14612:277",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77286",
+      "longitude": "51.10759"
+    },
+    "endPosition": {
+      "latitude": "13.77576",
+      "longitude": "51.11061"
+    }
+  },
+  {
+    "start": "de:14612:28",
+    "end": "de:14612:30",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    },
+    "endPosition": {
+      "latitude": "13.73972",
+      "longitude": "51.03883"
+    }
+  },
+  {
+    "start": "de:14612:522",
+    "end": "de:14612:526",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71429",
+      "longitude": "51.06982"
+    },
+    "endPosition": {
+      "latitude": "13.71647",
+      "longitude": "51.06775"
+    }
+  },
+  {
+    "start": "de:14612:146",
+    "end": "de:14612:147",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.69128",
+      "longitude": "51.04275"
+    },
+    "endPosition": {
+      "latitude": "13.68414",
+      "longitude": "51.04245"
+    }
+  },
+  {
+    "start": "de:14612:144",
+    "end": "de:14612:142",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70348",
+      "longitude": "51.04374"
+    },
+    "endPosition": {
+      "latitude": "13.70962",
+      "longitude": "51.04488"
+    }
+  },
+  {
+    "start": "de:14612:276",
+    "end": "de:14612:270",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.77286",
+      "longitude": "51.10759"
+    },
+    "endPosition": {
+      "latitude": "13.77010",
+      "longitude": "51.10286"
+    }
+  },
+  {
+    "start": "de:14612:163",
+    "end": "de:14612:164",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70614",
+      "longitude": "51.01911"
+    },
+    "endPosition": {
+      "latitude": "13.70094",
+      "longitude": "51.01642"
+    }
+  },
+  {
+    "start": "de:14612:148",
+    "end": "de:14612:147",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68178",
+      "longitude": "51.04325"
+    },
+    "endPosition": {
+      "latitude": "13.68414",
+      "longitude": "51.04245"
+    }
+  },
+  {
+    "start": "de:14612:144",
+    "end": "de:14612:145",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.70348",
+      "longitude": "51.04374"
+    },
+    "endPosition": {
+      "latitude": "13.69783",
+      "longitude": "51.04348"
+    }
+  },
+  {
+    "start": "de:14612:163",
+    "end": "de:14612:162",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70614",
+      "longitude": "51.01911"
+    },
+    "endPosition": {
+      "latitude": "13.71035",
+      "longitude": "51.02169"
+    }
+  },
+  {
+    "start": "de:14612:274",
+    "end": "de:14612:273",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74597",
+      "longitude": "51.11563"
+    },
+    "endPosition": {
+      "latitude": "13.75111",
+      "longitude": "51.11254"
+    }
+  },
+  {
+    "start": "de:14612:270",
+    "end": "de:14612:269",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.77010",
+      "longitude": "51.10286"
+    },
+    "endPosition": {
+      "latitude": "13.76868",
+      "longitude": "51.09911"
+    }
+  },
+  {
+    "start": "de:14612:272",
+    "end": "de:14612:271",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75949",
+      "longitude": "51.11244"
+    },
+    "endPosition": {
+      "latitude": "13.76338",
+      "longitude": "51.11084"
+    }
+  },
+  {
+    "start": "de:14612:272",
+    "end": "de:14612:273",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75949",
+      "longitude": "51.11244"
+    },
+    "endPosition": {
+      "latitude": "13.75111",
+      "longitude": "51.11254"
+    }
+  },
+  {
+    "start": "de:14612:11",
+    "end": "de:14612:12",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75292",
+      "longitude": "51.05932"
+    },
+    "endPosition": {
+      "latitude": "13.75190",
+      "longitude": "51.06299"
+    }
+  },
+  {
+    "start": "de:14612:161",
+    "end": "de:14612:162",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71741",
+      "longitude": "51.02222"
+    },
+    "endPosition": {
+      "latitude": "13.71035",
+      "longitude": "51.02169"
+    }
+  },
+  {
+    "start": "de:14612:146",
+    "end": "de:14612:145",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69128",
+      "longitude": "51.04275"
+    },
+    "endPosition": {
+      "latitude": "13.69783",
+      "longitude": "51.04348"
+    }
+  },
+  {
+    "start": "de:14612:270",
+    "end": "de:14612:271",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77010",
+      "longitude": "51.10286"
+    },
+    "endPosition": {
+      "latitude": "13.76338",
+      "longitude": "51.11084"
+    }
+  },
+  {
+    "start": "de:14612:28",
+    "end": "de:14612:27",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    },
+    "endPosition": {
+      "latitude": "13.72489",
+      "longitude": "51.04375"
+    }
+  },
+  {
+    "start": "de:14612:270",
+    "end": "de:14612:276",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77010",
+      "longitude": "51.10286"
+    },
+    "endPosition": {
+      "latitude": "13.77286",
+      "longitude": "51.10759"
+    }
+  },
+  {
+    "start": "de:14612:28",
+    "end": "de:14612:25",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    },
+    "endPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    }
+  },
+  {
+    "start": "de:14612:265",
+    "end": "de:14612:266",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75554",
+      "longitude": "51.07662"
+    },
+    "endPosition": {
+      "latitude": "13.76012",
+      "longitude": "51.08188"
+    }
+  },
+  {
+    "start": "de:14612:209",
+    "end": "de:14612:210",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70900",
+      "longitude": "51.08434"
+    },
+    "endPosition": {
+      "latitude": "13.70481",
+      "longitude": "51.08586"
+    }
+  },
+  {
+    "start": "de:14612:35",
+    "end": "de:14612:37",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73037",
+      "longitude": "51.05447"
+    },
+    "endPosition": {
+      "latitude": "13.73352",
+      "longitude": "51.05084"
+    }
+  },
+  {
+    "start": "de:14612:153",
+    "end": "de:14612:154",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71322",
+      "longitude": "51.05045"
+    },
+    "endPosition": {
+      "latitude": "13.70757",
+      "longitude": "51.04632"
+    }
+  },
+  {
+    "start": "de:14612:144",
+    "end": "de:14612:154",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70348",
+      "longitude": "51.04374"
+    },
+    "endPosition": {
+      "latitude": "13.70757",
+      "longitude": "51.04632"
+    }
+  },
+  {
+    "start": "de:14612:205",
+    "end": "de:14612:200",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71391",
+      "longitude": "51.08038"
+    },
+    "endPosition": {
+      "latitude": "13.71712",
+      "longitude": "51.07738"
+    }
+  },
+  {
+    "start": "de:14612:134",
+    "end": "de:14612:132",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72157",
+      "longitude": "51.02990"
+    },
+    "endPosition": {
+      "latitude": "13.72694",
+      "longitude": "51.03177"
+    }
+  },
+  {
+    "start": "de:14612:134",
+    "end": "de:14612:135",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72157",
+      "longitude": "51.02990"
+    },
+    "endPosition": {
+      "latitude": "13.71577",
+      "longitude": "51.02763"
+    }
+  },
+  {
+    "start": "de:14612:209",
+    "end": "de:14612:205",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70900",
+      "longitude": "51.08434"
+    },
+    "endPosition": {
+      "latitude": "13.71391",
+      "longitude": "51.08038"
+    }
+  },
+  {
+    "start": "de:14612:67",
+    "end": "de:14612:68",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80585",
+      "longitude": "51.03948"
+    },
+    "endPosition": {
+      "latitude": "13.80868",
+      "longitude": "51.03803"
+    }
+  },
+  {
+    "start": "de:14612:184",
+    "end": "de:14612:197",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71469",
+      "longitude": "51.05657"
+    },
+    "endPosition": {
+      "latitude": "13.72014",
+      "longitude": "51.05476"
+    }
+  },
+  {
+    "start": "de:14612:245",
+    "end": "de:14612:200",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72169",
+      "longitude": "51.07740"
+    },
+    "endPosition": {
+      "latitude": "13.71712",
+      "longitude": "51.07738"
+    }
+  },
+  {
+    "start": "de:14612:280",
+    "end": "de:14612:279",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.79123",
+      "longitude": "51.12311"
+    },
+    "endPosition": {
+      "latitude": "13.78951",
+      "longitude": "51.11847"
+    }
+  },
+  {
+    "start": "de:14612:15",
+    "end": "de:14612:14",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74711",
+      "longitude": "51.05247"
+    },
+    "endPosition": {
+      "latitude": "13.74596",
+      "longitude": "51.05793"
+    }
+  },
+  {
+    "start": "de:14612:203",
+    "end": "de:14612:200",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72307",
+      "longitude": "51.07451"
+    },
+    "endPosition": {
+      "latitude": "13.71712",
+      "longitude": "51.07738"
+    }
+  },
+  {
+    "start": "de:14612:203",
+    "end": "de:14612:202",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72307",
+      "longitude": "51.07451"
+    },
+    "endPosition": {
+      "latitude": "13.72857",
+      "longitude": "51.07087"
+    }
+  },
+  {
+    "start": "de:14612:322",
+    "end": "de:14612:323",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79904",
+      "longitude": "51.00524"
+    },
+    "endPosition": {
+      "latitude": "13.79786",
+      "longitude": "51.00212"
+    }
+  },
+  {
+    "start": "de:14612:4",
+    "end": "de:14612:5",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73851",
+      "longitude": "51.05025"
+    },
+    "endPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    }
+  },
+  {
+    "start": "de:14612:253",
+    "end": "de:14612:252",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71925",
+      "longitude": "51.09577"
+    },
+    "endPosition": {
+      "latitude": "13.72063",
+      "longitude": "51.09293"
+    }
+  },
+  {
+    "start": "de:14612:205",
+    "end": "de:14612:206",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71391",
+      "longitude": "51.08038"
+    },
+    "endPosition": {
+      "latitude": "13.70812",
+      "longitude": "51.07892"
+    }
+  },
+  {
+    "start": "de:14612:280",
+    "end": "de:14612:281",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79123",
+      "longitude": "51.12311"
+    },
+    "endPosition": {
+      "latitude": "13.79280",
+      "longitude": "51.12761"
+    }
+  },
+  {
+    "start": "de:14612:205",
+    "end": "de:14612:209",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71391",
+      "longitude": "51.08038"
+    },
+    "endPosition": {
+      "latitude": "13.70900",
+      "longitude": "51.08434"
+    }
+  },
+  {
+    "start": "de:14612:322",
+    "end": "de:14612:321",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79904",
+      "longitude": "51.00524"
+    },
+    "endPosition": {
+      "latitude": "13.80332",
+      "longitude": "51.00836"
+    }
+  },
+  {
+    "start": "de:14612:165",
+    "end": "de:14612:164",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69867",
+      "longitude": "51.01581"
+    },
+    "endPosition": {
+      "latitude": "13.70094",
+      "longitude": "51.01642"
+    }
+  },
+  {
+    "start": "de:14612:338",
+    "end": "de:14612:340",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.65299",
+      "longitude": "51.04685"
+    },
+    "endPosition": {
+      "latitude": "13.64554",
+      "longitude": "51.04002"
+    }
+  },
+  {
+    "start": "de:14612:182",
+    "end": "de:14612:181",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71458",
+      "longitude": "51.06101"
+    },
+    "endPosition": {
+      "latitude": "13.71820",
+      "longitude": "51.05988"
+    }
+  },
+  {
+    "start": "de:14612:35",
+    "end": "de:14612:21",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73037",
+      "longitude": "51.05447"
+    },
+    "endPosition": {
+      "latitude": "13.72778",
+      "longitude": "51.05829"
+    }
+  },
+  {
+    "start": "de:14612:184",
+    "end": "de:14612:185",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71469",
+      "longitude": "51.05657"
+    },
+    "endPosition": {
+      "latitude": "13.71006",
+      "longitude": "51.05812"
+    }
+  },
+  {
+    "start": "de:14612:305",
+    "end": "de:14612:300",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.84367",
+      "longitude": "51.06196"
+    },
+    "endPosition": {
+      "latitude": "13.83892",
+      "longitude": "51.06223"
+    }
+  },
+  {
+    "start": "de:14612:269",
+    "end": "de:14612:270",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76868",
+      "longitude": "51.09911"
+    },
+    "endPosition": {
+      "latitude": "13.77010",
+      "longitude": "51.10286"
+    }
+  },
+  {
+    "start": "de:14612:305",
+    "end": "de:14612:301",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.84367",
+      "longitude": "51.06196"
+    },
+    "endPosition": {
+      "latitude": "13.84851",
+      "longitude": "51.06183"
+    }
+  },
+  {
+    "start": "de:14612:251",
+    "end": "de:14612:252",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72332",
+      "longitude": "51.08963"
+    },
+    "endPosition": {
+      "latitude": "13.72063",
+      "longitude": "51.09293"
+    }
+  },
+  {
+    "start": "de:14612:311",
+    "end": "de:14612:111",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74927",
+      "longitude": "51.03376"
+    },
+    "endPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    }
+  },
+  {
+    "start": "de:14612:119",
+    "end": "de:14612:120",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77432",
+      "longitude": "51.02271"
+    },
+    "endPosition": {
+      "latitude": "13.78054",
+      "longitude": "51.01946"
+    }
+  },
+  {
+    "start": "de:14612:251",
+    "end": "de:14612:249",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72332",
+      "longitude": "51.08963"
+    },
+    "endPosition": {
+      "latitude": "13.72783",
+      "longitude": "51.08464"
+    }
+  },
+  {
+    "start": "de:14612:63",
+    "end": "de:14612:824",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77778",
+      "longitude": "51.04483"
+    },
+    "endPosition": {
+      "latitude": "13.78223",
+      "longitude": "51.04368"
+    }
+  },
+  {
+    "start": "de:14612:791",
+    "end": "de:14612:323",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79938",
+      "longitude": "50.99938"
+    },
+    "endPosition": {
+      "latitude": "13.79786",
+      "longitude": "51.00212"
+    }
+  },
+  {
+    "start": "de:14612:201",
+    "end": "de:14612:202",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73164",
+      "longitude": "51.06792"
+    },
+    "endPosition": {
+      "latitude": "13.72857",
+      "longitude": "51.07087"
+    }
+  },
+  {
+    "start": "de:14612:132",
+    "end": "de:14612:134",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72694",
+      "longitude": "51.03177"
+    },
+    "endPosition": {
+      "latitude": "13.72157",
+      "longitude": "51.02990"
+    }
+  },
+  {
+    "start": "de:14612:132",
+    "end": "de:14612:133",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72694",
+      "longitude": "51.03177"
+    },
+    "endPosition": {
+      "latitude": "13.72228",
+      "longitude": "51.03399"
+    }
+  },
+  {
+    "start": "de:14612:132",
+    "end": "de:14612:131",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72694",
+      "longitude": "51.03177"
+    },
+    "endPosition": {
+      "latitude": "13.73139",
+      "longitude": "51.03512"
+    }
+  },
+  {
+    "start": "de:14612:16",
+    "end": "de:14612:17",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74088",
+      "longitude": "51.06543"
+    },
+    "endPosition": {
+      "latitude": "13.73699",
+      "longitude": "51.06309"
+    }
+  },
+  {
+    "start": "de:14612:51",
+    "end": "de:14612:50",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79871",
+      "longitude": "51.05302"
+    },
+    "endPosition": {
+      "latitude": "13.79225",
+      "longitude": "51.05380"
+    }
+  },
+  {
+    "start": "de:14612:113",
+    "end": "de:14612:757",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75833",
+      "longitude": "51.03451"
+    },
+    "endPosition": {
+      "latitude": "13.76106",
+      "longitude": "51.03095"
+    }
+  },
+  {
+    "start": "de:14612:30",
+    "end": "de:14612:28",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73972",
+      "longitude": "51.03883"
+    },
+    "endPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    }
+  },
+  {
+    "start": "de:14612:147",
+    "end": "de:14612:331",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.68414",
+      "longitude": "51.04245"
+    },
+    "endPosition": {
+      "latitude": "13.68001",
+      "longitude": "51.04286"
+    }
+  },
+  {
+    "start": "de:14612:7",
+    "end": "de:14612:81",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75499",
+      "longitude": "51.04611"
+    },
+    "endPosition": {
+      "latitude": "13.76647",
+      "longitude": "51.04166"
+    }
+  },
+  {
+    "start": "de:14612:68",
+    "end": "de:14612:69",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80868",
+      "longitude": "51.03803"
+    },
+    "endPosition": {
+      "latitude": "13.81267",
+      "longitude": "51.03679"
+    }
+  },
+  {
+    "start": "de:14612:25",
+    "end": "de:14612:1",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    },
+    "endPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    }
+  },
+  {
+    "start": "de:14612:191",
+    "end": "de:14612:190",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.67049",
+      "longitude": "51.05926"
+    },
+    "endPosition": {
+      "latitude": "13.67773",
+      "longitude": "51.06100"
+    }
+  },
+  {
+    "start": "de:14612:37",
+    "end": "de:14612:35",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73352",
+      "longitude": "51.05084"
+    },
+    "endPosition": {
+      "latitude": "13.73037",
+      "longitude": "51.05447"
+    }
+  },
+  {
+    "start": "de:14612:188",
+    "end": "de:14612:189",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69036",
+      "longitude": "51.06155"
+    },
+    "endPosition": {
+      "latitude": "13.68065",
+      "longitude": "51.06166"
+    }
+  },
+  {
+    "start": "de:14612:188",
+    "end": "de:14612:187",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69036",
+      "longitude": "51.06155"
+    },
+    "endPosition": {
+      "latitude": "13.69483",
+      "longitude": "51.06066"
+    }
+  },
+  {
+    "start": "de:14612:299",
+    "end": "de:14612:298",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83126",
+      "longitude": "51.06187"
+    },
+    "endPosition": {
+      "latitude": "13.82150",
+      "longitude": "51.06376"
+    }
+  },
+  {
+    "start": "de:14612:68",
+    "end": "de:14612:67",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80868",
+      "longitude": "51.03803"
+    },
+    "endPosition": {
+      "latitude": "13.80585",
+      "longitude": "51.03948"
+    }
+  },
+  {
+    "start": "de:14612:189",
+    "end": "de:14612:188",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68065",
+      "longitude": "51.06166"
+    },
+    "endPosition": {
+      "latitude": "13.69036",
+      "longitude": "51.06155"
+    }
+  },
+  {
+    "start": "de:14612:7",
+    "end": "de:14612:80",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75499",
+      "longitude": "51.04611"
+    },
+    "endPosition": {
+      "latitude": "13.75718",
+      "longitude": "51.04975"
+    }
+  },
+  {
+    "start": "de:14612:189",
+    "end": "de:14612:190",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68065",
+      "longitude": "51.06166"
+    },
+    "endPosition": {
+      "latitude": "13.67773",
+      "longitude": "51.06100"
+    }
+  },
+  {
+    "start": "de:14612:51",
+    "end": "de:14612:52",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79871",
+      "longitude": "51.05302"
+    },
+    "endPosition": {
+      "latitude": "13.80487",
+      "longitude": "51.05218"
+    }
+  },
+  {
+    "start": "de:14612:28",
+    "end": "de:14612:757",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    },
+    "endPosition": {
+      "latitude": "13.76106",
+      "longitude": "51.03095"
+    }
+  },
+  {
+    "start": "de:14612:5",
+    "end": "de:14612:15",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    },
+    "endPosition": {
+      "latitude": "13.74711",
+      "longitude": "51.05247"
+    }
+  },
+  {
+    "start": "de:14612:68",
+    "end": "de:14612:55",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80868",
+      "longitude": "51.03803"
+    },
+    "endPosition": {
+      "latitude": "13.81293",
+      "longitude": "51.04181"
+    }
+  },
+  {
+    "start": "de:14612:171",
+    "end": "de:14612:172",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70537",
+      "longitude": "51.05128"
+    },
+    "endPosition": {
+      "latitude": "13.69571",
+      "longitude": "51.04901"
+    }
+  },
+  {
+    "start": "de:14612:52",
+    "end": "de:14612:56",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80487",
+      "longitude": "51.05218"
+    },
+    "endPosition": {
+      "latitude": "13.80978",
+      "longitude": "51.04924"
+    }
+  },
+  {
+    "start": "de:14612:178",
+    "end": "de:14612:179",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68787",
+      "longitude": "51.04926"
+    },
+    "endPosition": {
+      "latitude": "13.68274",
+      "longitude": "51.05133"
+    }
+  },
+  {
+    "start": "de:14612:181",
+    "end": "de:14612:149",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71820",
+      "longitude": "51.05988"
+    },
+    "endPosition": {
+      "latitude": "13.72327",
+      "longitude": "51.05823"
+    }
+  },
+  {
+    "start": "de:14612:6583",
+    "end": "de:14612:6584",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79535",
+      "longitude": "51.13377"
+    },
+    "endPosition": {
+      "latitude": "13.80090",
+      "longitude": "51.13998"
+    }
+  },
+  {
+    "start": "de:14612:296",
+    "end": "de:14612:297",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79776",
+      "longitude": "51.06595"
+    },
+    "endPosition": {
+      "latitude": "13.81170",
+      "longitude": "51.06430"
+    }
+  },
+  {
+    "start": "de:14612:61",
+    "end": "de:14612:62",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76298",
+      "longitude": "51.04676"
+    },
+    "endPosition": {
+      "latitude": "13.77085",
+      "longitude": "51.04635"
+    }
+  },
+  {
+    "start": "de:14612:757",
+    "end": "de:14612:113",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76106",
+      "longitude": "51.03095"
+    },
+    "endPosition": {
+      "latitude": "13.75833",
+      "longitude": "51.03451"
+    }
+  },
+  {
+    "start": "de:14612:278",
+    "end": "de:14612:277",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.78406",
+      "longitude": "51.11435"
+    },
+    "endPosition": {
+      "latitude": "13.77576",
+      "longitude": "51.11061"
+    }
+  },
+  {
+    "start": "de:14612:296",
+    "end": "de:14612:295",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79776",
+      "longitude": "51.06595"
+    },
+    "endPosition": {
+      "latitude": "13.78958",
+      "longitude": "51.06720"
+    }
+  },
+  {
+    "start": "de:14612:295",
+    "end": "de:14612:296",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78958",
+      "longitude": "51.06720"
+    },
+    "endPosition": {
+      "latitude": "13.79776",
+      "longitude": "51.06595"
+    }
+  },
+  {
+    "start": "de:14612:278",
+    "end": "de:14612:279",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78406",
+      "longitude": "51.11435"
+    },
+    "endPosition": {
+      "latitude": "13.78951",
+      "longitude": "51.11847"
+    }
+  },
+  {
+    "start": "de:14612:295",
+    "end": "de:14612:294",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78958",
+      "longitude": "51.06720"
+    },
+    "endPosition": {
+      "latitude": "13.78374",
+      "longitude": "51.06700"
+    }
+  },
+  {
+    "start": "de:14612:56",
+    "end": "de:14612:52",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80978",
+      "longitude": "51.04924"
+    },
+    "endPosition": {
+      "latitude": "13.80487",
+      "longitude": "51.05218"
+    }
+  },
+  {
+    "start": "de:14612:197",
+    "end": "de:14612:1",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72014",
+      "longitude": "51.05476"
+    },
+    "endPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    }
+  },
+  {
+    "start": "de:14612:56",
+    "end": "de:14612:54",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80978",
+      "longitude": "51.04924"
+    },
+    "endPosition": {
+      "latitude": "13.81284",
+      "longitude": "51.04604"
+    }
+  },
+  {
+    "start": "de:14612:279",
+    "end": "de:14612:278",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.78951",
+      "longitude": "51.11847"
+    },
+    "endPosition": {
+      "latitude": "13.78406",
+      "longitude": "51.11435"
+    }
+  },
+  {
+    "start": "de:14612:161",
+    "end": "de:14612:135",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71741",
+      "longitude": "51.02222"
+    },
+    "endPosition": {
+      "latitude": "13.71577",
+      "longitude": "51.02763"
+    }
+  },
+  {
+    "start": "de:14612:292",
+    "end": "de:14612:293",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76937",
+      "longitude": "51.06614"
+    },
+    "endPosition": {
+      "latitude": "13.77741",
+      "longitude": "51.06740"
+    }
+  },
+  {
+    "start": "de:14612:4",
+    "end": "de:14612:37",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73851",
+      "longitude": "51.05025"
+    },
+    "endPosition": {
+      "latitude": "13.73352",
+      "longitude": "51.05084"
+    }
+  },
+  {
+    "start": "de:14612:292",
+    "end": "de:14612:291",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76937",
+      "longitude": "51.06614"
+    },
+    "endPosition": {
+      "latitude": "13.76243",
+      "longitude": "51.06426"
+    }
+  },
+  {
+    "start": "de:14612:5",
+    "end": "de:14612:29",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    },
+    "endPosition": {
+      "latitude": "13.73766",
+      "longitude": "51.04381"
+    }
+  },
+  {
+    "start": "de:14612:291",
+    "end": "de:14612:292",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76243",
+      "longitude": "51.06426"
+    },
+    "endPosition": {
+      "latitude": "13.76937",
+      "longitude": "51.06614"
+    }
+  },
+  {
+    "start": "de:14612:757",
+    "end": "de:14612:115",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76106",
+      "longitude": "51.03095"
+    },
+    "endPosition": {
+      "latitude": "13.75918",
+      "longitude": "51.02812"
+    }
+  },
+  {
+    "start": "de:14612:291",
+    "end": "de:14612:290",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76243",
+      "longitude": "51.06426"
+    },
+    "endPosition": {
+      "latitude": "13.75754",
+      "longitude": "51.06330"
+    }
+  },
+  {
+    "start": "de:14612:154",
+    "end": "de:14612:153",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70757",
+      "longitude": "51.04632"
+    },
+    "endPosition": {
+      "latitude": "13.71322",
+      "longitude": "51.05045"
+    }
+  },
+  {
+    "start": "de:14612:70",
+    "end": "de:14612:69",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81646",
+      "longitude": "51.03574"
+    },
+    "endPosition": {
+      "latitude": "13.81267",
+      "longitude": "51.03679"
+    }
+  },
+  {
+    "start": "de:14612:268",
+    "end": "de:14612:269",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76502",
+      "longitude": "51.09174"
+    },
+    "endPosition": {
+      "latitude": "13.76868",
+      "longitude": "51.09911"
+    }
+  },
+  {
+    "start": "de:14612:268",
+    "end": "de:14612:267",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.76502",
+      "longitude": "51.09174"
+    },
+    "endPosition": {
+      "latitude": "13.76303",
+      "longitude": "51.08699"
+    }
+  },
+  {
+    "start": "de:14612:907",
+    "end": "de:14612:919",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79064",
+      "longitude": "51.02127"
+    },
+    "endPosition": {
+      "latitude": "13.80852",
+      "longitude": "51.01163"
+    }
+  },
+  {
+    "start": "de:14612:25",
+    "end": "de:14612:27",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    },
+    "endPosition": {
+      "latitude": "13.72489",
+      "longitude": "51.04375"
+    }
+  },
+  {
+    "start": "de:14612:25",
+    "end": "de:14612:28",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    },
+    "endPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    }
+  },
+  {
+    "start": "de:14612:25",
+    "end": "de:14612:25",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    },
+    "endPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    }
+  },
+  {
+    "start": "de:14612:6584",
+    "end": "de:14612:6588",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80090",
+      "longitude": "51.13998"
+    },
+    "endPosition": {
+      "latitude": "13.80387",
+      "longitude": "51.14405"
+    }
+  },
+  {
+    "start": "de:14612:302",
+    "end": "de:14612:301",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.85463",
+      "longitude": "51.06215"
+    },
+    "endPosition": {
+      "latitude": "13.84851",
+      "longitude": "51.06183"
+    }
+  },
+  {
+    "start": "de:14612:275",
+    "end": "de:14612:274",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74069",
+      "longitude": "51.11679"
+    },
+    "endPosition": {
+      "latitude": "13.74597",
+      "longitude": "51.11563"
+    }
+  },
+  {
+    "start": "de:14612:73",
+    "end": "de:14612:72",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83465",
+      "longitude": "51.02782"
+    },
+    "endPosition": {
+      "latitude": "13.83216",
+      "longitude": "51.02988"
+    }
+  },
+  {
+    "start": "de:14612:164",
+    "end": "de:14612:165",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70094",
+      "longitude": "51.01642"
+    },
+    "endPosition": {
+      "latitude": "13.69867",
+      "longitude": "51.01581"
+    }
+  },
+  {
+    "start": "de:14612:523",
+    "end": "de:14612:522",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71490",
+      "longitude": "51.07257"
+    },
+    "endPosition": {
+      "latitude": "13.71429",
+      "longitude": "51.06982"
+    }
+  },
+  {
+    "start": "de:14612:164",
+    "end": "de:14612:163",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70094",
+      "longitude": "51.01642"
+    },
+    "endPosition": {
+      "latitude": "13.70614",
+      "longitude": "51.01911"
+    }
+  },
+  {
+    "start": "de:14612:73",
+    "end": "de:14612:74",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83465",
+      "longitude": "51.02782"
+    },
+    "endPosition": {
+      "latitude": "13.83742",
+      "longitude": "51.02481"
+    }
+  },
+  {
+    "start": "de:14612:154",
+    "end": "de:14612:144",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70757",
+      "longitude": "51.04632"
+    },
+    "endPosition": {
+      "latitude": "13.70348",
+      "longitude": "51.04374"
+    }
+  },
+  {
+    "start": "de:14612:147",
+    "end": "de:14612:146",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68414",
+      "longitude": "51.04245"
+    },
+    "endPosition": {
+      "latitude": "13.69128",
+      "longitude": "51.04275"
+    }
+  },
+  {
+    "start": "de:14612:21",
+    "end": "de:14612:17",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72778",
+      "longitude": "51.05829"
+    },
+    "endPosition": {
+      "latitude": "13.73699",
+      "longitude": "51.06309"
+    }
+  },
+  {
+    "start": "de:14612:111",
+    "end": "de:14612:30",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    },
+    "endPosition": {
+      "latitude": "13.73972",
+      "longitude": "51.03883"
+    }
+  },
+  {
+    "start": "de:14612:23",
+    "end": "de:14612:1",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72670",
+      "longitude": "51.05276"
+    },
+    "endPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    }
+  },
+  {
+    "start": "de:14612:271",
+    "end": "de:14612:272",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76338",
+      "longitude": "51.11084"
+    },
+    "endPosition": {
+      "latitude": "13.75949",
+      "longitude": "51.11244"
+    }
+  },
+  {
+    "start": "de:14612:52",
+    "end": "de:14612:51",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80487",
+      "longitude": "51.05218"
+    },
+    "endPosition": {
+      "latitude": "13.79871",
+      "longitude": "51.05302"
+    }
+  },
+  {
+    "start": "de:14612:271",
+    "end": "de:14612:270",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76338",
+      "longitude": "51.11084"
+    },
+    "endPosition": {
+      "latitude": "13.77010",
+      "longitude": "51.10286"
+    }
+  },
+  {
+    "start": "de:14612:264",
+    "end": "de:14612:263",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75370",
+      "longitude": "51.06610"
+    },
+    "endPosition": {
+      "latitude": "13.75550",
+      "longitude": "51.06991"
+    }
+  },
+  {
+    "start": "de:14612:43",
+    "end": "de:14612:48",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77770",
+      "longitude": "51.05289"
+    },
+    "endPosition": {
+      "latitude": "13.78167",
+      "longitude": "51.05328"
+    }
+  },
+  {
+    "start": "de:14612:12",
+    "end": "de:14612:13",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75190",
+      "longitude": "51.06299"
+    },
+    "endPosition": {
+      "latitude": "13.74673",
+      "longitude": "51.06331"
+    }
+  },
+  {
+    "start": "de:14612:206",
+    "end": "de:14612:217",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70812",
+      "longitude": "51.07892"
+    },
+    "endPosition": {
+      "latitude": "13.69908",
+      "longitude": "51.07718"
+    }
+  },
+  {
+    "start": "de:14612:133",
+    "end": "de:14612:132",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72228",
+      "longitude": "51.03399"
+    },
+    "endPosition": {
+      "latitude": "13.72694",
+      "longitude": "51.03177"
+    }
+  },
+  {
+    "start": "de:14612:7",
+    "end": "de:14612:6",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75499",
+      "longitude": "51.04611"
+    },
+    "endPosition": {
+      "latitude": "13.75008",
+      "longitude": "51.04763"
+    }
+  },
+  {
+    "start": "de:14612:43",
+    "end": "de:14612:42",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77770",
+      "longitude": "51.05289"
+    },
+    "endPosition": {
+      "latitude": "13.76983",
+      "longitude": "51.05245"
+    }
+  },
+  {
+    "start": "de:14612:202",
+    "end": "de:14612:201",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72857",
+      "longitude": "51.07087"
+    },
+    "endPosition": {
+      "latitude": "13.73164",
+      "longitude": "51.06792"
+    }
+  },
+  {
+    "start": "de:14612:202",
+    "end": "de:14612:203",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72857",
+      "longitude": "51.07087"
+    },
+    "endPosition": {
+      "latitude": "13.72307",
+      "longitude": "51.07451"
+    }
+  },
+  {
+    "start": "de:14612:323",
+    "end": "de:14612:322",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79786",
+      "longitude": "51.00212"
+    },
+    "endPosition": {
+      "latitude": "13.79904",
+      "longitude": "51.00524"
+    }
+  },
+  {
+    "start": "de:14612:7",
+    "end": "de:14612:8",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75499",
+      "longitude": "51.04611"
+    },
+    "endPosition": {
+      "latitude": "13.75133",
+      "longitude": "51.04257"
+    }
+  },
+  {
+    "start": "de:14612:281",
+    "end": "de:14612:280",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.79280",
+      "longitude": "51.12761"
+    },
+    "endPosition": {
+      "latitude": "13.79123",
+      "longitude": "51.12311"
+    }
+  },
+  {
+    "start": "de:14612:206",
+    "end": "de:14612:205",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70812",
+      "longitude": "51.07892"
+    },
+    "endPosition": {
+      "latitude": "13.71391",
+      "longitude": "51.08038"
+    }
+  },
+  {
+    "start": "de:14612:185",
+    "end": "de:14612:184",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71006",
+      "longitude": "51.05812"
+    },
+    "endPosition": {
+      "latitude": "13.71469",
+      "longitude": "51.05657"
+    }
+  },
+  {
+    "start": "de:14612:185",
+    "end": "de:14612:186",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71006",
+      "longitude": "51.05812"
+    },
+    "endPosition": {
+      "latitude": "13.70160",
+      "longitude": "51.05923"
+    }
+  },
+  {
+    "start": "de:14612:261",
+    "end": "de:14612:13",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.74764",
+      "longitude": "51.06796"
+    },
+    "endPosition": {
+      "latitude": "13.74673",
+      "longitude": "51.06331"
+    }
+  },
+  {
+    "start": "de:14612:30",
+    "end": "de:14612:32",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73972",
+      "longitude": "51.03883"
+    },
+    "endPosition": {
+      "latitude": "13.73509",
+      "longitude": "51.04137"
+    }
+  },
+  {
+    "start": "de:14612:181",
+    "end": "de:14612:182",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71820",
+      "longitude": "51.05988"
+    },
+    "endPosition": {
+      "latitude": "13.71458",
+      "longitude": "51.06101"
+    }
+  },
+  {
+    "start": "de:14612:281",
+    "end": "de:14612:6583",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79280",
+      "longitude": "51.12761"
+    },
+    "endPosition": {
+      "latitude": "13.79535",
+      "longitude": "51.13377"
+    }
+  },
+  {
+    "start": "de:14612:21",
+    "end": "de:14612:35",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72778",
+      "longitude": "51.05829"
+    },
+    "endPosition": {
+      "latitude": "13.73037",
+      "longitude": "51.05447"
+    }
+  },
+  {
+    "start": "de:14612:6584",
+    "end": "de:14612:6583",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80090",
+      "longitude": "51.13998"
+    },
+    "endPosition": {
+      "latitude": "13.79535",
+      "longitude": "51.13377"
+    }
+  },
+  {
+    "start": "de:14612:16",
+    "end": "de:14612:13",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74088",
+      "longitude": "51.06543"
+    },
+    "endPosition": {
+      "latitude": "13.74673",
+      "longitude": "51.06331"
+    }
+  },
+  {
+    "start": "de:14612:127",
+    "end": "de:14612:321",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80079",
+      "longitude": "51.01012"
+    },
+    "endPosition": {
+      "latitude": "13.80332",
+      "longitude": "51.00836"
+    }
+  },
+  {
+    "start": "de:14612:323",
+    "end": "de:14612:791",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79786",
+      "longitude": "51.00212"
+    },
+    "endPosition": {
+      "latitude": "13.79938",
+      "longitude": "50.99938"
+    }
+  },
+  {
+    "start": "de:14612:19",
+    "end": "de:14612:14",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74123",
+      "longitude": "51.05779"
+    },
+    "endPosition": {
+      "latitude": "13.74596",
+      "longitude": "51.05793"
+    }
+  },
+  {
+    "start": "de:14612:28",
+    "end": "de:14612:131",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    },
+    "endPosition": {
+      "latitude": "13.73139",
+      "longitude": "51.03512"
+    }
+  },
+  {
+    "start": "de:14627:4214",
+    "end": "de:14612:213",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69465",
+      "longitude": "51.09601"
+    },
+    "endPosition": {
+      "latitude": "13.69974",
+      "longitude": "51.09235"
+    }
+  },
+  {
+    "start": "de:14612:919",
+    "end": "de:14612:98",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80852",
+      "longitude": "51.01163"
+    },
+    "endPosition": {
+      "latitude": "13.82882",
+      "longitude": "50.99946"
+    }
+  },
+  {
+    "start": "de:14612:98",
+    "end": "de:14612:919",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.82882",
+      "longitude": "50.99946"
+    },
+    "endPosition": {
+      "latitude": "13.80852",
+      "longitude": "51.01163"
+    }
+  },
+  {
+    "start": "de:14612:300",
+    "end": "de:14612:299",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83892",
+      "longitude": "51.06223"
+    },
+    "endPosition": {
+      "latitude": "13.83126",
+      "longitude": "51.06187"
+    }
+  },
+  {
+    "start": "de:14612:12",
+    "end": "de:14612:11",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75190",
+      "longitude": "51.06299"
+    },
+    "endPosition": {
+      "latitude": "13.75292",
+      "longitude": "51.05932"
+    }
+  },
+  {
+    "start": "de:14612:179",
+    "end": "de:14612:333",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68274",
+      "longitude": "51.05133"
+    },
+    "endPosition": {
+      "latitude": "13.68069",
+      "longitude": "51.04820"
+    }
+  },
+  {
+    "start": "de:14612:29",
+    "end": "de:14612:32",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.73766",
+      "longitude": "51.04381"
+    },
+    "endPosition": {
+      "latitude": "13.73509",
+      "longitude": "51.04137"
+    }
+  },
+  {
+    "start": "de:14612:299",
+    "end": "de:14612:300",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.83126",
+      "longitude": "51.06187"
+    },
+    "endPosition": {
+      "latitude": "13.83892",
+      "longitude": "51.06223"
+    }
+  },
+  {
+    "start": "de:14612:520",
+    "end": "de:14612:182",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71565",
+      "longitude": "51.06333"
+    },
+    "endPosition": {
+      "latitude": "13.71458",
+      "longitude": "51.06101"
+    }
+  },
+  {
+    "start": "de:14612:74",
+    "end": "de:14612:73",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83742",
+      "longitude": "51.02481"
+    },
+    "endPosition": {
+      "latitude": "13.83465",
+      "longitude": "51.02782"
+    }
+  },
+  {
+    "start": "de:14612:64",
+    "end": "de:14612:65",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78835",
+      "longitude": "51.04330"
+    },
+    "endPosition": {
+      "latitude": "13.79532",
+      "longitude": "51.04287"
+    }
+  },
+  {
+    "start": "de:14612:1",
+    "end": "de:14612:197",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    },
+    "endPosition": {
+      "latitude": "13.72014",
+      "longitude": "51.05476"
+    }
+  },
+  {
+    "start": "de:14612:49",
+    "end": "de:14612:48",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78694",
+      "longitude": "51.05382"
+    },
+    "endPosition": {
+      "latitude": "13.78167",
+      "longitude": "51.05328"
+    }
+  },
+  {
+    "start": "de:14612:13",
+    "end": "de:14612:261",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74673",
+      "longitude": "51.06331"
+    },
+    "endPosition": {
+      "latitude": "13.74764",
+      "longitude": "51.06796"
+    }
+  },
+  {
+    "start": "de:14612:149",
+    "end": "de:14612:1",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72327",
+      "longitude": "51.05823"
+    },
+    "endPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    }
+  },
+  {
+    "start": "de:14612:54",
+    "end": "de:14612:55",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81284",
+      "longitude": "51.04604"
+    },
+    "endPosition": {
+      "latitude": "13.81293",
+      "longitude": "51.04181"
+    }
+  },
+  {
+    "start": "de:14612:54",
+    "end": "de:14612:56",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81284",
+      "longitude": "51.04604"
+    },
+    "endPosition": {
+      "latitude": "13.80978",
+      "longitude": "51.04924"
+    }
+  },
+  {
+    "start": "de:14612:12",
+    "end": "de:14612:264",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75190",
+      "longitude": "51.06299"
+    },
+    "endPosition": {
+      "latitude": "13.75370",
+      "longitude": "51.06610"
+    }
+  },
+  {
+    "start": "de:14612:197",
+    "end": "de:14612:153",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72014",
+      "longitude": "51.05476"
+    },
+    "endPosition": {
+      "latitude": "13.71322",
+      "longitude": "51.05045"
+    }
+  },
+  {
+    "start": "de:14612:182",
+    "end": "de:14612:520",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71458",
+      "longitude": "51.06101"
+    },
+    "endPosition": {
+      "latitude": "13.71565",
+      "longitude": "51.06333"
+    }
+  },
+  {
+    "start": "de:14612:9",
+    "end": "de:14612:10",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75791",
+      "longitude": "51.05192"
+    },
+    "endPosition": {
+      "latitude": "13.75738",
+      "longitude": "51.05460"
+    }
+  },
+  {
+    "start": "de:14612:69",
+    "end": "de:14612:68",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81267",
+      "longitude": "51.03679"
+    },
+    "endPosition": {
+      "latitude": "13.80868",
+      "longitude": "51.03803"
+    }
+  },
+  {
+    "start": "de:14612:42",
+    "end": "de:14612:41",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76983",
+      "longitude": "51.05245"
+    },
+    "endPosition": {
+      "latitude": "13.76303",
+      "longitude": "51.05316"
+    }
+  },
+  {
+    "start": "de:14612:141",
+    "end": "de:14612:25",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71328",
+      "longitude": "51.04666"
+    },
+    "endPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    }
+  },
+  {
+    "start": "de:14612:17",
+    "end": "de:14612:201",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73699",
+      "longitude": "51.06309"
+    },
+    "endPosition": {
+      "latitude": "13.73164",
+      "longitude": "51.06792"
+    }
+  },
+  {
+    "start": "de:14612:61",
+    "end": "de:14612:7",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76298",
+      "longitude": "51.04676"
+    },
+    "endPosition": {
+      "latitude": "13.75499",
+      "longitude": "51.04611"
+    }
+  },
+  {
+    "start": "de:14612:42",
+    "end": "de:14612:43",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76983",
+      "longitude": "51.05245"
+    },
+    "endPosition": {
+      "latitude": "13.77770",
+      "longitude": "51.05289"
+    }
+  },
+  {
+    "start": "de:14612:824",
+    "end": "de:14612:64",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78223",
+      "longitude": "51.04368"
+    },
+    "endPosition": {
+      "latitude": "13.78835",
+      "longitude": "51.04330"
+    }
+  },
+  {
+    "start": "de:14612:824",
+    "end": "de:14612:63",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78223",
+      "longitude": "51.04368"
+    },
+    "endPosition": {
+      "latitude": "13.77778",
+      "longitude": "51.04483"
+    }
+  },
+  {
+    "start": "de:14612:907",
+    "end": "de:14612:757",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79064",
+      "longitude": "51.02127"
+    },
+    "endPosition": {
+      "latitude": "13.76106",
+      "longitude": "51.03095"
+    }
+  },
+  {
+    "start": "de:14612:5",
+    "end": "de:14612:6",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    },
+    "endPosition": {
+      "latitude": "13.75008",
+      "longitude": "51.04763"
+    }
+  },
+  {
+    "start": "de:14612:74",
+    "end": "de:14612:75",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83742",
+      "longitude": "51.02481"
+    },
+    "endPosition": {
+      "latitude": "13.83865",
+      "longitude": "51.02286"
+    }
+  },
+  {
+    "start": "de:14612:5",
+    "end": "de:14612:5",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    },
+    "endPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    }
+  },
+  {
+    "start": "de:14612:5",
+    "end": "de:14612:4",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    },
+    "endPosition": {
+      "latitude": "13.73851",
+      "longitude": "51.05025"
+    }
+  },
+  {
+    "start": "de:14612:49",
+    "end": "de:14612:50",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78694",
+      "longitude": "51.05382"
+    },
+    "endPosition": {
+      "latitude": "13.79225",
+      "longitude": "51.05380"
+    }
+  },
+  {
+    "start": "de:14612:1",
+    "end": "de:14612:149",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    },
+    "endPosition": {
+      "latitude": "13.72327",
+      "longitude": "51.05823"
+    }
+  },
+  {
+    "start": "de:14612:12",
+    "end": "de:14612:290",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75190",
+      "longitude": "51.06299"
+    },
+    "endPosition": {
+      "latitude": "13.75754",
+      "longitude": "51.06330"
+    }
+  },
+  {
+    "start": "de:14612:37",
+    "end": "de:14612:23",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73352",
+      "longitude": "51.05084"
+    },
+    "endPosition": {
+      "latitude": "13.72670",
+      "longitude": "51.05276"
+    }
+  },
+  {
+    "start": "de:14612:213",
+    "end": "de:14627:4214",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69974",
+      "longitude": "51.09235"
+    },
+    "endPosition": {
+      "latitude": "13.69465",
+      "longitude": "51.09601"
+    }
+  },
+  {
+    "start": "de:14612:7",
+    "end": "de:14612:61",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75499",
+      "longitude": "51.04611"
+    },
+    "endPosition": {
+      "latitude": "13.76298",
+      "longitude": "51.04676"
+    }
+  },
+  {
+    "start": "de:14612:17",
+    "end": "de:14612:21",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73699",
+      "longitude": "51.06309"
+    },
+    "endPosition": {
+      "latitude": "13.72778",
+      "longitude": "51.05829"
+    }
+  },
+  {
+    "start": "de:14612:17",
+    "end": "de:14612:18",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73699",
+      "longitude": "51.06309"
+    },
+    "endPosition": {
+      "latitude": "13.73840",
+      "longitude": "51.06020"
+    }
+  },
+  {
+    "start": "de:14612:757",
+    "end": "de:14612:28",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76106",
+      "longitude": "51.03095"
+    },
+    "endPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    }
+  },
+  {
+    "start": "de:14612:25",
+    "end": "de:14612:141",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    },
+    "endPosition": {
+      "latitude": "13.71328",
+      "longitude": "51.04666"
+    }
+  },
+  {
+    "start": "de:14612:198",
+    "end": "de:14612:16",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73911",
+      "longitude": "51.06637"
+    },
+    "endPosition": {
+      "latitude": "13.74088",
+      "longitude": "51.06543"
+    }
+  },
+  {
+    "start": "de:14612:17",
+    "end": "de:14612:16",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73699",
+      "longitude": "51.06309"
+    },
+    "endPosition": {
+      "latitude": "13.74088",
+      "longitude": "51.06543"
+    }
+  },
+  {
+    "start": "de:14612:30",
+    "end": "de:14612:111",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73972",
+      "longitude": "51.03883"
+    },
+    "endPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    }
+  },
+  {
+    "start": "de:14612:69",
+    "end": "de:14612:70",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81267",
+      "longitude": "51.03679"
+    },
+    "endPosition": {
+      "latitude": "13.81646",
+      "longitude": "51.03574"
+    }
+  },
+  {
+    "start": "de:14612:16",
+    "end": "de:14612:198",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74088",
+      "longitude": "51.06543"
+    },
+    "endPosition": {
+      "latitude": "13.73911",
+      "longitude": "51.06637"
+    }
+  },
+  {
+    "start": "de:14612:17",
+    "end": "de:14612:198",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73699",
+      "longitude": "51.06309"
+    },
+    "endPosition": {
+      "latitude": "13.73911",
+      "longitude": "51.06637"
+    }
+  },
+  {
+    "start": "de:14612:72",
+    "end": "de:14612:73",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83216",
+      "longitude": "51.02988"
+    },
+    "endPosition": {
+      "latitude": "13.83465",
+      "longitude": "51.02782"
+    }
+  },
+  {
+    "start": "de:14612:41",
+    "end": "de:14612:42",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76303",
+      "longitude": "51.05316"
+    },
+    "endPosition": {
+      "latitude": "13.76983",
+      "longitude": "51.05245"
+    }
+  },
+  {
+    "start": "de:14627:4215",
+    "end": "de:14627:4214",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68852",
+      "longitude": "51.09982"
+    },
+    "endPosition": {
+      "latitude": "13.69465",
+      "longitude": "51.09601"
+    }
+  },
+  {
+    "start": "de:14612:190",
+    "end": "de:14612:191",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.67773",
+      "longitude": "51.06100"
+    },
+    "endPosition": {
+      "latitude": "13.67049",
+      "longitude": "51.05926"
+    }
+  },
+  {
+    "start": "de:14612:10",
+    "end": "de:14612:11",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75738",
+      "longitude": "51.05460"
+    },
+    "endPosition": {
+      "latitude": "13.75292",
+      "longitude": "51.05932"
+    }
+  },
+  {
+    "start": "de:14612:115",
+    "end": "de:14612:757",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75918",
+      "longitude": "51.02812"
+    },
+    "endPosition": {
+      "latitude": "13.76106",
+      "longitude": "51.03095"
+    }
+  },
+  {
+    "start": "de:14612:186",
+    "end": "de:14612:185",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70160",
+      "longitude": "51.05923"
+    },
+    "endPosition": {
+      "latitude": "13.71006",
+      "longitude": "51.05812"
+    }
+  },
+  {
+    "start": "de:14612:187",
+    "end": "de:14612:188",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69483",
+      "longitude": "51.06066"
+    },
+    "endPosition": {
+      "latitude": "13.69036",
+      "longitude": "51.06155"
+    }
+  },
+  {
+    "start": "de:14612:186",
+    "end": "de:14612:187",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.70160",
+      "longitude": "51.05923"
+    },
+    "endPosition": {
+      "latitude": "13.69483",
+      "longitude": "51.06066"
+    }
+  },
+  {
+    "start": "de:14612:187",
+    "end": "de:14612:186",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69483",
+      "longitude": "51.06066"
+    },
+    "endPosition": {
+      "latitude": "13.70160",
+      "longitude": "51.05923"
+    }
+  },
+  {
+    "start": "de:14612:1",
+    "end": "de:14612:1",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    },
+    "endPosition": {
+      "latitude": "13.72339",
+      "longitude": "51.05564"
+    }
+  },
+  {
+    "start": "de:14612:919",
+    "end": "de:14612:907",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80852",
+      "longitude": "51.01163"
+    },
+    "endPosition": {
+      "latitude": "13.79064",
+      "longitude": "51.02127"
+    }
+  },
+  {
+    "start": "de:14612:27",
+    "end": "de:14612:28",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72489",
+      "longitude": "51.04375"
+    },
+    "endPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    }
+  },
+  {
+    "start": "de:14612:67",
+    "end": "de:14612:66",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80585",
+      "longitude": "51.03948"
+    },
+    "endPosition": {
+      "latitude": "13.80093",
+      "longitude": "51.04117"
+    }
+  },
+  {
+    "start": "de:14612:71",
+    "end": "de:14612:70",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.82281",
+      "longitude": "51.03408"
+    },
+    "endPosition": {
+      "latitude": "13.81646",
+      "longitude": "51.03574"
+    }
+  },
+  {
+    "start": "de:14612:172",
+    "end": "de:14612:173",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69571",
+      "longitude": "51.04901"
+    },
+    "endPosition": {
+      "latitude": "13.69209",
+      "longitude": "51.04907"
+    }
+  },
+  {
+    "start": "de:14612:48",
+    "end": "de:14612:49",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78167",
+      "longitude": "51.05328"
+    },
+    "endPosition": {
+      "latitude": "13.78694",
+      "longitude": "51.05382"
+    }
+  },
+  {
+    "start": "de:14612:62",
+    "end": "de:14612:61",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77085",
+      "longitude": "51.04635"
+    },
+    "endPosition": {
+      "latitude": "13.76298",
+      "longitude": "51.04676"
+    }
+  },
+  {
+    "start": "de:14612:241",
+    "end": "de:14612:198",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73821",
+      "longitude": "51.06942"
+    },
+    "endPosition": {
+      "latitude": "13.73911",
+      "longitude": "51.06637"
+    }
+  },
+  {
+    "start": "de:14612:331",
+    "end": "de:14612:147",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68001",
+      "longitude": "51.04286"
+    },
+    "endPosition": {
+      "latitude": "13.68414",
+      "longitude": "51.04245"
+    }
+  },
+  {
+    "start": "de:14612:6583",
+    "end": "de:14612:281",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.79535",
+      "longitude": "51.13377"
+    },
+    "endPosition": {
+      "latitude": "13.79280",
+      "longitude": "51.12761"
+    }
+  },
+  {
+    "start": "de:14612:757",
+    "end": "de:14612:907",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76106",
+      "longitude": "51.03095"
+    },
+    "endPosition": {
+      "latitude": "13.79064",
+      "longitude": "51.02127"
+    }
+  },
+  {
+    "start": "de:14612:331",
+    "end": "de:14612:148",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.68001",
+      "longitude": "51.04286"
+    },
+    "endPosition": {
+      "latitude": "13.68178",
+      "longitude": "51.04325"
+    }
+  },
+  {
+    "start": "de:14612:298",
+    "end": "de:14612:299",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.82150",
+      "longitude": "51.06376"
+    },
+    "endPosition": {
+      "latitude": "13.83126",
+      "longitude": "51.06187"
+    }
+  },
+  {
+    "start": "de:14612:298",
+    "end": "de:14612:297",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.82150",
+      "longitude": "51.06376"
+    },
+    "endPosition": {
+      "latitude": "13.81170",
+      "longitude": "51.06430"
+    }
+  },
+  {
+    "start": "de:14612:297",
+    "end": "de:14612:296",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.81170",
+      "longitude": "51.06430"
+    },
+    "endPosition": {
+      "latitude": "13.79776",
+      "longitude": "51.06595"
+    }
+  },
+  {
+    "start": "de:14612:321",
+    "end": "de:14612:127",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80332",
+      "longitude": "51.00836"
+    },
+    "endPosition": {
+      "latitude": "13.80079",
+      "longitude": "51.01012"
+    }
+  },
+  {
+    "start": "de:14612:197",
+    "end": "de:14612:184",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72014",
+      "longitude": "51.05476"
+    },
+    "endPosition": {
+      "latitude": "13.71469",
+      "longitude": "51.05657"
+    }
+  },
+  {
+    "start": "de:14612:297",
+    "end": "de:14612:298",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.81170",
+      "longitude": "51.06430"
+    },
+    "endPosition": {
+      "latitude": "13.82150",
+      "longitude": "51.06376"
+    }
+  },
+  {
+    "start": "de:14612:81",
+    "end": "de:14612:62",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76647",
+      "longitude": "51.04166"
+    },
+    "endPosition": {
+      "latitude": "13.77085",
+      "longitude": "51.04635"
+    }
+  },
+  {
+    "start": "de:14612:277",
+    "end": "de:14612:276",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.77576",
+      "longitude": "51.11061"
+    },
+    "endPosition": {
+      "latitude": "13.77286",
+      "longitude": "51.10759"
+    }
+  },
+  {
+    "start": "de:14612:277",
+    "end": "de:14612:278",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77576",
+      "longitude": "51.11061"
+    },
+    "endPosition": {
+      "latitude": "13.78406",
+      "longitude": "51.11435"
+    }
+  },
+  {
+    "start": "de:14612:294",
+    "end": "de:14612:293",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78374",
+      "longitude": "51.06700"
+    },
+    "endPosition": {
+      "latitude": "13.77741",
+      "longitude": "51.06740"
+    }
+  },
+  {
+    "start": "de:14612:293",
+    "end": "de:14612:292",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77741",
+      "longitude": "51.06740"
+    },
+    "endPosition": {
+      "latitude": "13.76937",
+      "longitude": "51.06614"
+    }
+  },
+  {
+    "start": "de:14612:48",
+    "end": "de:14612:43",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78167",
+      "longitude": "51.05328"
+    },
+    "endPosition": {
+      "latitude": "13.77770",
+      "longitude": "51.05289"
+    }
+  },
+  {
+    "start": "de:14612:293",
+    "end": "de:14612:294",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77741",
+      "longitude": "51.06740"
+    },
+    "endPosition": {
+      "latitude": "13.78374",
+      "longitude": "51.06700"
+    }
+  },
+  {
+    "start": "de:14612:62",
+    "end": "de:14612:63",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77085",
+      "longitude": "51.04635"
+    },
+    "endPosition": {
+      "latitude": "13.77778",
+      "longitude": "51.04483"
+    }
+  },
+  {
+    "start": "de:14612:8",
+    "end": "de:14612:111",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75133",
+      "longitude": "51.04257"
+    },
+    "endPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    }
+  },
+  {
+    "start": "de:14612:294",
+    "end": "de:14612:295",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78374",
+      "longitude": "51.06700"
+    },
+    "endPosition": {
+      "latitude": "13.78958",
+      "longitude": "51.06720"
+    }
+  },
+  {
+    "start": "de:14612:72",
+    "end": "de:14612:71",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.83216",
+      "longitude": "51.02988"
+    },
+    "endPosition": {
+      "latitude": "13.82281",
+      "longitude": "51.03408"
+    }
+  },
+  {
+    "start": "de:14612:290",
+    "end": "de:14612:291",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75754",
+      "longitude": "51.06330"
+    },
+    "endPosition": {
+      "latitude": "13.76243",
+      "longitude": "51.06426"
+    }
+  },
+  {
+    "start": "de:14612:262",
+    "end": "de:14612:247",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75074",
+      "longitude": "51.07143"
+    },
+    "endPosition": {
+      "latitude": "13.74674",
+      "longitude": "51.07205"
+    }
+  },
+  {
+    "start": "de:14612:190",
+    "end": "de:14612:189",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.67773",
+      "longitude": "51.06100"
+    },
+    "endPosition": {
+      "latitude": "13.68065",
+      "longitude": "51.06166"
+    }
+  },
+  {
+    "start": "de:14612:173",
+    "end": "de:14612:178",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69209",
+      "longitude": "51.04907"
+    },
+    "endPosition": {
+      "latitude": "13.68787",
+      "longitude": "51.04926"
+    }
+  },
+  {
+    "start": "de:14612:71",
+    "end": "de:14612:72",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.82281",
+      "longitude": "51.03408"
+    },
+    "endPosition": {
+      "latitude": "13.83216",
+      "longitude": "51.02988"
+    }
+  },
+  {
+    "start": "de:14612:63",
+    "end": "de:14612:62",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.77778",
+      "longitude": "51.04483"
+    },
+    "endPosition": {
+      "latitude": "13.77085",
+      "longitude": "51.04635"
+    }
+  },
+  {
+    "start": "de:14612:266",
+    "end": "de:14612:265",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.76012",
+      "longitude": "51.08188"
+    },
+    "endPosition": {
+      "latitude": "13.75554",
+      "longitude": "51.07662"
+    }
+  },
+  {
+    "start": "de:14612:111",
+    "end": "de:14612:311",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    },
+    "endPosition": {
+      "latitude": "13.74927",
+      "longitude": "51.03376"
+    }
+  },
+  {
+    "start": "de:14612:266",
+    "end": "de:14612:267",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76012",
+      "longitude": "51.08188"
+    },
+    "endPosition": {
+      "latitude": "13.76303",
+      "longitude": "51.08699"
+    }
+  },
+  {
+    "start": "de:14612:29",
+    "end": "de:14612:5",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73766",
+      "longitude": "51.04381"
+    },
+    "endPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    }
+  },
+  {
+    "start": "de:14612:66",
+    "end": "de:14612:65",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80093",
+      "longitude": "51.04117"
+    },
+    "endPosition": {
+      "latitude": "13.79532",
+      "longitude": "51.04287"
+    }
+  },
+  {
+    "start": "de:14612:111",
+    "end": "de:14612:8",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74660",
+      "longitude": "51.03838"
+    },
+    "endPosition": {
+      "latitude": "13.75133",
+      "longitude": "51.04257"
+    }
+  },
+  {
+    "start": "de:14612:262",
+    "end": "de:14612:261",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.75074",
+      "longitude": "51.07143"
+    },
+    "endPosition": {
+      "latitude": "13.74764",
+      "longitude": "51.06796"
+    }
+  },
+  {
+    "start": "de:14612:29",
+    "end": "de:14612:3",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73766",
+      "longitude": "51.04381"
+    },
+    "endPosition": {
+      "latitude": "13.73783",
+      "longitude": "51.04715"
+    }
+  },
+  {
+    "start": "de:14612:262",
+    "end": "de:14612:259",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75074",
+      "longitude": "51.07143"
+    },
+    "endPosition": {
+      "latitude": "13.75289",
+      "longitude": "51.07382"
+    }
+  },
+  {
+    "start": "de:14612:3",
+    "end": "de:14612:29",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73783",
+      "longitude": "51.04715"
+    },
+    "endPosition": {
+      "latitude": "13.73766",
+      "longitude": "51.04381"
+    }
+  },
+  {
+    "start": "de:14612:300",
+    "end": "de:14612:305",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.83892",
+      "longitude": "51.06223"
+    },
+    "endPosition": {
+      "latitude": "13.84367",
+      "longitude": "51.06196"
+    }
+  },
+  {
+    "start": "de:14612:131",
+    "end": "de:14612:28",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73139",
+      "longitude": "51.03512"
+    },
+    "endPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    }
+  },
+  {
+    "start": "de:14612:14",
+    "end": "de:14612:13",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.74596",
+      "longitude": "51.05793"
+    },
+    "endPosition": {
+      "latitude": "13.74673",
+      "longitude": "51.06331"
+    }
+  },
+  {
+    "start": "de:14612:145",
+    "end": "de:14612:146",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.69783",
+      "longitude": "51.04348"
+    },
+    "endPosition": {
+      "latitude": "13.69128",
+      "longitude": "51.04275"
+    }
+  },
+  {
+    "start": "de:14612:145",
+    "end": "de:14612:144",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69783",
+      "longitude": "51.04348"
+    },
+    "endPosition": {
+      "latitude": "13.70348",
+      "longitude": "51.04374"
+    }
+  },
+  {
+    "start": "de:14612:162",
+    "end": "de:14612:161",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71035",
+      "longitude": "51.02169"
+    },
+    "endPosition": {
+      "latitude": "13.71741",
+      "longitude": "51.02222"
+    }
+  },
+  {
+    "start": "de:14612:162",
+    "end": "de:14612:163",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71035",
+      "longitude": "51.02169"
+    },
+    "endPosition": {
+      "latitude": "13.70614",
+      "longitude": "51.01911"
+    }
+  },
+  {
+    "start": "de:14612:50",
+    "end": "de:14612:51",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79225",
+      "longitude": "51.05380"
+    },
+    "endPosition": {
+      "latitude": "13.79871",
+      "longitude": "51.05302"
+    }
+  },
+  {
+    "start": "de:14612:18",
+    "end": "de:14612:19",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73840",
+      "longitude": "51.06020"
+    },
+    "endPosition": {
+      "latitude": "13.74123",
+      "longitude": "51.05779"
+    }
+  },
+  {
+    "start": "de:14612:273",
+    "end": "de:14612:272",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75111",
+      "longitude": "51.11254"
+    },
+    "endPosition": {
+      "latitude": "13.75949",
+      "longitude": "51.11244"
+    }
+  },
+  {
+    "start": "de:14612:273",
+    "end": "de:14612:274",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75111",
+      "longitude": "51.11254"
+    },
+    "endPosition": {
+      "latitude": "13.74597",
+      "longitude": "51.11563"
+    }
+  },
+  {
+    "start": "de:14627:4214",
+    "end": "de:14627:4215",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69465",
+      "longitude": "51.09601"
+    },
+    "endPosition": {
+      "latitude": "13.68852",
+      "longitude": "51.09982"
+    }
+  },
+  {
+    "start": "de:14612:66",
+    "end": "de:14612:67",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80093",
+      "longitude": "51.04117"
+    },
+    "endPosition": {
+      "latitude": "13.80585",
+      "longitude": "51.03948"
+    }
+  },
+  {
+    "start": "de:14612:41",
+    "end": "de:14612:10",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.76303",
+      "longitude": "51.05316"
+    },
+    "endPosition": {
+      "latitude": "13.75738",
+      "longitude": "51.05460"
+    }
+  },
+  {
+    "start": "de:14612:218",
+    "end": "de:14612:588",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.69713",
+      "longitude": "51.07982"
+    },
+    "endPosition": {
+      "latitude": "13.69536",
+      "longitude": "51.08198"
+    }
+  },
+  {
+    "start": "de:14612:10",
+    "end": "de:14612:41",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75738",
+      "longitude": "51.05460"
+    },
+    "endPosition": {
+      "latitude": "13.76303",
+      "longitude": "51.05316"
+    }
+  },
+  {
+    "start": "de:14612:27",
+    "end": "de:14612:25",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.72489",
+      "longitude": "51.04375"
+    },
+    "endPosition": {
+      "latitude": "13.72012",
+      "longitude": "51.04862"
+    }
+  },
+  {
+    "start": "de:14612:201",
+    "end": "de:14612:17",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73164",
+      "longitude": "51.06792"
+    },
+    "endPosition": {
+      "latitude": "13.73699",
+      "longitude": "51.06309"
+    }
+  },
+  {
+    "start": "de:14612:50",
+    "end": "de:14612:49",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.79225",
+      "longitude": "51.05380"
+    },
+    "endPosition": {
+      "latitude": "13.78694",
+      "longitude": "51.05382"
+    }
+  },
+  {
+    "start": "de:14612:135",
+    "end": "de:14612:134",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71577",
+      "longitude": "51.02763"
+    },
+    "endPosition": {
+      "latitude": "13.72157",
+      "longitude": "51.02990"
+    }
+  },
+  {
+    "start": "de:14612:23",
+    "end": "de:14612:37",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72670",
+      "longitude": "51.05276"
+    },
+    "endPosition": {
+      "latitude": "13.73352",
+      "longitude": "51.05084"
+    }
+  },
+  {
+    "start": "de:14612:321",
+    "end": "de:14612:322",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80332",
+      "longitude": "51.00836"
+    },
+    "endPosition": {
+      "latitude": "13.79904",
+      "longitude": "51.00524"
+    }
+  },
+  {
+    "start": "de:14612:252",
+    "end": "de:14612:253",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72063",
+      "longitude": "51.09293"
+    },
+    "endPosition": {
+      "latitude": "13.71925",
+      "longitude": "51.09577"
+    }
+  },
+  {
+    "start": "de:14612:14",
+    "end": "de:14612:15",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.74596",
+      "longitude": "51.05793"
+    },
+    "endPosition": {
+      "latitude": "13.74711",
+      "longitude": "51.05247"
+    }
+  },
+  {
+    "start": "de:14612:32",
+    "end": "de:14612:28",
+    "maxVerspaetung": 180,
+    "startPosition": {
+      "latitude": "13.73509",
+      "longitude": "51.04137"
+    },
+    "endPosition": {
+      "latitude": "13.73293",
+      "longitude": "51.03993"
+    }
+  },
+  {
+    "start": "de:14612:198",
+    "end": "de:14612:241",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73911",
+      "longitude": "51.06637"
+    },
+    "endPosition": {
+      "latitude": "13.73821",
+      "longitude": "51.06942"
+    }
+  },
+  {
+    "start": "de:14612:15",
+    "end": "de:14612:5",
+    "maxVerspaetung": 60,
+    "startPosition": {
+      "latitude": "13.74711",
+      "longitude": "51.05247"
+    },
+    "endPosition": {
+      "latitude": "13.74400",
+      "longitude": "51.04948"
+    }
+  },
+  {
+    "start": "de:14612:252",
+    "end": "de:14612:251",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.72063",
+      "longitude": "51.09293"
+    },
+    "endPosition": {
+      "latitude": "13.72332",
+      "longitude": "51.08963"
+    }
+  },
+  {
+    "start": "de:14612:32",
+    "end": "de:14612:29",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73509",
+      "longitude": "51.04137"
+    },
+    "endPosition": {
+      "latitude": "13.73766",
+      "longitude": "51.04381"
+    }
+  },
+  {
+    "start": "de:14612:200",
+    "end": "de:14612:205",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71712",
+      "longitude": "51.07738"
+    },
+    "endPosition": {
+      "latitude": "13.71391",
+      "longitude": "51.08038"
+    }
+  },
+  {
+    "start": "de:14612:290",
+    "end": "de:14612:12",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.75754",
+      "longitude": "51.06330"
+    },
+    "endPosition": {
+      "latitude": "13.75190",
+      "longitude": "51.06299"
+    }
+  },
+  {
+    "start": "de:14612:200",
+    "end": "de:14612:203",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.71712",
+      "longitude": "51.07738"
+    },
+    "endPosition": {
+      "latitude": "13.72307",
+      "longitude": "51.07451"
+    }
+  },
+  {
+    "start": "de:14612:6588",
+    "end": "de:14612:6584",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.80387",
+      "longitude": "51.14405"
+    },
+    "endPosition": {
+      "latitude": "13.80090",
+      "longitude": "51.13998"
+    }
+  },
+  {
+    "start": "de:14612:32",
+    "end": "de:14612:30",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73509",
+      "longitude": "51.04137"
+    },
+    "endPosition": {
+      "latitude": "13.73972",
+      "longitude": "51.03883"
+    }
+  },
+  {
+    "start": "de:14612:131",
+    "end": "de:14612:132",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.73139",
+      "longitude": "51.03512"
+    },
+    "endPosition": {
+      "latitude": "13.72694",
+      "longitude": "51.03177"
+    }
+  },
+  {
+    "start": "de:14612:64",
+    "end": "de:14612:824",
+    "maxVerspaetung": 0,
+    "startPosition": {
+      "latitude": "13.78835",
+      "longitude": "51.04330"
+    },
+    "endPosition": {
+      "latitude": "13.78223",
+      "longitude": "51.04368"
+    }
+  }
+]
