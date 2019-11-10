@@ -19,6 +19,9 @@ getJsonAsync('/haltestellen.json')
 });
 getJsonAsync('/abschnitte.json')
 	.then(function(data) {
+	alle = L.layerGroup().addTo(mymap);
+// Könnte man hinzufügen, wenn man ahnung hätte
+//	hintergrund = L.layerGroup().addTo(mymap);
 	for (i = 0; i < data.length; i++){
 		var verbindung = data[i];
 		var latlngs = [
@@ -36,6 +39,12 @@ getJsonAsync('/abschnitte.json')
 		if (verbindung.maxVerspaetung >= 180){
 			farbe = "red";
 		}
-		L.polyline(latlngs, {color: farbe}).addTo(mymap).bindTooltip(tooltip);
+		alle.addLayer(L.polyline(latlngs, {color: farbe}).addTo(mymap).bindTooltip(tooltip));
+//		hintergrund.addLayer(L.polyline(latlngs, {color: "gray"}).addTo(mymap).bindTooltip(tooltip));
 	}
+	alle.setZIndex(100);
+//	hintergrund.setZIndex(100);
 });
+getJsonAsync('/linien.json')
+	.then(function(data) {
+	var triasnummer = []})
