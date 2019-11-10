@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.2" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.vdv.de/trias ../../trias-xsd-v1.2/trias.xsd">
+                <ServiceRequest>
+                                <siri:RequestTimestamp>2018-03-11T11:00:00</siri:RequestTimestamp>
+                                <siri:RequestorRef>OpenService</siri:RequestorRef>
+                                <RequestPayload>
+                                                <FaresRequest>
+                                                  <StopFaresRequest>
+                                                  <StopPointRef>de:14612:28</StopPointRef>
+                                                  </StopFaresRequest>
+                                                </FaresRequest>
+                                </RequestPayload>
+                </ServiceRequest>
+</Trias>

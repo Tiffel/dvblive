@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias xmlns="http://www.vdv.de/trias" version="1.2">
+    <ServiceDelivery>
+        <ResponseTimestamp xmlns="http://www.siri.org.uk/siri"
+            >2019-11-10T04:26:39Z</ResponseTimestamp>
+        <ProducerRef xmlns="http://www.siri.org.uk/siri">EFAController10.3.6.10-EFA3</ProducerRef>
+        <Status xmlns="http://www.siri.org.uk/siri">true</Status>
+        <MoreData>false</MoreData>
+        <Language>de</Language>
+        <DeliveryPayload>
+            <FaresResponse>
+                <FaresResult>
+                    <ResultId>ID-9FE2E994-D7A0-4512-9623-9460CB9BFEAA</ResultId>
+                    <StopFaresResult>
+                        <FareZoneListInArea>
+                            <FaresAuthorityRef>voe</FaresAuthorityRef>
+                            <FaresAuthorityText>voe</FaresAuthorityText>
+                            <FareZone>
+                                <FareZoneRef>103</FareZoneRef>
+                                <FareZoneText>103</FareZoneText>
+                            </FareZone>
+                        </FareZoneListInArea>
+                    </StopFaresResult>
+                </FaresResult>
+            </FaresResponse>
+        </DeliveryPayload>
+    </ServiceDelivery>
+</Trias>
