@@ -16,6 +16,4 @@ getJsonAsync('/haltestellen.json')
            radius: 20
 		}).addTo(mymap);
 	}
-	return data;
-}).then(function(output) {
 });
