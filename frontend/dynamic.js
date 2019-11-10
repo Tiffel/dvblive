@@ -5,11 +5,11 @@ async function getJsonAsync(name)
 	let data = await response.json()
 	return data;
 }
-getJsonAsync('/abschnitte.json')
+//getJsonAsync('/abschnitte.json')
+getJsonAsync('http://localhost:8080/abschnitte')
 	.then(function(data) {
 	hintergrund = L.layerGroup().addTo(mymap);
 	alle = L.layerGroup().addTo(mymap);
-// Könnte man hinzufügen, wenn man ahnung hätte
 	for (i = 0; i < data.length; i++){
 		var verbindung = data[i];
 		var latlngs = [
@@ -32,7 +32,8 @@ getJsonAsync('/abschnitte.json')
 	}
 	hintergrund.setZIndex(100);
 	alle.setZIndex(100);
-}).then(getJsonAsync('/haltestellen.json')
+})// getJsonAsync('/haltestellen.json')
+.then(getJsonAsync('http://localhost:8080/haltestelle')
 	.then(function(data) {
 	for (i = 0; i < data.length; i++){
 		var aktuelle_haltestelle = data[i]
