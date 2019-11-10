@@ -17,3 +17,21 @@ getJsonAsync('/haltestellen.json')
 		}).addTo(mymap);
 	}
 });
+getJsonAsync('/abschnitte.json')
+	.then(function(data) {
+	for (i = 0; i < data.length; i++){
+		var verbindung = data[i];
+		var latlngs = [
+		    [verbindung.startPosition.longitude, verbindung.startPosition.latitude],
+		    [verbindung.endPosition.longitude, verbindung.endPosition.latitude]
+		];
+		var farbe = "green";
+		if (verbindung.maxVerspaetung > 60){
+			farbe = "orange";
+		}
+		if (verbindung.maxVerspaetung > 300){
+			farbe = "red";
+		}
+		L.polyline(latlngs, {color: farbe}).addTo(mymap);
+	}
+});
