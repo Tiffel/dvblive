@@ -1,6 +1,8 @@
 package de.hackathondd.dvblive.domain;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
@@ -10,6 +12,7 @@ public class Abschnitt {
     private Duration maxVerspaetung;
     private Position startPosition;
     private Position endPosition;
+    private List<String> linien = new ArrayList<>();
 
     public Abschnitt(String start, String end, Duration maxVerspaetung, Position startPosition, Position endPosition) {
         this.start = start;
@@ -37,6 +40,18 @@ public class Abschnitt {
 
     public Position getEndPosition() {
         return endPosition;
+    }
+
+    public List<String> getLinien() {
+        return linien;
+    }
+
+    public void addLinien(List<String> liniennummer) {
+        linien.addAll(liniennummer);
+    }
+
+    public void addLinie(String liniennummer) {
+        linien.add(liniennummer);
     }
 
     @Override

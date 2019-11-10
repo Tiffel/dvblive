@@ -34,13 +34,19 @@ public class AbschnittService {
                 Abschnitt abschnitt = new Abschnitt(current.getTriasCode(), next.getTriasCode(), maxVerspaetung,
                         new Abschnitt.Position(current.getLatitude(), current.getLongitude()),
                         new Abschnitt.Position(next.getLatitude(), next.getLongitude()));
-
                 Abschnitt existierender = abschnitte.get(current.getTriasCode() + next.getTriasCode());
-                if (existierender != null && abschnitt.getMaxVerspaetung().minus(existierender.getMaxVerspaetung())
-                        .isNegative()) {
-                    //der schon vorhandene ist größer
+
+                if (existierender != null) {
+                    existierender.addLinie(linie.getNummer());
+                    if (abschnitt.getMaxVerspaetung().minus(existierender.getMaxVerspaetung()).isNegative()) {
+                        //der schon vorhandene ist größer
+                    } else {
+                        //der schon vorhandene ist kleiner, also den neuen nehmen
+                        abschnitt.addLinien(existierender.getLinien());
+                        abschnitte.put(current.getTriasCode() + next.getTriasCode(), abschnitt);
+                    }
                 } else {
-                    //noch keiner vorhanden oder kleiner
+                    abschnitt.addLinie(linie.getNummer());
                     abschnitte.put(current.getTriasCode() + next.getTriasCode(), abschnitt);
                 }
 
