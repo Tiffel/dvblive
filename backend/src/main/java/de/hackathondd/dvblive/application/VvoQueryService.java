@@ -2,7 +2,9 @@ package de.hackathondd.dvblive.application;
 
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -23,6 +25,7 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import de.hackathondd.dvblive.domain.Haltestelle;
+import de.hackathondd.dvblive.domain.Journey;
 import de.hackathondd.dvblive.domain.Linie;
 import de.hackathondd.dvblive.domain.inmemorydb.HaltestellenRepository;
 import de.hackathondd.dvblive.domain.inmemorydb.LinienRepository;
@@ -245,6 +248,60 @@ public class VvoQueryService {
         }
         linien.stream().forEach(linie -> linienRepository.createOrUpdateLinie(linie));
         return linienRepository.getAll();
+    }
+
+    public void updateJourneys(Haltestelle haltestelle) throws Exception {
+        String requestBody = STOP_EVENT_REQUEST
+                .replace("{requestTime}", LocalDateTime.now().toString())
+                .replace("{DepArrTime}", LocalDateTime.now().toString())
+                .replace("{stopPointRef}", haltestelle.getTriasCode());
+        HttpEntity<String> request = new HttpEntity<>(requestBody, textXmlHeaders);
+        ResponseEntity<String> response = restTemplate
+                .exchange(URL, HttpMethod.POST, request, String.class);
+        Document xml = parseXml(response.getBody());
+        XPath xPath = XPathFactory.newInstance().newXPath();
+        XPathExpression timetabledTimeExpression =
+                xPath.compile(
+                        "//*[local-name(.)='StopEvent'][descendant::*[local-name(.)"
+                                + "='EstimatedTime']]/descendant::*[local-name(.)='TimetabledTime']/text()");
+        XPathExpression estimatedTimeExpression =
+                xPath.compile(
+                        "//*[local-name(.)='StopEvent'][descendant::*[local-name(.)"
+                                + "='EstimatedTime']]/descendant::*[local-name(.)='EstimatedTime']/text()");
+        XPathExpression linienExpression =
+                xPath.compile(
+                        "//*[local-name(.)='StopEvent'][descendant::*[local-name(.)"
+                                + "='EstimatedTime']]/descendant::*[local-name(.)='LineRef']/text()");
+        XPathExpression journeyIdExpression =
+                xPath.compile(
+                        "//*[local-name(.)='StopEvent'][descendant::*[local-name(.)"
+                                + "='EstimatedTime']]/descendant::*[local-name(.)='JourneyRef']/text()");
+        NodeList timetabledTimeNodeList = (NodeList) timetabledTimeExpression.evaluate(xml, XPathConstants.NODESET);
+        NodeList estimatedTimeNodeList = (NodeList) estimatedTimeExpression.evaluate(xml, XPathConstants.NODESET);
+        NodeList linienNodeList = (NodeList) linienExpression.evaluate(xml, XPathConstants.NODESET);
+        NodeList journeyIdNodeList = (NodeList) journeyIdExpression.evaluate(xml, XPathConstants.NODESET);
+
+        List<String> timeTabledTime = nodeListToStringList(timetabledTimeNodeList);
+        List<String> estimatedTime = nodeListToStringList(estimatedTimeNodeList);
+        List<String> linienList = nodeListToStringList(linienNodeList);
+        List<String> journeyId = nodeListToStringList(journeyIdNodeList);
+
+        Set<Journey> journeys = new HashSet<>();
+        for (Journey journey : haltestelle.getJourneys()) {
+            //nur die journeys kopieren, die jünger als eine stunde sind.
+            if (!journey.getTimetabledTime().isBefore(ZonedDateTime.now().minus(Duration.ofHours(1)))) {
+                journeys.add(journey);
+            }
+        }
+
+        for (int i = 0; i < timeTabledTime.size(); i++) {
+            Journey newOrUpdatedJourney = new Journey(journeyId.get(i), linienList.get(i), timeTabledTime.get(i),
+                    estimatedTime.get(i));
+            journeys.remove(newOrUpdatedJourney);
+            journeys.add(newOrUpdatedJourney);
+        }
+        haltestelle.setJourneys(journeys);
+
     }
 
     private Haltestelle forHaltestelleId(String id) throws XPathExpressionException {

@@ -2,7 +2,6 @@ package de.hackathondd.dvblive.application;
 
 import java.util.List;
 
-import de.hackathondd.dvblive.domain.Haltestelle;
 import de.hackathondd.dvblive.domain.Linie;
 
 public class LinieTo {
@@ -11,10 +10,10 @@ public class LinieTo {
     private String triasNummer;
     private String triasStartHaltestelleCode;
     private String triasEndHaltestelleCode;
-    private List<Haltestelle> haltestellen;
+    private List<HaltestelleTo> haltestellen;
 
     public LinieTo(Linie linie,
-            List<Haltestelle> haltestellen) {
+            List<HaltestelleTo> haltestellen) {
         this.nummer = linie.getNummer();
         this.startEndHaltestelle = linie.getStartEndHaltestelle();
         this.triasNummer = linie.getTriasNummer();
@@ -43,7 +42,7 @@ public class LinieTo {
         return triasEndHaltestelleCode;
     }
 
-    public List<Haltestelle> getHaltestellen() {
+    public List<HaltestelleTo> getHaltestellen() {
         return haltestellen;
     }
 }

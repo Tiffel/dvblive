@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import de.hackathondd.dvblive.domain.Haltestelle;
 import de.hackathondd.dvblive.domain.Linie;
 import de.hackathondd.dvblive.domain.inmemorydb.HaltestellenRepository;
 import de.hackathondd.dvblive.domain.inmemorydb.LinienRepository;
@@ -24,8 +23,10 @@ public class LinienService {
 
     public LinieTo getLinie(String triasNummer) {
         Linie linie = linienRepository.getLinie(triasNummer);
-        List<Haltestelle> haltestellen = linie.getHaltestellenTriasCode()
-                .stream().map(s -> haltestellenRepository.getHaltestelle(s)).collect(Collectors.toList());
+        List<HaltestelleTo> haltestellen = linie.getHaltestellenTriasCode()
+                .stream().map(s -> haltestellenRepository.getHaltestelle(s))
+                .map(haltestelle -> new HaltestelleTo(haltestelle, linie.getTriasNummer()))
+                .collect(Collectors.toList());
         return new LinieTo(linie, haltestellen);
     }
 
@@ -33,8 +34,10 @@ public class LinienService {
         Set<Linie> linien = linienRepository.getAll();
         Set<LinieTo> linienTos = new HashSet<>();
         for (Linie linie : linien) {
-            List<Haltestelle> haltestellen = linie.getHaltestellenTriasCode()
-                    .stream().map(s -> haltestellenRepository.getHaltestelle(s)).collect(Collectors.toList());
+            List<HaltestelleTo> haltestellen = linie.getHaltestellenTriasCode()
+                    .stream().map(s -> haltestellenRepository.getHaltestelle(s))
+                    .map(haltestelle -> new HaltestelleTo(haltestelle, linie.getTriasNummer()))
+                    .collect(Collectors.toList());
             linienTos.add(new LinieTo(linie, haltestellen));
         }
         return linienTos;

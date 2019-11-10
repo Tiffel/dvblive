@@ -1,9 +1,13 @@
 package de.hackathondd.dvblive.domain;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Haltestelle {
     private String triasCode;
     private String latitude;
     private String longitude;
+    private Set<Journey> journeys = new HashSet<>();
 
     public Haltestelle(String triasCode, String latitude, String longitude) {
         this.triasCode = triasCode;
@@ -21,5 +25,13 @@ public class Haltestelle {
 
     public String getLongitude() {
         return longitude;
+    }
+
+    public Set<Journey> getJourneys() {
+        return journeys;
+    }
+
+    public void setJourneys(Set<Journey> journeys) {
+        this.journeys = journeys;
     }
 }

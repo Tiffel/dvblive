@@ -2,6 +2,7 @@ package de.hackathondd.dvblive.adapter;
 
 import java.util.Set;
 
+import de.hackathondd.dvblive.application.HaltestellenService;
 import de.hackathondd.dvblive.application.LinieTo;
 import de.hackathondd.dvblive.application.LinienService;
 import de.hackathondd.dvblive.application.VvoQueryService;
@@ -22,14 +23,17 @@ public class DummyController {
     private final LinienService linienService;
     private final LinienRepository linienRepository;
     private final HaltestellenRepository haltestellenRepository;
+    private final HaltestellenService haltestellenService;
 
     public DummyController(VvoQueryService vvoQueryService,
             LinienService linienService, LinienRepository linienRepository,
-            HaltestellenRepository haltestellenRepository) {
+            HaltestellenRepository haltestellenRepository,
+            HaltestellenService haltestellenService) {
         this.vvoQueryService = vvoQueryService;
         this.linienService = linienService;
         this.linienRepository = linienRepository;
         this.haltestellenRepository = haltestellenRepository;
+        this.haltestellenService = haltestellenService;
     }
 
     @GetMapping(value = "/initdata")
@@ -57,8 +61,14 @@ public class DummyController {
         return linienService.getLinie(id);
     }
 
-    @GetMapping(value = "/haltestellen")
+    @GetMapping(value = "/haltestelle")
     public Set<Haltestelle> haltestellen() throws Exception {
         return haltestellenRepository.getAll();
+    }
+
+    @GetMapping(value = "/haltestelle/update")
+    public void haltestellenUpdate() throws Exception {
+        haltestellenService.updateAll();
+        ;
     }
 }
