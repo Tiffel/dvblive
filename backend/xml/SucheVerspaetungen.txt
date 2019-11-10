@@ -1,0 +1,29 @@
+StopEventRequest mit allen Haltestellen zur aktuellen Zeit (vermutlich aller 3 Minuten):
+
+LocationRef/StopPointRef <- Trias-Haltestellen-Code
+NumberOfResults  <- 16
+
+1. Fahrplanabfahrtszeit
+
+XPath 2.0: //StopEvent[descendant::EstimatedTime]/descendant::TimetabledTime
+XPath 1.0: //*[local-name(.)='StopEvent'][descendant::*[local-name(.)='EstimatedTime']]/descendant::*[local-name(.)='TimetabledTime']
+
+2. Prognostizierte Abfahrtszeit
+
+XPath 2.0: //StopEvent[descendant::EstimatedTime]/descendant::EstimatedTime
+XPath 1.0: //*[local-name(.)='StopEvent'][descendant::*[local-name(.)='EstimatedTime']]/descendant::*[local-name(.)='EstimatedTime']
+
+3. Trias-Linien-Code
+
+XPath 2.0: //StopEvent[descendant::EstimatedTime]/descendant::LineRef
+XPath 1.0: //*[local-name(.)='StopEvent'][descendant::*[local-name(.)='EstimatedTime']]/descendant::*[local-name(.)='LineRef']
+
+4. Trias-Fahrt-Code
+
+XPath 2.0: //StopEvent[descendant::EstimatedTime]/descendant::JourneyRef
+XPath 1.0: //*[local-name(.)='StopEvent'][descendant::*[local-name(.)='EstimatedTime']]/descendant::*[local-name(.)='JourneyRef']
+
+Alle vier Bestandteile entsprechend der Ergebnisse in Dokumentenreihenfolge zusammenbringen
+
+Anschließend bereits pro Trias-Fahrt-Code vorhandene Einträge in interner Datenbank überschreiben
+Neue Fahrten mithilfe Trias-Fahrt-Code in interne Datenbank ergänzen

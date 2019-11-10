@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias xmlns="http://www.vdv.de/trias" version="1.2">
+    <ServiceDelivery>
+        <ResponseTimestamp xmlns="http://www.siri.org.uk/siri"
+            >2019-11-10T01:11:03Z</ResponseTimestamp>
+        <ProducerRef xmlns="http://www.siri.org.uk/siri">EFAController10.3.6.10-EFA3</ProducerRef>
+        <Status xmlns="http://www.siri.org.uk/siri">true</Status>
+        <MoreData>false</MoreData>
+        <Language>de</Language>
+        <DeliveryPayload>
+            <StopEventResponse>
+                <StopEventResponseContext>
+                    <Situations>
+                        <PtSituation>
+                            <CreationTime xmlns="http://www.siri.org.uk/siri"
+                                >2019-11-09T16:31:00Z</CreationTime>
+                            <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                            <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                >6350</SituationNumber>
+                            <Version xmlns="http://www.siri.org.uk/siri">90091862</Version>
+                            <Source xmlns="http://www.siri.org.uk/siri">
+                                <SourceType>other</SourceType>
+                            </Source>
+                            <Progress xmlns="http://www.siri.org.uk/siri">open</Progress>
+                            <ValidityPeriod xmlns="http://www.siri.org.uk/siri">
+                                <StartTime>2019-10-14T01:30:00Z</StartTime>
+                                <EndTime>2500-12-30T23:00:00Z</EndTime>
+                            </ValidityPeriod>
+                            <UnknownReason xmlns="http://www.siri.org.uk/siri"
+                                >unknown</UnknownReason>
+                            <Priority xmlns="http://www.siri.org.uk/siri">3</Priority>
+                            <Audience xmlns="http://www.siri.org.uk/siri">public</Audience>
+                            <ScopeType xmlns="http://www.siri.org.uk/siri">line</ScopeType>
+                            <Planned xmlns="http://www.siri.org.uk/siri">false</Planned>
+                            <Language xmlns="http://www.siri.org.uk/siri"/>
+                            <Summary xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Linienaenderung</Summary>
+                            <Description xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >Dresden - Veränderungen im Studentenverkehr</Description>
+                            <Detail xmlns="http://www.siri.org.uk/siri" overridden="true"
+                                >&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Beschreibung&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ab
+                                Montag, den 14.10.2019&lt;/strong&gt; werden die
+                                Verstärkerleistungen im Studentenverkehr der Linien
+                                &lt;strong&gt;3&lt;/strong&gt;, &lt;strong&gt;61&lt;/strong&gt; und
+                                &lt;strong&gt;66&lt;/strong&gt; wieder
+                                eingeführt.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+                                inEFA="false";MeldungTyp="Information"</Detail>
+                            <Affects xmlns="http://www.siri.org.uk/siri">
+                                <VehicleJourneys>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11003: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:11003: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21103: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21103: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21061: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21061: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21061D::H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21061D::R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21066: :H:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                    <AffectedVehicleJourney>
+                                        <LineRef>voe:21066: :R:</LineRef>
+                                        <Route/>
+                                    </AffectedVehicleJourney>
+                                </VehicleJourneys>
+                            </Affects>
+                        </PtSituation>
+                    </Situations>
+                </StopEventResponseContext>
+                <StopEventResult>
+                    <ResultId>ID-EAA80698-C26B-47ED-AC09-123BD49341F7</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T23:23:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>2</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1170</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:165:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Coschütz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-429751ED-4181-46E0-AC47-667DF47203A5</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T23:32:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>25</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:313</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:165:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Coschütz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-ECAD1F5B-3FC5-4C2A-8D5D-8341F3135DC7</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-09T23:53:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>2</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-09T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1172</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:165:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Coschütz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-90BBE2E2-60EC-439B-A184-10C3E781EE1F</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T00:02:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>25</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:315</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:165:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Coschütz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-D534E3FD-6FF6-4A7C-B5E3-936DC3529E6E</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T00:23:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>2</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1174</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:165:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Coschütz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-55B296DC-551A-40EE-BFCA-2A9064986413</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T00:32:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>25</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:317</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:165:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Coschütz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-9D740C77-D719-4F8D-86F3-7AE27FAB568A</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T00:53:00Z</TimetabledTime>
+                                    <EstimatedTime>2019-11-10T00:53:00Z</EstimatedTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>2</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1176</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:165:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Coschütz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-C130C952-EC53-49D5-81D3-77B84054400C</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T01:02:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>25</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:319</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:165:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Coschütz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-D01A7065-13D0-4B4A-8C3C-4548B3CAC0F5</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T01:23:00Z</TimetabledTime>
+                                    <EstimatedTime>2019-11-10T01:23:00Z</EstimatedTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>2</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1178</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:165:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Coschütz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-DF589CB2-7682-4F20-8383-9C6E0A49650A</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T01:32:00Z</TimetabledTime>
+                                    <EstimatedTime>2019-11-10T01:32:00Z</EstimatedTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>25</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:321</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:165:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Coschütz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-FBFE6455-E141-4195-BBB1-29037A59AC22</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T01:53:00Z</TimetabledTime>
+                                    <EstimatedTime>2019-11-10T01:53:00Z</EstimatedTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>2</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1180</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:165:1:1</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Coschütz</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-33489C1A-000D-4EB8-9156-871FCED45300</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T02:02:00Z</TimetabledTime>
+                                    <EstimatedTime>2019-11-10T02:02:00Z</EstimatedTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>25</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:323</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:165:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Coschütz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-31189A8A-3B21-4B28-BBB8-88E339764501</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T02:20:00Z</TimetabledTime>
+                                    <EstimatedTime>2019-11-10T02:20:00Z</EstimatedTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>2</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1217</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:250:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Btf Trachenberge</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-DC8D9F36-8B3F-45EE-BFB5-BDF41BABA045</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T02:32:00Z</TimetabledTime>
+                                    <EstimatedTime>2019-11-10T02:32:00Z</EstimatedTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>25</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:325</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:165:1:1</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Coschütz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-12B861E5-4E63-4573-AE1A-9C3BADEF8AD9</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:1</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T02:40:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>2</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::R:j19:1218</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::R</LineRef>
+                                <DirectionRef>inward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Wilder Mann - Coschütz</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:253:2:3</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Wilder Mann</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:250:1:2</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Btf Trachenberge</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+                <StopEventResult>
+                    <ResultId>ID-BA9AD021-598D-484C-BC89-1C70809DC3A6</ResultId>
+                    <StopEvent>
+                        <ThisCall>
+                            <CallAtStop>
+                                <StopPointRef>de:14612:252:1:2</StopPointRef>
+                                <StopPointName>
+                                    <Text>Dresden Dorothea-Erxleben-Straße</Text>
+                                    <Language>de</Language>
+                                </StopPointName>
+                                <ServiceDeparture>
+                                    <TimetabledTime>2019-11-10T02:45:00Z</TimetabledTime>
+                                </ServiceDeparture>
+                                <StopSeqNumber>3</StopSeqNumber>
+                                <DemandStop>false</DemandStop>
+                                <UnplannedStop>false</UnplannedStop>
+                                <NotServicedStop>false</NotServicedStop>
+                                <NoBoardingAtStop>false</NoBoardingAtStop>
+                                <NoAlightingAtStop>false</NoAlightingAtStop>
+                            </CallAtStop>
+                        </ThisCall>
+                        <Service>
+                            <OperatingDayRef>2019-11-10T</OperatingDayRef>
+                            <JourneyRef>voe:11003::H:j19:367</JourneyRef>
+                            <ServiceSection>
+                                <LineRef>voe:11003::H</LineRef>
+                                <DirectionRef>outward</DirectionRef>
+                                <Mode>
+                                    <PtMode>tram</PtMode>
+                                    <TramSubmode>cityTram</TramSubmode>
+                                    <Name>
+                                        <Text>Straßenbahn</Text>
+                                        <Language>de</Language>
+                                    </Name>
+                                </Mode>
+                                <PublishedLineName>
+                                    <Text>3</Text>
+                                    <Language>de</Language>
+                                </PublishedLineName>
+                                <OperatorRef>voe:16</OperatorRef>
+                                <RouteDescription>
+                                    <Text>Coschütz - Wilder Mann</Text>
+                                    <Language>de</Language>
+                                </RouteDescription>
+                            </ServiceSection>
+                            <OriginStopPointRef>de:14612:249:3:5</OriginStopPointRef>
+                            <OriginText>
+                                <Text>Dresden Trachenberger Platz</Text>
+                                <Language>de</Language>
+                            </OriginText>
+                            <DestinationStopPointRef>de:14612:253:2:3</DestinationStopPointRef>
+                            <DestinationText>
+                                <Text>Wilder Mann</Text>
+                                <Language>de</Language>
+                            </DestinationText>
+                            <Unplanned>false</Unplanned>
+                            <Cancelled>false</Cancelled>
+                            <Deviation>false</Deviation>
+                            <SituationFullRef>
+                                <ParticipantRef xmlns="http://www.siri.org.uk/siri"/>
+                                <SituationNumber xmlns="http://www.siri.org.uk/siri"
+                                    >6350</SituationNumber>
+                            </SituationFullRef>
+                        </Service>
+                    </StopEvent>
+                </StopEventResult>
+            </StopEventResponse>
+        </DeliveryPayload>
+    </ServiceDelivery>
+</Trias>
