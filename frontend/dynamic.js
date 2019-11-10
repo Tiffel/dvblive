@@ -1,4 +1,4 @@
-var circles = [];
+var abschnitte = [];
 async function getJsonAsync(name)
 {
 	let response = await fetch(`${name}`);
@@ -7,8 +7,8 @@ async function getJsonAsync(name)
 }
 getJsonAsync('/haltestellen.json')
 	.then(function(data) {
-	for (j = 0; j < data.length; j++){
-		var aktuelle_haltestelle = data[j]
+	for (i = 0; i < data.length; i++){
+		var aktuelle_haltestelle = data[i]
         L.circle([aktuelle_haltestelle.longitude, aktuelle_haltestelle.latitude], {
            color: 'blue',
            fillColor: '#00c1ff',
@@ -26,12 +26,12 @@ getJsonAsync('/abschnitte.json')
 		    [verbindung.endPosition.longitude, verbindung.endPosition.latitude]
 		];
 		var farbe = "green";
-		if (verbindung.maxVerspaetung > 60){
+		if (verbindung.maxVerspaetung >= 60){
 			farbe = "orange";
 		}
-		if (verbindung.maxVerspaetung > 300){
+		if (verbindung.maxVerspaetung >= 180){
 			farbe = "red";
 		}
-		L.polyline(latlngs, {color: farbe}).addTo(mymap);
+		L.polyline(latlngs, {color: farbe}).addTo(mymap).bindTooltip("my tooltip text");
 	}
 });
