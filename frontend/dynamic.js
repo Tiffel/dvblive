@@ -5,23 +5,11 @@ async function getJsonAsync(name)
 	let data = await response.json()
 	return data;
 }
-getJsonAsync('/haltestellen.json')
-	.then(function(data) {
-	for (i = 0; i < data.length; i++){
-		var aktuelle_haltestelle = data[i]
-        L.circle([aktuelle_haltestelle.longitude, aktuelle_haltestelle.latitude], {
-           color: 'blue',
-           fillColor: '#00c1ff',
-           fillOpacity: 0.2,
-           radius: 20
-		}).addTo(mymap);
-	}
-});
 getJsonAsync('/abschnitte.json')
 	.then(function(data) {
+	hintergrund = L.layerGroup().addTo(mymap);
 	alle = L.layerGroup().addTo(mymap);
 // Könnte man hinzufügen, wenn man ahnung hätte
-//	hintergrund = L.layerGroup().addTo(mymap);
 	for (i = 0; i < data.length; i++){
 		var verbindung = data[i];
 		var latlngs = [
@@ -39,12 +27,24 @@ getJsonAsync('/abschnitte.json')
 		if (verbindung.maxVerspaetung >= 180){
 			farbe = "red";
 		}
+		hintergrund.addLayer(L.polyline(latlngs, {color: "gray"}).addTo(mymap).bindTooltip(tooltip));
 		alle.addLayer(L.polyline(latlngs, {color: farbe}).addTo(mymap).bindTooltip(tooltip));
-//		hintergrund.addLayer(L.polyline(latlngs, {color: "gray"}).addTo(mymap).bindTooltip(tooltip));
 	}
+	hintergrund.setZIndex(100);
 	alle.setZIndex(100);
-//	hintergrund.setZIndex(100);
-});
+}).then(getJsonAsync('/haltestellen.json')
+	.then(function(data) {
+	for (i = 0; i < data.length; i++){
+		var aktuelle_haltestelle = data[i]
+        L.circle([aktuelle_haltestelle.longitude, aktuelle_haltestelle.latitude], {
+           color: 'blue',
+           fillColor: '#00c1ff',
+           fillOpacity: 0.2,
+           radius: 20
+		}).addTo(mymap);
+	}
+}));
+
 getJsonAsync('/linien.json')
 	.then(function(data) {
 	var triasnummer = []})
