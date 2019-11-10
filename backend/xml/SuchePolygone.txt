@@ -1,0 +1,22 @@
+TripRequest für alle Abschnitte
+
+Origin/LocationRef/StopPointRef <- Start-Trias-Haltestellen-Code
+Destination/LocationRef/StopPointRef <- End-Trias-Haltestellen-Code
+Origin/DepArrTime <- aktuelles "DateTime" von 12:00 Uhr Mittags
+
+Aus den Antworten Geo-Koordinaten extrahieren:
+
+Bsp (WilderMann -> DorotheaErxleben): "13.71958" (Longitude)
+                                      "51.09588" (Latitude)
+
+1. Longitude
+
+XPath 2.0: //TripResult[1]/descendant::Projection/Position/Longitude/text()
+XPath 1.0: //*[local-name(.)='TripResult'][1]/descendant::*[local-name(.)='Projection']/*[local-name(.)='Position']/*[local-name(.)='Longitude']
+
+2. Latitude
+
+XPath 2.0: //TripResult[1]/descendant::Projection/Position/Latitude/text()
+XPath 1.0: //*[local-name(.)='TripResult'][1]/descendant::*[local-name(.)='Projection']/*[local-name(.)='Position']/*[local-name(.)='Latitude']
+
+Beide Bestandteile entsprechend der Ergebnisse in Dokumentenreihenfolge zusammenbringen 
