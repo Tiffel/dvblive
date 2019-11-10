@@ -33,3 +33,7 @@ see https://github.com/VDVde/TRIAS/issues/1
 
 ## Beispiele
 Im Verzeichnis backend\xml gibt es Beispiel Requests und Responses
+
+# Fragen und Weiterentwickelung
+* Wir werden diese Anwendung nicht aktiv weiter entwickeln.
+* Wenn es Fragen zu der Schnittstelle gibt, versuchen wir gerne diese zu beantworten. Einfach einen Issue einstellen
