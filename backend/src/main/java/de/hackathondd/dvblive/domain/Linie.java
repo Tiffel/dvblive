@@ -11,7 +11,7 @@ public class Linie {
     private String triasNummer;
     private String triasStartHaltestelleCode;
     private String triasEndHaltestelleCode;
-    private List<Haltestelle> haltestellen = new ArrayList<>();
+    private List<String> haltestellenTriasCode = new ArrayList<>();
 
     public Linie(String nummer, String startEndHaltestelle, String triasNummer, String triasStartHaltestelleCode,
             String triasEndHaltestelleCode) {
@@ -42,12 +42,12 @@ public class Linie {
         return triasEndHaltestelleCode;
     }
 
-    public List<Haltestelle> getHaltestellen() {
-        return haltestellen;
+    public List<String> getHaltestellenTriasCode() {
+        return haltestellenTriasCode;
     }
 
     public void addHaltestelle(Haltestelle haltestelle) {
-        haltestellen.add(haltestelle);
+        haltestellenTriasCode.add(haltestelle.getTriasCode());
     }
 
     @Override

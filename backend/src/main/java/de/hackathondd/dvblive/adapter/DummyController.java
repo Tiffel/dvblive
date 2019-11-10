@@ -3,7 +3,10 @@ package de.hackathondd.dvblive.adapter;
 import java.util.Set;
 
 import de.hackathondd.dvblive.application.VvoQueryService;
+import de.hackathondd.dvblive.domain.Haltestelle;
 import de.hackathondd.dvblive.domain.Linie;
+import de.hackathondd.dvblive.domain.inmemorydb.HaltestellenRepository;
+import de.hackathondd.dvblive.domain.inmemorydb.LinienRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,14 +15,30 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController(value = "dummy")
 public class DummyController {
-    private VvoQueryService vvoQueryService;
+    private final VvoQueryService vvoQueryService;
+    private final LinienRepository linienRepository;
+    private final HaltestellenRepository haltestellenRepository;
 
-    public DummyController(VvoQueryService vvoQueryService) {
+    public DummyController(VvoQueryService vvoQueryService,
+            LinienRepository linienRepository,
+            HaltestellenRepository haltestellenRepository) {
         this.vvoQueryService = vvoQueryService;
+        this.linienRepository = linienRepository;
+        this.haltestellenRepository = haltestellenRepository;
+    }
+
+    @GetMapping(value = "/updatelinien")
+    public Set<Linie> updatelinien() throws Exception {
+        return vvoQueryService.alleLinien();
     }
 
     @GetMapping(value = "/linien")
     public Set<Linie> linien() throws Exception {
-        return vvoQueryService.alleLinien();
+        return linienRepository.getAll();
+    }
+
+    @GetMapping(value = "/haltestellen")
+    public Set<Haltestelle> haltestellen() throws Exception {
+        return haltestellenRepository.getAll();
     }
 }

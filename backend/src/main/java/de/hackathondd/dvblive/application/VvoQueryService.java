@@ -4,10 +4,8 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -26,6 +24,8 @@ import javax.xml.xpath.XPathFactory;
 
 import de.hackathondd.dvblive.domain.Haltestelle;
 import de.hackathondd.dvblive.domain.Linie;
+import de.hackathondd.dvblive.domain.inmemorydb.HaltestellenRepository;
+import de.hackathondd.dvblive.domain.inmemorydb.LinienRepository;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -118,18 +118,23 @@ public class VvoQueryService {
             + "  </ServiceRequest>\n"
             + "</Trias>";
 
-
     static HttpHeaders textXmlHeaders;
+
     static {
         textXmlHeaders = new HttpHeaders();
         textXmlHeaders.setContentType(MediaType.TEXT_XML);
     }
 
-
     private final RestTemplate restTemplate;
+    private final HaltestellenRepository haltestellenRepository;
+    private final LinienRepository linienRepository;
 
-    public VvoQueryService(RestTemplate restTemplate) {
+    public VvoQueryService(RestTemplate restTemplate,
+            HaltestellenRepository haltestellenRepository,
+            LinienRepository linienRepository) {
         this.restTemplate = restTemplate;
+        this.haltestellenRepository = haltestellenRepository;
+        this.linienRepository = linienRepository;
     }
 
     private static String convertNodeToString(Node node) {
@@ -144,6 +149,26 @@ public class VvoQueryService {
             return null;
         }
 
+    }
+
+    private static List<String> nodeListToStringList(NodeList nodeList) {
+        List<String> strings = new ArrayList<>();
+        for (int i = 0; i < nodeList.getLength(); i++) {
+            Node node = nodeList.item(i);
+            strings.add(convertNodeToString(node));
+        }
+        return strings;
+    }
+
+    private static Document parseXml(String input) {
+        try {
+            DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = builderFactory.newDocumentBuilder();
+            return builder.parse(new InputSource(new StringReader(input)));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public Set<Linie> alleLinien() throws Exception {
@@ -161,7 +186,8 @@ public class VvoQueryService {
                 "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/."
                         + "./*[local-name(.)='OriginStopPointRef']/text()");
         XPathExpression triasEndHaltestelleCodeExpression = xPath.compile(
-                "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/../*[local-name(.)='DestinationStopPointRef']/text()");
+                "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)='PtMode']='tram']/."
+                        + "./*[local-name(.)='DestinationStopPointRef']/text()");
 
         List<String> wichtigeHaltestellen = List
                 .of("de:14612:13", "de:14612:5", "de:14612:7"); //Albertplatz, Pirnaischer Platz, Straßburger Platz
@@ -207,18 +233,18 @@ public class VvoQueryService {
                 e.printStackTrace();
             }
         }
-        Map<String, Haltestelle> alleHaltestellenMap = new HashMap<>();
         for (Linie linie : linien) {
-            List<String> haltestellenIds = haltestellenIds(linie);
-            for (String haltestellenId : haltestellenIds) {
-                if (!alleHaltestellenMap.containsKey(haltestellenId)) {
-                    Haltestelle haltestelle = forHaltestelleId(haltestellenId);
-                    alleHaltestellenMap.put(haltestellenId, haltestelle);
+            List<String> haltestelleTriasCodes = haltestellenIds(linie);
+            for (String haltestelleTriasCode : haltestelleTriasCodes) {
+                if (!haltestellenRepository.exists(haltestelleTriasCode)) {
+                    Haltestelle haltestelle = forHaltestelleId(haltestelleTriasCode);
+                    haltestellenRepository.createOrupdateHaltestelle(haltestelle);
                 }
-                linie.addHaltestelle(alleHaltestellenMap.get(haltestellenId));
+                linie.addHaltestelle(haltestellenRepository.getHaltestelle(haltestelleTriasCode));
             }
         }
-        return linien;
+        linien.stream().forEach(linie -> linienRepository.createOrUpdateLinie(linie));
+        return linienRepository.getAll();
     }
 
     private Haltestelle forHaltestelleId(String id) throws XPathExpressionException {
@@ -261,25 +287,5 @@ public class VvoQueryService {
         List<String> stringList = nodeListToStringList(nodeList);
         return stringList.stream().map(s -> s.replaceAll("([a-z]*:[0-9]*:[0-9]*):.*", "$1"))
                 .collect(Collectors.toList());
-    }
-
-    private List<String> nodeListToStringList(NodeList nodeList) {
-        List<String> strings = new ArrayList<>();
-        for (int i = 0; i < nodeList.getLength(); i++) {
-            Node node = nodeList.item(i);
-            strings.add(convertNodeToString(node));
-        }
-        return strings;
-    }
-
-    private Document parseXml(String input) {
-        try {
-            DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = builderFactory.newDocumentBuilder();
-            return builder.parse(new InputSource(new StringReader(input)));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
     }
 }
