@@ -29,11 +29,14 @@ import de.hackathondd.dvblive.domain.Journey;
 import de.hackathondd.dvblive.domain.Linie;
 import de.hackathondd.dvblive.domain.inmemorydb.HaltestellenRepository;
 import de.hackathondd.dvblive.domain.inmemorydb.LinienRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.w3c.dom.Document;
@@ -43,6 +46,7 @@ import org.xml.sax.InputSource;
 
 @Service
 public class VvoQueryService {
+    Logger logger = LoggerFactory.getLogger(VvoQueryService.class);
     public static final String URL = "http://efa.vvo-online.de:8080/std3/trias";
     public static final String LOCATION_INFORMATION_REQUEST = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
             + "<Trias version=\"1.2\" xmlns=\"http://www.vdv.de/trias\" xmlns:siri=\"http://www.siri.org.uk/siri\"\n"
@@ -174,7 +178,9 @@ public class VvoQueryService {
         return null;
     }
 
+    @Scheduled(fixedDelay = 3600000, initialDelay = 5000)
     public Set<Linie> initLinienUndHaltestellen() throws Exception {
+        logger.info("fetiching init-data");
         XPath xPath = XPathFactory.newInstance().newXPath();
         XPathExpression liniennummerExpression = xPath.compile(
                 "//*[local-name(.)='ServiceSection'][*[local-name(.)='Mode']/*[local-name(.)"
@@ -247,6 +253,7 @@ public class VvoQueryService {
             }
         }
         linien.stream().forEach(linie -> linienRepository.createOrUpdateLinie(linie));
+        logger.info("done fetiching init-data");
         return linienRepository.getAll();
     }
 

@@ -82,4 +82,9 @@ public class DummyController {
     public Collection<Abschnitt> abschnitte() {
         return abschnittService.alle();
     }
+
+    @GetMapping(value = "/abschnitte/{linie}")
+    public Collection<Abschnitt> abschnitte(@PathVariable String linie) {
+        return abschnittService.jeLinie(linie);
+    }
 }
