@@ -25,5 +25,22 @@ XPath 1.0: //*[local-name(.)='StopEvent'][descendant::*[local-name(.)='Estimated
 
 Alle vier Bestandteile entsprechend der Ergebnisse in Dokumentenreihenfolge zusammenbringen
 
+Ergänzend Störungsmeldungen pro Fahrt extrahieren (geht so nur in XPath 2.0!)
+
+5. Kurzform der Störungsmeldung, bspw. 'Linienaenderung'
+
+XPath 2.0: for $x in //StopEvent[descendant::EstimatedTime]/Service/SituationFullRef/*[local-name(.)='SituationNumber'] return //PtSituation[*[local-name(.)='SituationNumber'] = $x]/*[local-name(.)='Summary']
+
+6. Etwas auskunftsreichere Kurzform der Störungsmeldung, bspw. 'Dresden - Veränderungen im Studentenverkehr'
+
+XPath 2.0: for $x in //StopEvent[descendant::EstimatedTime]/Service/SituationFullRef/*[local-name(.)='SituationNumber'] return //PtSituation[*[local-name(.)='SituationNumber'] = $x]/*[local-name(.)='Description']
+
+7. Detaillierte Ausgabe der Störungsmeldung, bspw. '&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Beschreibung&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ab Montag, den 14.10.2019&lt;/strong&gt; werden die Verstärkerleistungen im Studentenverkehr der Linien &lt;strong&gt;3&lt;/strong&gt;, &lt;strong&gt;61&lt;/strong&gt; und &lt;strong&gt;66&lt;/strong&gt; wieder eingeführt.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;inEFA="false";MeldungTyp="Information"'
+
+XPath 2.0: for $x in //StopEvent[descendant::EstimatedTime]/Service/SituationFullRef/*[local-name(.)='SituationNumber'] return //PtSituation[*[local-name(.)='SituationNumber'] = $x]/*[local-name(.)='Detail']
+
+Falls Störungsmeldungen extrahiert werden, dann müssen die entsprechenden Bestandteile (1 bis 7) entsprechend der Ergebnisse in Dokumentenreihenfolge zusammengefügt werden
+
 Anschließend bereits pro Trias-Fahrt-Code vorhandene Einträge in interner Datenbank überschreiben
 Neue Fahrten mithilfe Trias-Fahrt-Code in interne Datenbank ergänzen
+
